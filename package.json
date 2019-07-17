@@ -1,0 +1,24 @@
+{
+  "name": "gdzie-wyrzucic.pl",
+  "version": "0.0.0",
+  "description": "Let's segregate waste properly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedyk/gdzie-wyrzucic.pl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedyk/gdzie-wyrzucic.pl/issues"
+  },
+  "homepage": "https://github.com/fedyk/gdzie-wyrzucic.pl#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.49",
+    "koa": "^2.7.0",
+    "typescript": "^3.5.3"
+  }
+}
