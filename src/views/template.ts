@@ -10,8 +10,7 @@ interface Props {
   body: string;
 }
 
-export const templateView = (props: Props) => `
-<!doctype html>
+export const templateView = (props: Props) => `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -24,5 +23,4 @@ export const templateView = (props: Props) => `
     ${props.body}
     ${fastMapJoin(props.scripts, (src => script(src)))}
   </body>
-</html>
-`
+</html>`
