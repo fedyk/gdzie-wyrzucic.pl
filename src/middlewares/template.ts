@@ -1,6 +1,6 @@
 import { ParameterizedContext } from "koa";
 import { AppState } from "../types/app-state";
-import { templateView } from "../views/template";
+import { templateView } from "../views/template-view";
 
 /**
  * @example
@@ -13,13 +13,16 @@ import { templateView } from "../views/template";
  * ```
  */
 export async function templateMiddleware(ctx: ParameterizedContext<AppState>, next) {
-  ctx.state.title = "";
-  ctx.state.scripts = [];
-  ctx.state.styles = [];
+  ctx.state.title = ""
+  ctx.state.description = ""
+  ctx.state.scripts = []
+  ctx.state.styles = [
+    "/css/main.css?1"
+  ];
 
   await next()
 
-  ctx.response.type = "html";
+  ctx.response.type = "html"
 
   ctx.body = templateView({
     title: ctx.state.title,
@@ -27,5 +30,5 @@ export async function templateMiddleware(ctx: ParameterizedContext<AppState>, ne
     scripts: ctx.state.scripts,
     styles: ctx.state.styles,
     body: ctx.body,
-  });
+  })
 }

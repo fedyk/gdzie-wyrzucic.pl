@@ -1,0 +1,12 @@
+.layout {
+  position: relative;
+}
+
+.layout__header {
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+
+.layout__body {
+  position: relative;
+}
