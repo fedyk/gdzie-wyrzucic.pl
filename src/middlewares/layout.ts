@@ -1,8 +1,8 @@
 import { ParameterizedContext } from "koa";
-import { AppState } from "../types/app-state";
 import { layoutView } from "../views/layout-view";
+import { AppState, AppContext } from "../types";
 
-export async function layoutMiddleware(ctx: ParameterizedContext<AppState>, next) {
+export async function layoutMiddleware(ctx: ParameterizedContext<AppState, AppContext>, next) {
   ctx.state.styles.push("/css/layout.css?1")
 
   await next()

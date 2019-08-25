@@ -1,5 +1,5 @@
 import { ParameterizedContext } from "koa";
-import { AppState } from "../types/app-state";
+import { AppState, AppContext } from "../types";
 import { templateView } from "../views/template-view";
 
 /**
@@ -12,7 +12,7 @@ import { templateView } from "../views/template-view";
  * })
  * ```
  */
-export async function templateMiddleware(ctx: ParameterizedContext<AppState>, next) {
+export async function templateMiddleware(ctx: ParameterizedContext<AppState, AppContext>, next) {
   ctx.state.title = ""
   ctx.state.description = ""
   ctx.state.scripts = []

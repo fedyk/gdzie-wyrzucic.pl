@@ -3,10 +3,16 @@ import { join } from "path";
 import * as serve from "koa-static";
 import * as helmet from "koa-helmet";
 import * as bodyParser from "koa-bodyparser";
+import { Client } from "@elastic/elasticsearch"
 import { router } from "./router";
 import { config } from "./config";
+import { AppState, AppContext } from "./types";
 
-const app = new Koa();
+const app = new Koa<AppState, AppContext>();
+
+app.context.elasticClient = new Client({
+  node: config.ELASTIC_SEARCH
+})
 
 app.keys = config.APP_KEYS.split(";");
 app.use(helmet())

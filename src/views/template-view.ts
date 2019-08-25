@@ -1,4 +1,3 @@
-import { AppState } from "../types/app-state";
 import { fastMapJoin } from "../helpers/fast-map-join";
 import { stylesheet, script } from "../helpers/html";
 
