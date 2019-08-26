@@ -4,9 +4,41 @@
 
 .layout__header {
   position: relative;
-  border-bottom: 1px solid #000;
+  box-shadow: 0 0 6px 0px #E0E0E0;
+  height: 56px;
 }
 
 .layout__body {
   position: relative;
 }
+
+.header {
+    position: relative;
+    padding: 0;
+    margin-left: -14px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__input {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 14px;
+    height: 41px;
+    border: none;
+    background: none;
+}
+
+.header__btn {
+  position: relative;
+  align-self: stretch;
+  padding: 0 14px;
+  font-size: 14px;
+  border: none;
+  background: none;
+}
+

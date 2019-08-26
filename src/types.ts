@@ -1,7 +1,9 @@
 import { Client } from "@elastic/elasticsearch";
 
+// TODO: remove this interface
 export interface AppState {
   title?: string;
+  headerQuery?: string;
   description?: string;
   scripts?: string[];
   styles?: string[];

@@ -13,7 +13,7 @@ import { templateView } from "../views/template-view";
  * ```
  */
 export async function templateMiddleware(ctx: ParameterizedContext<AppState, AppContext>, next) {
-  ctx.state.title = ""
+  ctx.state.title = ""   
   ctx.state.description = ""
   ctx.state.scripts = []
   ctx.state.styles = [

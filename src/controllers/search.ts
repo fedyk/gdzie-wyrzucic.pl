@@ -1,6 +1,6 @@
 import { ParameterizedContext } from "koa";
 import { searchView } from "../views/search-view";
-import { AppState, AppContext } from "../types";
+import { AppContext, AppState } from "../types";
 import { searchWaste } from "../elastic";
 
 export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
@@ -20,6 +20,8 @@ export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
       categories
     }
   });
+
+  ctx.state.headerQuery = searchQuery;
 
   ctx.body = searchView({
     query: ctx.query.q,
