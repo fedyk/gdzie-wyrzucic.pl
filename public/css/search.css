@@ -1,0 +1,36 @@
+.results {
+  position: relative;
+}
+
+.result-item {
+  position: relative;
+  padding: 8px 14px;
+  line-height: 1.4;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.result-item:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.result-item-name {
+  font-weight: 400;
+  font-size: 15px;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1px;
+}
+
+.result-item-categories {
+  position: relative;
+}
+
+.result-item-category {
+  font-size: 13px;
+  color: #424242;
+}
+
+.result-item-category+.result-item-category {
+  margin-left: 12px;
+}

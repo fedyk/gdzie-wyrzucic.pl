@@ -22,6 +22,7 @@ export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
   });
 
   ctx.state.headerQuery = searchQuery;
+  ctx.state.styles.push('/css/search.css');
 
   ctx.body = searchView({
     query: ctx.query.q,
