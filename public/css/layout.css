@@ -13,13 +13,13 @@
 }
 
 .header {
-    position: relative;
-    padding: 0;
-    margin-left: -14px;
-    height: 56px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  margin-left: -14px;
+  height: 56px;
 }
 
 .header__input {
@@ -30,15 +30,25 @@
     padding: 0 14px;
     height: 41px;
     border: none;
-    background: none;
+    background-color: #F5F5F5;
+    transition: background-color .2s;
+}
+
+.header__input:focus {
+  background-color: #FAFAFA;
+  outline: 1px solid #90CAF9;
 }
 
 .header__btn {
   position: relative;
-  align-self: stretch;
+  height: 41px;
   padding: 0 14px;
   font-size: 14px;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
+.header__btn:focus {
+  outline: 1px solid #90CAF9;
+}
