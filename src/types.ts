@@ -11,6 +11,7 @@ export interface AppState {
 
 export interface AppContext {
   elasticClient: Client;
+  i18n(phrase: string): string;
 }
 
 

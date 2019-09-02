@@ -1,6 +1,7 @@
 # Changelog
 
 ## 01 Sep 2019
+ - [x] Add simple `i18n` support
  - [x] Add title for welcome & search page
  - [x] Add more items(parse from ekosystem.wroc.pl)
 
