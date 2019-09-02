@@ -1,8 +1,8 @@
 # Changelog
 
-## `XX XXX XXXX
+## 01 Sep 2019
  - [x] Add title for welcome & search page
- - [ ] Add more items(parse from ekosystem.wroc.pl)
+ - [x] Add more items(parse from ekosystem.wroc.pl)
 
 ## 26 Aug 2019
  - [x] Add simple styles for header & search results
