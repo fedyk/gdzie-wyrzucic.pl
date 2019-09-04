@@ -1,5 +1,8 @@
 # Changelog
 
+## 04 Sep 2019
+ - [x] Add ekosystem parser
+
 ## 01 Sep 2019
  - [x] Add simple `i18n` support
  - [x] Add title for welcome & search page

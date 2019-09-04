@@ -205,6 +205,9 @@ async function fetchPoints() {
   return results;
 }
 
+/**
+ * Sync phrases from autocomplete
+ */
 async function syncPhrases() {
   const phrases = await fetchPhrases();
   const values = Array.from(phrases.values());
@@ -213,6 +216,9 @@ async function syncPhrases() {
   fs.writeFileSync(__dirname + '/phrases.json', data)
 }
 
+/**
+ * Sync phrases and it categories
+ */
 async function syncProducts() {
   const results = await saveSearchResults();
   const entries = Array.from(results.entries());
@@ -221,6 +227,9 @@ async function syncProducts() {
   fs.writeFileSync(__dirname + '/items.json', data)
 }
 
+/**
+ * Sync map points
+ */
 async function syncPoints() {
   const results = await fetchPoints();
   const entries = Array.from(results.entries());
