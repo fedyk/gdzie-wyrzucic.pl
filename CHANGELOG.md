@@ -2,6 +2,7 @@
 
 ## 04 Sep 2019
  - [x] Add ekosystem parser
+ - [x] Add script for creating/updating indices
 
 ## 01 Sep 2019
  - [x] Add simple `i18n` support

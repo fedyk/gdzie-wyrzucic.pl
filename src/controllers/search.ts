@@ -11,7 +11,7 @@ export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
   const searchResults = searchHits.map(hit => {
     const categories = hit._source.categories.map(category => {
       return {
-        name: category.categoryName
+        name: category
       }
     });
 

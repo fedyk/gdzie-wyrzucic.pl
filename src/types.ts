@@ -1,6 +1,6 @@
 import { Client } from "@elastic/elasticsearch";
 
-// TODO: remove this interface
+// TODO: split this interface
 export interface AppState {
   title?: string;
   headerQuery?: string;
@@ -14,17 +14,18 @@ export interface AppContext {
   i18n(phrase: string): string;
 }
 
-
 export interface Waste {
   $version: 1
+  id: string
   name: string
   description: string
-  categories: WasteCategory[]
+  categories: string[]
 }
 
 export interface WasteCategory {
   $version: 1
-  categoryId: string
-  categoryName: string
-  categoryColor: string
+  id: string
+  name: string
+  uiColor?: string
+  uiBackground?: string
 }
