@@ -2,10 +2,10 @@ import { fastMapJoin } from "../helpers/fast-map-join";
 import { escape } from "../helpers/html";
 
 interface Props {
-  query: string;
+  query: string
   results: {
-    name: string;
-    id: string;
+    id: string
+    name: string
     categories: {
       name: string
     }[]

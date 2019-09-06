@@ -1,5 +1,9 @@
 # Changelog
 
+## 06 Sep 2019
+ - [x] Add full-text search support
+ - [x] Filled elastic with real data
+
 ## 04 Sep 2019
  - [x] Add ekosystem parser
  - [x] Add script for creating/updating indices

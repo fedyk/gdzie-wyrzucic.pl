@@ -1,4 +1,4 @@
-export interface SearchHits<T> {
+export interface SearchHit<T> {
   _index: string
   _type: string
   _id: string
