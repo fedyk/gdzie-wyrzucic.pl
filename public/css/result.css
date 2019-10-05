@@ -1,5 +1,6 @@
 .results {
   position: relative;
+  margin-bottom: 15px;
 }
 
 .result-item {
@@ -33,4 +34,8 @@
 
 .result-item-category+.result-item-category {
   margin-left: 12px;
+}
+
+.empty-result {
+  position: relative;
 }

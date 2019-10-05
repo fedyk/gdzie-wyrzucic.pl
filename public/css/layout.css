@@ -4,8 +4,9 @@
 
 .layout__header {
   position: relative;
-  box-shadow: 0 0 4px 0px #E0E0E0;
   height: 56px;
+  padding: 12px 0;
+  /* box-shadow: 0 0 4px 0px #E0E0E0; */
 }
 
 .layout__body {

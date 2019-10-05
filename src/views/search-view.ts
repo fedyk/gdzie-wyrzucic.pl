@@ -15,7 +15,13 @@ interface Props {
 export function searchView(props: Props) {
   return /*html*/ `
     <h1>Search ${escape(props.query)}</h1>
+
     <div class="results">
+
+      ${props.results.length === 0 ? /*html*/`
+        <div class="empty-result">Nothing found</div>
+      ` : ``}
+
       ${fastMapJoin(props.results, result => /*html*/`
         <div class="result-item">
           <h6 class="result-item-name">${escape(result.name)}</h6>

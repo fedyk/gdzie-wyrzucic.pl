@@ -1,4 +1,4 @@
-import { escape } from "../helpers/html";
+import { escape, attrs } from "../helpers/html";
 
 interface Props {
   query: string;
@@ -24,10 +24,15 @@ export const layoutView = (props: Props) => `<!doctype html>
 `
 
 function renderHeader(props: { query: string | null }) {
-  return /*html*/`<form action="/search" method="GET">
-    <div class="header">
-      <input class="header__input" type="search" name="q" value="${escape(props.query)}" placeholder="gdzie wyrzucic ..." />
-      <button type="submit" class="header__btn">Search</button>
+  return /*html*/`
+    <div class="search">
+      <form action="/search" method="GET">
+        <input class="search__input" name="q" ${attrs({
+          value: props.query,
+          placeholder: "gdzie wyrzucic ..."
+        })}/>
+        <button type="submit" class="search__btn">Search</button>
+      </form>
     </div>
-  </form>`
+  `
 }
