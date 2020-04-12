@@ -4,7 +4,7 @@ import { RequestParams } from "@elastic/elasticsearch";
 import { searchView } from "../views/search-view";
 import { AppContext, AppState, Waste, WasteCategory } from "../types";
 import { SearchHit } from "../elastic/types";
-import { WASTES_INDEX, WASTE_CATEGORIES_INDEX } from "../elastic/constants";
+import { WASTES_INDEX, CATEGORIES_INDEX } from "../elastic/constants";
 
 export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
   const query = parseQueryParams(ctx.request.query)
@@ -13,10 +13,10 @@ export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
     return ctx.redirect("/")
   }
 
-  const { body: response } = await ctx.elasticClient.search(buildWasteSearchParams(query.q))
+  const { body: response } = await ctx.elastic.search(buildWasteSearchParams(query.q))
   const categoryIds = parseSearchResultCategoryIds(response);
 
-  const categories = await ctx.elasticClient.search(buildCategoriesSearchParams(categoryIds)).then(function ({ body }) {
+  const categories = await ctx.elastic.search(buildCategoriesSearchParams(categoryIds)).then(function ({ body }) {
     return parseCategories(body)
   })
 
@@ -85,7 +85,7 @@ function buildWasteSearchParams(searchQuery: string, from = 0, size = 25): Reque
 
 function buildCategoriesSearchParams(categoryIds: Set<string>): RequestParams.Search {
   return {
-    index: WASTE_CATEGORIES_INDEX,
+    index: CATEGORIES_INDEX,
     body: {
       size: categoryIds.size,
       query: {

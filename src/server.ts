@@ -10,11 +10,11 @@ import { config } from "./config";
 import { AppState, AppContext } from "./types";
 
 const app = new Koa<AppState, AppContext>();
-const elasticClient = new Client({
-  node: config.ELASTIC_SEARCH
+const elastic = new Client({
+  node: config.ELASTICSEARCH_URL
 })
 
-app.context.elasticClient = elasticClient;
+app.context.elastic = elastic;
 app.keys = config.APP_KEYS.split(";");
 app.use(helmet())
 app.use(bodyParser())

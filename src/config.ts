@@ -1,11 +1,11 @@
-import { config as dotenvConfig } from "dotenv";
+import { config as dotenv } from "dotenv";
 
-dotenvConfig()
+dotenv({ path: __dirname + "/../.env" })
 
 interface Config {
   PORT: string | number;
   APP_KEYS: string;
-  ELASTIC_SEARCH: string;
+  ELASTICSEARCH_URL: string;
 }
 
 if (!process.env.PORT) {
@@ -16,12 +16,12 @@ if (!process.env.APP_KEYS) {
   console.error("No keylist config. Set APP_KEYS environment variable. The format is <string_key1>;<string_key2>.");
 }
 
-if (!process.env.ELASTIC_SEARCH) {
-  console.error("No ELASTIC_SEARCH param is passed. Search would not work");
+if (!process.env.ELASTICSEARCH_URL) {
+  console.error("No ELASTICSEARCH_URL param is passed. Search would not work");
 }
 
 export const config: Config = {
   PORT: process.env.PORT || 3000,
   APP_KEYS: process.env.APP_KEYS || "",
-  ELASTIC_SEARCH: process.env.ELASTIC_SEARCH
+  ELASTICSEARCH_URL: process.env.ELASTICSEARCH_URL
 };
