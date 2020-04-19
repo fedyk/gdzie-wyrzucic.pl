@@ -9,29 +9,108 @@ const client = new Client({
 })
 
 async function createMapping() {
+  console.log("put mapping for", WASTES_INDEX)
+
   await client.indices.putMapping({
     index: WASTES_INDEX,
     body: {
       properties: {
         name: {
-          type: "text"
+          properties: {
+            en: {
+              type: "text"
+            },
+            pl: {
+              type: "text"
+            },
+            de: {
+              type: "text"
+            },
+            ru: {
+              type: "text"
+            },
+            ua: {
+              type: "text"
+            }
+          }
         },
         description: {
-          type: "text"
+          properties: {
+            en: {
+              type: "text"
+            },
+            pl: {
+              type: "text"
+            },
+            de: {
+              type: "text"
+            },
+            ru: {
+              type: "text"
+            },
+            ua: {
+              type: "text"
+            }
+          }
+        },
+        categories: {
+          type: "nested",
+          properties: {
+            id: {
+              type: "keyword"
+            }
+          }
         }
       }
     }
   })
 
+  console.log("put mapping for", CATEGORIES_INDEX)
+
   await client.indices.putMapping({
     index: CATEGORIES_INDEX,
     body: {
       properties: {
+        id: {
+          type: "keyword"
+        },
         name: {
-          type: "text"
+          properties: {
+            en: {
+              type: "text"
+            },
+            pl: {
+              type: "text"
+            },
+            de: {
+              type: "text"
+            },
+            ru: {
+              type: "text"
+            },
+            ua: {
+              type: "text"
+            }
+          }
         },
         description: {
-          type: "text"
+          properties: {
+            en: {
+              type: "text"
+            },
+            pl: {
+              type: "text"
+            },
+            de: {
+              type: "text"
+            },
+            ru: {
+              type: "text"
+            },
+            ua: {
+              type: "text"
+            }
+          }
         }
       }
     }
