@@ -4,6 +4,28 @@
     [
       {
         "position": {
+          "lat": "51.095178849405066",
+          "lng": "16.940980693710344"
+        },
+        "title": "Apteka Drohobycka",
+        "kolor": 2,
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img src=\"https://mapa.ekosystem.wroc.pl/content/themes/mapa.ekosystem.wroc.pl/images/icon-przeterminowane-leki.png\" /></td></tr></table><h3>Apteka Drohobycka</h3><div class=\"mceContentBody mceFrontEnd \"><div title=\"Page 1\">\n<div>\n<div>\n<div>\n<p>ul.Kunickiego St. 33a</p>\n</div>\n</div>\n</div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "position": {
+          "lat": "51.113219733633215",
+          "lng": "16.954230806243913"
+        },
+        "title": "Apteka przy Polomarkecie",
+        "kolor": 2,
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img src=\"https://mapa.ekosystem.wroc.pl/content/themes/mapa.ekosystem.wroc.pl/images/icon-przeterminowane-leki.png\" /></td></tr></table><h3>Apteka przy Polomarkecie</h3><div class=\"mceContentBody mceFrontEnd \"><div title=\"Page 1\">\n<div title=\"Page 1\">\n<div>\n<div>\n<div>\n<p>ul.Budziszyńska 107</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "position": {
           "lat": "51.13021672101954",
           "lng": "17.04347326458742"
         },

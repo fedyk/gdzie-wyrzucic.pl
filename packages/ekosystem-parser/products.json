@@ -11345,6 +11345,27 @@
     ]
   ],
   [
+    "test",
+    [
+      {
+        "name": "Pojemniki ogólnodostępne na używaną odzież",
+        "classNames": [
+          "pojemnik",
+          "pojemnik-odzie"
+        ],
+        "links": []
+      },
+      {
+        "name": "Stacje demontażu pojazdów",
+        "classNames": [
+          "pojemnik",
+          "pojemnik-demonta"
+        ],
+        "links": []
+      }
+    ]
+  ],
+  [
     "sofy",
     [
       {

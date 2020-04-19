@@ -4,7 +4,7 @@ const https = require("https")
 const HTMLParser = require("node-html-parser")
 const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
-const [,,action] = process.argv;
+const [, , action] = process.argv;
 
 const help = `
 Usage: node index.js <action>
@@ -29,18 +29,18 @@ switch (action) {
 }
 
 function get(url) {
-  return new Promise(function(resolve, reject) {
-    https.get(url, function(resp) {
+  return new Promise(function (resolve, reject) {
+    https.get(url, function (resp) {
       let data = '';
 
-      resp.on('data', function(chunk) {
+      resp.on('data', function (chunk) {
         data += chunk
       })
 
-      resp.on('end', function() {
+      resp.on('end', function () {
         resolve(data)
       });
-    }).on("error", function(error) {
+    }).on("error", function (error) {
       reject(error);
     })
   })
@@ -60,20 +60,20 @@ function post(postUrl, data) {
     }
   }
 
-  return new Promise(function(resolve, reject) {
-    const request = https.request(options, function(resp) {
+  return new Promise(function (resolve, reject) {
+    const request = https.request(options, function (resp) {
       let data = '';
 
-      resp.on('data', function(chunk) {
+      resp.on('data', function (chunk) {
         data += chunk
       })
 
-      resp.on('end', function() {
+      resp.on('end', function () {
         resolve(data)
       })
     })
 
-    request.on("error", function(error) {
+    request.on("error", function (error) {
       reject(error);
     })
 
@@ -129,7 +129,7 @@ function parsePhraseResults(html) {
       const nameEl = categoryEl.querySelector('.pojemnik-name')
       const name = nameEl ? nameEl.text.trim() : null
 
-      const links = categoryEl.querySelectorAll('a').map(function(anchor) {
+      const links = categoryEl.querySelectorAll('a').map(function (anchor) {
         return {
           href: anchor.attributes && anchor.attributes.href || null,
           text: anchor.text.trim()
@@ -186,22 +186,16 @@ async function fetchPoints() {
       "points[]": pointsType
     })
     const parsedResp = JSON.parse(resp);
-    const markers = parsedResp && parsedResp.markers.map(function(marker) {
-      const { useInfoWindow } = marker
-      const windowContent = useInfoWindow && useInfoWindow.content || "";
+    const markers = parsedResp ? parsedResp.markers : void 0
 
-//       if (windowContent) {
-
-//       }
-//       useInfoWindow
-// content
-      return marker;
-
-    })
-
-    results.set(pointsType, markers);
+    if (!Array.isArray(markers)) {
+      console.warn(pointsType, "has no markets")
+    }
+    else {
+      results.set(pointsType, markers);
+    }
   }
-  
+
   return results;
 }
 
