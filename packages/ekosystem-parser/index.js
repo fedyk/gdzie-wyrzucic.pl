@@ -10,7 +10,7 @@ const help = `
 Usage: node index.js <action>
 
 node index.js sync-phrases    fetch and save autocomplete results to file 'phases.json'
-node index.js sync-products   fetch and save pharse search results to 'items.json'
+node index.js sync-products   fetch and save pharse search results to 'products.json'
 node index.js sync-points     fetch and save map points to 'points.json'
 `
 
@@ -224,7 +224,7 @@ async function syncProducts() {
   const entries = Array.from(results.entries());
   const data = JSON.stringify(entries, null, 2);
 
-  fs.writeFileSync(__dirname + '/items.json', data)
+  fs.writeFileSync(__dirname + '/products.json', data)
 }
 
 /**
