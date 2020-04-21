@@ -1,14 +1,16 @@
 import { Client } from "@elastic/elasticsearch"
 import { config } from "../config"
-import { WASTES_INDEX, CATEGORIES_INDEX } from "./constants"
+import { WASTES_INDEX, CATEGORIES_INDEX, POINTS_INDEX } from "./constants"
 
 /** @see https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html */
 
-const client = new Client({
-  node: config.ELASTICSEARCH_URL
-})
+createMapping().catch(err => console.error(err))
 
 async function createMapping() {
+  const client = new Client({
+    node: config.ELASTICSEARCH_URL
+  })
+
   console.log("put mapping for", WASTES_INDEX)
 
   await client.indices.putMapping({
@@ -115,6 +117,75 @@ async function createMapping() {
       }
     }
   })
-}
 
-createMapping().catch(err => console.error(err))
+  console.log("put mapping for", POINTS_INDEX)
+
+  await client.indices.putMapping({
+    index: POINTS_INDEX,
+    body: {
+      properties: {
+        id: {
+          type: "keyword"
+        },
+        name: {
+          properties: {
+            en: {
+              type: "keyword"
+            },
+            pl: {
+              type: "keyword"
+            },
+            de: {
+              type: "keyword"
+            },
+            ru: {
+              type: "keyword"
+            },
+            ua: {
+              type: "keyword"
+            }
+          }
+        },
+        description: {
+          properties: {
+            en: {
+              type: "keyword"
+            },
+            pl: {
+              type: "keyword"
+            },
+            de: {
+              type: "keyword"
+            },
+            ru: {
+              type: "keyword"
+            },
+            ua: {
+              type: "keyword"
+            }
+          }
+        },
+        lat: {
+          type: "float"
+        },
+        lng: {
+          type: "float"
+        },
+        categories: {
+          type: "nested",
+          properties: {
+            id: {
+              type: "keyword"
+            }
+          }
+        },
+        formatted_opening_hours: {
+          type: "keyword"
+        },
+        website_url: {
+          type: "keyword"
+        }
+      }
+    }
+  })
+}
