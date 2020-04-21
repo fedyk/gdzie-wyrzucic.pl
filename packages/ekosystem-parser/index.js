@@ -1,17 +1,21 @@
 const fs = require("fs")
 const url = require("url")
 const https = require("https")
+const path = require("path")
 const HTMLParser = require("node-html-parser")
 const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
+const productsPath = path.resolve(__dirname, "products.json")
+const categoriesPath = path.resolve(__dirname, "categories.json")
 const [, , action] = process.argv;
 
 const help = `
 Usage: node index.js <action>
 
-node index.js sync-phrases    fetch and save autocomplete results to file 'phases.json'
-node index.js sync-products   fetch and save pharse search results to 'products.json'
-node index.js sync-points     fetch and save map points to 'points.json'
+node index.js sync-phrases         fetch and save autocomplete results to file 'phases.json'
+node index.js sync-products        fetch and save pharse search results to 'products.json'
+node index.js sync-points          fetch and save map points to 'points.json'
+node index.js prepare-categoris    extract categoris from products
 `
 
 switch (action) {
@@ -23,6 +27,9 @@ switch (action) {
 
   case "sync-points":
     return syncPoints()
+
+  case "prepare-categoris":
+    return prepareCategories()
 
   default:
     console.log(help)
@@ -218,7 +225,7 @@ async function syncProducts() {
   const entries = Array.from(results.entries());
   const data = JSON.stringify(entries, null, 2);
 
-  fs.writeFileSync(__dirname + '/products.json', data)
+  fs.writeFileSync(productsPath, data)
 }
 
 /**
@@ -230,4 +237,46 @@ async function syncPoints() {
   const data = JSON.stringify(entries, null, 2);
 
   fs.writeFileSync(__dirname + '/points.json', data)
+}
+
+function prepareCategories() {
+  const names = new Set()
+  const categories = []
+  const products = require(productsPath)
+
+  if (!Array.isArray(products)) {
+    throw new Error("products should be an array")
+  }
+
+  // extract category names
+  for (let i = 0; i < products.length; i++) {
+    const product = products[i];
+    const [, types] = product
+
+    if (!Array.isArray(types)) {
+      continue
+    }
+
+    for (let j = 0; j < types.length; j++) {
+      const type = types[j];
+
+      names.add(type.name)
+    }
+  }
+
+  // prepare categoris
+  for (const name of names) {
+    categories.push({
+      id: Math.random().toString(36).substr(2, 9).toUpperCase(),
+      name: {
+        pl: name
+      }
+    })
+  }
+
+  const result = JSON.stringify(categories, null, 2)
+
+  console.log("write result to", path.basename(categoriesPath))
+
+  fs.writeFileSync(categoriesPath, result)
 }
