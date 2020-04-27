@@ -7,15 +7,18 @@ const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
 const productsPath = path.resolve(__dirname, "products.json")
 const categoriesPath = path.resolve(__dirname, "categories.json")
+const wastesPath = path.resolve(__dirname, "wastes.json")
+const wastesCURLPath = path.resolve(__dirname, "wastes.curl")
 const [, , action] = process.argv;
 
 const help = `
 Usage: node index.js <action>
 
 node index.js sync-phrases         fetch and save autocomplete results to file 'phases.json'
-node index.js sync-products        fetch and save pharse search results to 'products.json'
+node index.js sync-products        fetch and save phrase search results to 'products.json'
 node index.js sync-points          fetch and save map points to 'points.json'
-node index.js prepare-categoris    extract categoris from products
+node index.js prepare-categories   extract categories from products
+node index.js prepare-wastes       extract wastes to PUT in ES
 `
 
 switch (action) {
@@ -28,8 +31,11 @@ switch (action) {
   case "sync-points":
     return syncPoints()
 
-  case "prepare-categoris":
+  case "prepare-categories":
     return prepareCategories()
+
+  case "prepare-wastes":
+    return prepareWastes()
 
   default:
     console.log(help)
@@ -264,7 +270,7 @@ function prepareCategories() {
     }
   }
 
-  // prepare categoris
+  // prepare categories
   for (const name of names) {
     categories.push({
       id: Math.random().toString(36).substr(2, 9).toUpperCase(),
@@ -279,4 +285,95 @@ function prepareCategories() {
   console.log("write result to", path.basename(categoriesPath))
 
   fs.writeFileSync(categoriesPath, result)
+}
+
+async function prepareWastes() {
+  const categories = require(categoriesPath)
+  const products = require(productsPath)
+  const wastes = []
+  const wastesBulk = []
+  const categoryIdsMap = new Map()
+
+  if (!Array.isArray(categories)) {
+    throw new Error("`categories` should be an array")
+  }
+
+  // create map with `category-name` => `category-id`
+  categories.forEach(function(category) {
+    const name = category && category.name && category.name.pl
+    const id = category && category.id
+
+    if (!name) {
+      return console.warn("`category`", category, "has empty name")
+    }
+    
+    if (!id) {
+      return console.warn("`category`", category, "has empty id")
+    }
+
+    categoryIdsMap.set(name, id)
+  })
+
+  if (!Array.isArray(products)) {
+    throw new Error("`products` should be an array")
+  }
+
+  products.forEach(function(product) {
+    if (!Array.isArray(product)) {
+      return console.warn("`product`", product, "should be an array")
+    }
+
+    const name = String(product[0] || "").trim()
+    const types = product[1]
+
+    if (name.length === 0) {
+      return console.warn("`name` of product", product, "should NOT be empty")
+    }
+
+    if (!Array.isArray(types)) {
+      return console.warn("`types` of product", product, "should be an array")
+    }
+
+    const waste = {
+      id: Math.random().toString(36).substr(2, 9).toUpperCase(),
+      name: {
+        pl: name,
+      },
+      description: {
+        pl: ""
+      },
+      categories: []
+    }
+
+    types.forEach(function(type) {
+      const name = type.name
+
+      if (!name) {
+        return console.warn("`name` of product type", type, "cannot be empty")
+      }
+
+      const id = categoryIdsMap.get(name)
+
+      if (!id) {
+        return console.warn("cannot find id for", name)
+      }
+
+      waste.categories.push({
+        id: id
+      })
+    })
+
+    if (waste.categories.length === 0) {
+      console.warn("`waste`", waste, "has empty categories")
+    }
+
+    wastes.push(waste)
+    wastesBulk.push(JSON.stringify({ index : { "_index" : "wastes", "_id" : waste.id } }))
+    wastesBulk.push(JSON.stringify(waste))
+  })
+
+  console.log("write result to", path.basename(wastesPath))
+
+  fs.writeFileSync(wastesPath, JSON.stringify(wastes, null, 2))
+  fs.writeFileSync(wastesCURLPath, wastesBulk.join("\n"))
 }

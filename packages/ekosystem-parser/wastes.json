@@ -1,0 +1,8985 @@
+[
+  {
+    "id": "4BBJLJT2I",
+    "name": {
+      "pl": "akumulatorki (baterie)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X9LLY100L"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "LN6UC2JPU",
+    "name": {
+      "pl": "akumulatory (baterie)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X9LLY100L"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "FCOW1NILQ",
+    "name": {
+      "pl": "akumulatory ołowiowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OQPKR4JBN",
+    "name": {
+      "pl": "akumulatory samochodowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "PUU144DSA",
+    "name": {
+      "pl": "artykuły higieniczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "SIPW4SGCM",
+    "name": {
+      "pl": "baterie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X9LLY100L"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "R9EXQ1VQ2",
+    "name": {
+      "pl": "baterie (do umywalek)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "E9PIM7ADW",
+    "name": {
+      "pl": "bateria, baterie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X9LLY100L"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "EFKUC3X6Z",
+    "name": {
+      "pl": "bezbarwne słoiki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "TCF1UY259",
+    "name": {
+      "pl": "bezbarwne szklane opakowania po kosmetykach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "EZ83MAQ8H",
+    "name": {
+      "pl": "bibuła"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "WF0NC3B8N",
+    "name": {
+      "pl": "boazeria"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "HQ53SL3TQ",
+    "name": {
+      "pl": "butelka po oleju roślinnym"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "LNCGDIHVC",
+    "name": {
+      "pl": "butelka po oleju silnikowym"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "UXR7K0P9P",
+    "name": {
+      "pl": "butelki - szkło białe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "ISQD59A35",
+    "name": {
+      "pl": "ceramika"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "YN6UZO6FC",
+    "name": {
+      "pl": "chemia budowlana"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "NB3MS5JV5",
+    "name": {
+      "pl": "chemikalia"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "74GMZA6HF",
+    "name": {
+      "pl": "chwasty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "QE0URKFVH"
+      }
+    ]
+  },
+  {
+    "id": "9XR40NPUO",
+    "name": {
+      "pl": "czajnik elektryczny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "8LZFVQ101",
+    "name": {
+      "pl": "czasopisma"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "TFMD1SOG5",
+    "name": {
+      "pl": "doniczki (z grubego plastiku)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "7PKU0QMHS",
+    "name": {
+      "pl": "drobny złom żelazny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "HUT2002XD",
+    "name": {
+      "pl": "drukarka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "1NUP4PF9W",
+    "name": {
+      "pl": "duże urządzenia elektryczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "PH70U1CUP",
+    "name": {
+      "pl": "dyski twarde"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "VRDWZI3CH",
+    "name": {
+      "pl": "dywany, wykładziny dywanowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "C1MDUF6QR",
+    "name": {
+      "pl": "ekspres do kawy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "37GVJZ6UJ",
+    "name": {
+      "pl": "farby"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "HH4HHXHJJ",
+    "name": {
+      "pl": "farby, rozpuszczalniki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "UN3FMA018",
+    "name": {
+      "pl": "folia budowlana (czysta)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "H4DQLOU7H",
+    "name": {
+      "pl": "folia budowlana (zabrudzona farbą, cementem)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "I4RX5OODK",
+    "name": {
+      "pl": "gałęzie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "CNIJDLSAT",
+    "name": {
+      "pl": "garnki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "O9J83QCUR",
+    "name": {
+      "pl": "garnek, garnki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "JPE46EZFB",
+    "name": {
+      "pl": "gazeta, gazety"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "HHVSSC4ES",
+    "name": {
+      "pl": "gruz budowlany (w małych ilościach)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "UT29R7QCU",
+    "name": {
+      "pl": "mikrofalówka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "AH4LB8HGD",
+    "name": {
+      "pl": "kable (komputerowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "N9UVYSAJK",
+    "name": {
+      "pl": "kafelki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "N845J83V7",
+    "name": {
+      "pl": "kamera"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "0YI08JFJM",
+    "name": {
+      "pl": "kapsle"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "A9GZP146V",
+    "name": {
+      "pl": "kapsel, kapsle"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "29VT967AB",
+    "name": {
+      "pl": "karton po mleku"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "LGAKCH7DI",
+    "name": {
+      "pl": "karton po napojach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "7MXX6204V",
+    "name": {
+      "pl": "karton po sokach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "E3FR6IKYK",
+    "name": {
+      "pl": "kasety magnetofonowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "89M813BEP",
+    "name": {
+      "pl": "kasety video"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "YW59BJ6AH",
+    "name": {
+      "pl": "katalogi, prospekty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "RY30FLBL1",
+    "name": {
+      "pl": "klawiatura"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "J7XIDWBWA",
+    "name": {
+      "pl": "kleje do tapet"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "1ANB55LIE",
+    "name": {
+      "pl": "klimatyzator"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "FYCNCZL4F",
+    "name": {
+      "pl": "kolorowe szklane opakowania po kosmetykach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "H0UN1AGCX",
+    "name": {
+      "pl": "komórka (telefon)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "XO7TYM14R",
+    "name": {
+      "pl": "konsola (do gier)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "LTK5297X0",
+    "name": {
+      "pl": "koperta (papierowa, po zdjęciu foliowego okienka)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "218X52441",
+    "name": {
+      "pl": "kosiarka do trawy z silnikiem elektrycznym"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "SUH9H7FC9",
+    "name": {
+      "pl": "kryształy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "TBIW5JUI6",
+    "name": {
+      "pl": "książki bez twardych okładek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "15H9MQVJU",
+    "name": {
+      "pl": "kwiaty, kwiatki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "G5NJVAAD3",
+    "name": {
+      "pl": "lakiery"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "WPXRXF13P",
+    "name": {
+      "pl": "lampki choinkowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OV7JAK2R4",
+    "name": {
+      "pl": "lampy energooszczędne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "NV7E3CY4N",
+    "name": {
+      "pl": "lampy neonowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OIF80JAHI",
+    "name": {
+      "pl": "literatki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9QFGOG1PR",
+    "name": {
+      "pl": "Lodówka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "YCZJ25JCE",
+    "name": {
+      "pl": "lustra"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "F6FXLRMMM",
+    "name": {
+      "pl": "ładowarki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "JKJ4E5FNX",
+    "name": {
+      "pl": "łóżka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "CH900VG87",
+    "name": {
+      "pl": "magnetowidy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "OALS03WKI",
+    "name": {
+      "pl": "metale kolorowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "BQYJG5OD0",
+    "name": {
+      "pl": "mysz komputerowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "7PKLN6WE4",
+    "name": {
+      "pl": "naczynia kuchenne (jakie)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "10W0XY1T7",
+    "name": {
+      "pl": "nakrętki do słoików"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "9F9NTR6SA",
+    "name": {
+      "pl": "notatniki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "AU4X9BXNW",
+    "name": {
+      "pl": "obierki warzyw"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9R5BIZFC9",
+    "name": {
+      "pl": "odpady budowlane"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "3I9PG5J2Y",
+    "name": {
+      "pl": "odpady organiczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "RX2KBT26P",
+    "name": {
+      "pl": "odpady po remoncie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "8762YKDJY",
+    "name": {
+      "pl": "odpady po zwierzętach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "B2GS0RI3S",
+    "name": {
+      "pl": "odpady spożywcze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "V1TOAUZ2R",
+    "name": {
+      "pl": "odtwarzacz MP3"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "3PGKDOFDZ",
+    "name": {
+      "pl": "okap kuchenny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "IQXLFD77W",
+    "name": {
+      "pl": "okulary"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ANMVSOV1R",
+    "name": {
+      "pl": "olej hydrauliczny w opakowaniach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "F86F9E7YU",
+    "name": {
+      "pl": "olej przekładniowy w opakowaniach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "8TACSY0BR",
+    "name": {
+      "pl": "olej silnikowy w opakowaniach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "XJRRPCMPI",
+    "name": {
+      "pl": "opakowania po farbach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "V1MV25ZQ7",
+    "name": {
+      "pl": "opakowania po chemii gospodarczej"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "4BIV39LYK",
+    "name": {
+      "pl": "opakowania tekturowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "5T3GUZ2RJ",
+    "name": {
+      "pl": "opakowania tekturowe po artykułach spożywczych"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "7WVXILM4Y",
+    "name": {
+      "pl": "opakowania z tworzyw sztucznych po napojach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "YQ9ZZFLOP",
+    "name": {
+      "pl": "opakowanie po olejach innych niż spożywcze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "I8QZFZ8X9",
+    "name": {
+      "pl": "opakowanie po olejach silnikowych"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "3SKUBO1IQ",
+    "name": {
+      "pl": "opakowanie styropianowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "E564WYLCB",
+    "name": {
+      "pl": "opiekacze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OBFYKABHA",
+    "name": {
+      "pl": "panele"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "HS6YYTFZY",
+    "name": {
+      "pl": "papier (suchy, bez zatłuszczeń)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "RS1WTJ0E9",
+    "name": {
+      "pl": "papier (tłusty, zabrudzony)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "DWGNTDEYM",
+    "name": {
+      "pl": "papier biurowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "EO2T5EGR8",
+    "name": {
+      "pl": "papier faksowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "2K7VQFWKG",
+    "name": {
+      "pl": "papier pakowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "WNOIDQ26O",
+    "name": {
+      "pl": "papier piśmienny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "8F4100HDG",
+    "name": {
+      "pl": "papier szkolny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "DAD0BQOC8",
+    "name": {
+      "pl": "papier termiczny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "SWYGGE7B4",
+    "name": {
+      "pl": "papier toaletowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "5R2WXW4HJ",
+    "name": {
+      "pl": "papier z folią"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "CCG8GVPKB",
+    "name": {
+      "pl": "papier zabrudzony"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "EOMHR5BK8",
+    "name": {
+      "pl": "papierowe torebki na zakupy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "FTB3NDLQI",
+    "name": {
+      "pl": "piekarnik"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "2XW97KGIB",
+    "name": {
+      "pl": "pieluchy, pieluszki, pielucha, pieluszka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ODHQVFZEA",
+    "name": {
+      "pl": "plakaty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "8EQA17UNE",
+    "name": {
+      "pl": "plastikowe butelki po mydłach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "1PW9DB2Q9",
+    "name": {
+      "pl": "plastikowe butelki po napojach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "QCCU7WIQP",
+    "name": {
+      "pl": "plastikowe butelki po płynach do mycia naczyń"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "66U6MNLTV",
+    "name": {
+      "pl": "plastikowe butelki po szamponach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "501SISTKA",
+    "name": {
+      "pl": "plastikowe butelki po żelach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "9G2IXFWFX",
+    "name": {
+      "pl": "plastikowe opakowania"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "WJZ2GPSS9",
+    "name": {
+      "pl": "plastikowe opakowanie po farbach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "3DCPI0L22",
+    "name": {
+      "pl": "plastikowe reklamówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "VM5I7MBQF",
+    "name": {
+      "pl": "plastikowe torebki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "DKBAIUZIP",
+    "name": {
+      "pl": "plastikowe worki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "GVJ3UX6PH",
+    "name": {
+      "pl": "plastikowe zakrętki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "F52F3UCZK",
+    "name": {
+      "pl": "płyta CD, płyty CD, płyta kompaktowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "QZMGG2V9O",
+    "name": {
+      "pl": "porcelana"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "R9WSLK0P6",
+    "name": {
+      "pl": "pralka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "EB46S0ST6",
+    "name": {
+      "pl": "przeterminowane leki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "U7B8JI5VP"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "Q3D8BG0AF",
+    "name": {
+      "pl": "pudełka kartonowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "VQMHAKDBS",
+    "name": {
+      "pl": "pudełka tekturowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "YH1XQRHWL",
+    "name": {
+      "pl": "puszka po karmie dla kota"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "XYKCHB29J",
+    "name": {
+      "pl": "puszka po karmie dla psa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "JQ2OUEKZU",
+    "name": {
+      "pl": "puszki aluminiowe po napojach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "R26AQBAX9",
+    "name": {
+      "pl": "puszki po konserwach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "DVCXZNCKP",
+    "name": {
+      "pl": "puszki po napojach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "QID11BTDL",
+    "name": {
+      "pl": "puszka po napoju, puszki po napojach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "K6TZ32E63",
+    "name": {
+      "pl": "rachunki i faktury (papier przebitkowy)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9K2P8Y5ZY",
+    "name": {
+      "pl": "radio"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "ZULFCS39J",
+    "name": {
+      "pl": "odbiorniki radiowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OIVO533SU",
+    "name": {
+      "pl": "ręczniki papierowe (zużyte)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "93ISRO3KQ",
+    "name": {
+      "pl": "sadzonki (bez ziemi i doniczki)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "LZ7GIVY28",
+    "name": {
+      "pl": "sanitariat"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "9CQ3DII46",
+    "name": {
+      "pl": "skoszona trawa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "O51TLY4G4",
+    "name": {
+      "pl": "skórki po owocach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "AY8DW29ZS",
+    "name": {
+      "pl": "słoiki - szkło białe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "S69P7L9JV",
+    "name": {
+      "pl": "smartfon"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "BEOYXY1IZ",
+    "name": {
+      "pl": "stare tapety"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "YELOSF33Y",
+    "name": {
+      "pl": "styropian"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "NJYE2RU2N",
+    "name": {
+      "pl": "styropian opakowaniowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "T7R4UL7V7",
+    "name": {
+      "pl": "tacka styropianowa, tacki styropianowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "3ZLSPSALM",
+    "name": {
+      "pl": "szafki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "LD5JDTMBK",
+    "name": {
+      "pl": "szafy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "OIJKPE6HS",
+    "name": {
+      "pl": "szklane butelki bezbarwne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "VMCFIJKFA",
+    "name": {
+      "pl": "szklane butelki kolorowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "N5IZAXE0Y",
+    "name": {
+      "pl": "szkło okularowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "RII2UDQZG",
+    "name": {
+      "pl": "szkło żaroodporne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VP9OKDL1W",
+    "name": {
+      "pl": "szpachla"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "G7HG9ZI6D",
+    "name": {
+      "pl": "sztukaterie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "4V94VYOKK",
+    "name": {
+      "pl": "tablety"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "6EYOI4BRC",
+    "name": {
+      "pl": "tacki po jedzeniu"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "G79GC4CJG",
+    "name": {
+      "pl": "tektura"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "C72ET2JV9",
+    "name": {
+      "pl": "torebki papierowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "37573HIGY",
+    "name": {
+      "pl": "trawa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "QE0URKFVH"
+      }
+    ]
+  },
+  {
+    "id": "EXG6VDJHF",
+    "name": {
+      "pl": "tusze do drukarek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "PDPG266VG",
+    "name": {
+      "pl": "ulotki reklamowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "T3JRBSFEO",
+    "name": {
+      "pl": "umyte plastikowe butelki po olejach spożywczych"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "02GE948L0",
+    "name": {
+      "pl": "umywalki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "K62P8UJP2",
+    "name": {
+      "pl": "urządzenia agd"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "3HWRB7KUR",
+    "name": {
+      "pl": "urządzenia do gotowania na parze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "0CV6VFDRT",
+    "name": {
+      "pl": "wanna"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "JT1XYPVKN",
+    "name": {
+      "pl": "wentylator"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "PZZ5PCP4O",
+    "name": {
+      "pl": "worki po materiałach budowlanych"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "4AYWGKFLM",
+    "name": {
+      "pl": "wykładzina"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "T5H5WZ6SS",
+    "name": {
+      "pl": "wzmacniacze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "SSMIFPMOH",
+    "name": {
+      "pl": "zabawki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "A72M86KOX",
+    "name": {
+      "pl": "zabawki (z oznaczenim do recyklingu)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "106QT1BVR",
+    "name": {
+      "pl": "zamrażarka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "4L14RGN0J",
+    "name": {
+      "pl": "zapiekacz"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "3K21ZGXK5",
+    "name": {
+      "pl": "zaprawa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "UNJ9J9BWT",
+    "name": {
+      "pl": "zaprawa murarska"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "8ITJ6RD7Q",
+    "name": {
+      "pl": "zasilacze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "KUGXU8SH4",
+    "name": {
+      "pl": "zastawa stołowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ABV05E4AW",
+    "name": {
+      "pl": "zestawy kina domowego"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "BYKS7JZ5E",
+    "name": {
+      "pl": "zmywarka do naczyń"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "T8R6ASZJE",
+    "name": {
+      "pl": "zużyty worek z odkurzacza"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "TXBBGU690",
+    "name": {
+      "pl": "zwiędłe kwiaty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "Q1ZHMGMC7",
+    "name": {
+      "pl": "żarówka, żarówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "GCWJBW8I0",
+    "name": {
+      "pl": "żelazko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "PK196CXFJ",
+    "name": {
+      "pl": "żwir dla kota"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "NXSW8BK6H",
+    "name": {
+      "pl": "papierowe torby"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "OT725PRY5",
+    "name": {
+      "pl": "papierowe worki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "4KGG9LKSR",
+    "name": {
+      "pl": "papier (szkolny, biurowy)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "62XSDOJ52",
+    "name": {
+      "pl": "karton"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "9K644R2WG",
+    "name": {
+      "pl": "karton mleka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ZB85TKW7S",
+    "name": {
+      "pl": "karton oklejony taśmą pakową"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "KKISO2K59",
+    "name": {
+      "pl": "karton po ryżu"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "0220OSDF8",
+    "name": {
+      "pl": "karton po soku"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "CMCMY5VUQ",
+    "name": {
+      "pl": "kartonik po lekach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "SOU81BGQ9",
+    "name": {
+      "pl": "opakowanie kartonowe po kaszy, opakowania kartonowe po kaszy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "OR5TVTW59",
+    "name": {
+      "pl": "rysunki akwarelowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "4DXXWZLX0",
+    "name": {
+      "pl": "rysunki kredkami"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VCISATEHQ",
+    "name": {
+      "pl": "wkład do długopisu"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "D4MDVCR60",
+    "name": {
+      "pl": "linijka (plastikowa)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "3L3DQBC53",
+    "name": {
+      "pl": "opakowanie po jogurcie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "LXI8F7R2T",
+    "name": {
+      "pl": "jogurt (opakowanie po jogurcie)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "AS14C3DNU",
+    "name": {
+      "pl": "opakowanie po kefirze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "85OKUPT52",
+    "name": {
+      "pl": "opakowanie po maślance"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "UF88QJ1SL",
+    "name": {
+      "pl": "opakowanie po margarynie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "8TGDJYBH7",
+    "name": {
+      "pl": "nożyczki (stare)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "KB2RWGXPA",
+    "name": {
+      "pl": "kalka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "PIG3EXMPU",
+    "name": {
+      "pl": "waciki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "HSCQO25N7",
+    "name": {
+      "pl": "smar"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "EELG48WQ9",
+    "name": {
+      "pl": "puszki po farbie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "2RR9FBZ38",
+    "name": {
+      "pl": "opakowania po areozolach (oznaczone do recyklingu)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "54GHX0WLA",
+    "name": {
+      "pl": "areozole (oznaczone do recyklingu)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "BOYNS6W5F",
+    "name": {
+      "pl": "sprzęt AGD"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "ST0KNRZ1D",
+    "name": {
+      "pl": "szklane butelki po sokach (bezbarwne)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "4TGI6GJW0",
+    "name": {
+      "pl": "szklane butelki po sokach (kolorowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "YVRFWN79P",
+    "name": {
+      "pl": "szklane butelki po mleku (bezbarwne)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "CBVSQDZOD",
+    "name": {
+      "pl": "szklane butelki po mleku (kolorowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "4ZQ498JJW",
+    "name": {
+      "pl": "talerze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XGUHHBK1N",
+    "name": {
+      "pl": "opakowania po dezodorantach (oznaczone do recyklingu)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "VBETDYJ9B",
+    "name": {
+      "pl": "materac"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "63ON9VTAP",
+    "name": {
+      "pl": "suszarka na pranie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "9LOEOW9VE",
+    "name": {
+      "pl": "deska do prasowania"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "D1HJ46T9L",
+    "name": {
+      "pl": "kanapa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "MY5B3K96I",
+    "name": {
+      "pl": "pierzyna"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "9BUNBRQN4",
+    "name": {
+      "pl": "muszla toaletowa lub spłuczka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "58746RBUA",
+    "name": {
+      "pl": "umywalka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "F53INZ99M",
+    "name": {
+      "pl": "deski drewniane"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "VIA30O3BL",
+    "name": {
+      "pl": "deska drewniana, deski drewniane"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "M25RYWO54",
+    "name": {
+      "pl": "ramy okienne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "4XFCTZO22",
+    "name": {
+      "pl": "części samochodowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "BEL161OZD"
+      }
+    ]
+  },
+  {
+    "id": "M8NJDEJNI",
+    "name": {
+      "pl": "resztki warzyw i owoców"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "DMJ605UAU",
+    "name": {
+      "pl": "fusy z kawy i herbaty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "B3B3RUUNX",
+    "name": {
+      "pl": "kora drzew"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "N8KB6738W",
+    "name": {
+      "pl": "trociny (po zwierzętach)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "AOVLQZB3Q",
+    "name": {
+      "pl": "papier po wędlinie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "B0ARQIBK7",
+    "name": {
+      "pl": "nabiał"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "LZPDIF2QH",
+    "name": {
+      "pl": "resztki mięsa i ryb"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "OJG214P0P",
+    "name": {
+      "pl": "niedopałki papierosów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "G5KBJ4W58",
+    "name": {
+      "pl": "prezerwatywy, prezerwatywa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "PX0UN2AMX",
+    "name": {
+      "pl": "tampony, tampon"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "3J2NKF9NQ",
+    "name": {
+      "pl": "podpaski, podpaska"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "L1J4JMHUH",
+    "name": {
+      "pl": "pudełka po zapałkach, pudełko po zapałkach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "4N5TGSEOX",
+    "name": {
+      "pl": "opakowanie po cukierkach, opakowania po cukierkach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "21JBL1TJJ",
+    "name": {
+      "pl": "puszka po owocach, puszki po owocach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "6PZJ9NYMU",
+    "name": {
+      "pl": "celofan"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "YYZJJTUQK",
+    "name": {
+      "pl": "opakowanie celofanowe, opakowania celofanowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "Y0YTWDNSK",
+    "name": {
+      "pl": "papier celofanowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "LRUZYODS3",
+    "name": {
+      "pl": "opakowania po tabletkach, opakowanie po tabletkach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "EJCQQVTL7",
+    "name": {
+      "pl": "płyn hamulcowy, wpłyny hamulcowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IG44X8NFL"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "RMA9LCZP6",
+    "name": {
+      "pl": "opakowanie po chipsach, opakowania po chipsach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "UHS1R6UQQ",
+    "name": {
+      "pl": "reklamówka foliowa, reklamówki foliowe, foliówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "LUGPOSZYW",
+    "name": {
+      "pl": "folia bąbelkowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "VCI4ZNNLG",
+    "name": {
+      "pl": "jednorazowa maszynka do golenia, maszynki do golenia, maszynka do golenia"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "O9BRTWZMA",
+    "name": {
+      "pl": "aerozol"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "KOS2B8QMW",
+    "name": {
+      "pl": "opakowanie po aerozolu, opakowania po aerozolu"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "2HFSWYILV",
+    "name": {
+      "pl": "alkohol (butelka bezbarwna)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "JQP5GE2GR",
+    "name": {
+      "pl": "alkohol (butelka kolorowa)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "3GWNNERKC",
+    "name": {
+      "pl": "aluminium"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "ZGKDGBQR1",
+    "name": {
+      "pl": "amalgamat dentystyczny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "5CJ76LEP3",
+    "name": {
+      "pl": "armatura łazienkowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "00JFCZK6U",
+    "name": {
+      "pl": "atrament"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "NDB5EIJNO",
+    "name": {
+      "pl": "banan, banany"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BHEOM6YRP",
+    "name": {
+      "pl": "bielizna"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "9AED6I0TW"
+      }
+    ]
+  },
+  {
+    "id": "JUAKIUTIZ",
+    "name": {
+      "pl": "blacha"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "NKOX9JMNZ",
+    "name": {
+      "pl": "bluza"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "08J38WWFV",
+    "name": {
+      "pl": "bluzka, bluzki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XKXM7XQXI",
+    "name": {
+      "pl": "puszka, puszki (brudne)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "QXA3OJRQE",
+    "name": {
+      "pl": "bryndza w plastikowym opakowaniu"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "I95UY88WV",
+    "name": {
+      "pl": "brzytwa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "N8BKI2R6U",
+    "name": {
+      "pl": "bułka, bułki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "KCTB8OM1S",
+    "name": {
+      "pl": "buteleczka po lakierze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "NL1T4OGZX",
+    "name": {
+      "pl": "butelka plastikowa, butelki plastikowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "88YY0J0V6",
+    "name": {
+      "pl": "butelka plastikowa po krecie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "H0VBYG43K",
+    "name": {
+      "pl": "butelka po napojach (plastikowa)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "2SKP13SOF",
+    "name": {
+      "pl": "butelka po lekach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "U7B8JI5VP"
+      }
+    ]
+  },
+  {
+    "id": "F81H9WW39",
+    "name": {
+      "pl": "butelka po syropie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "U7B8JI5VP"
+      }
+    ]
+  },
+  {
+    "id": "B2QK1WRMC",
+    "name": {
+      "pl": "butelka po szamponie (plastikowa)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "IILFIB2XJ",
+    "name": {
+      "pl": "butelka po zmywaczu do paznokci"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "ROJR69PSU",
+    "name": {
+      "pl": "butelki po olejach silnikowych"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IG44X8NFL"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "JXBWOH2MS",
+    "name": {
+      "pl": "butelka po wodzie, butelki po wodzie (plastikowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "ASD9L3TT6",
+    "name": {
+      "pl": "cebula"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "6XTQGKH8C",
+    "name": {
+      "pl": "cegła, cegły"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "7S8YR1GLQ",
+    "name": {
+      "pl": "cerata, ceraty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "UAD1FAFTO",
+    "name": {
+      "pl": "choinka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "NBC8HM0X7",
+    "name": {
+      "pl": "czajnik metalowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OW8XNCFGE",
+    "name": {
+      "pl": "czekolada"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "1BGERI7ZJ",
+    "name": {
+      "pl": "dachówka, dachówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "DX8XWDGEV",
+    "name": {
+      "pl": "deska bambusowa, deski bambusowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "MNVZNVEQ0",
+    "name": {
+      "pl": "dezodorant metalowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IG44X8NFL"
+      },
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "RE7DNJKP9",
+    "name": {
+      "pl": "dętka, dętki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      },
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "E0UC6OS50",
+    "name": {
+      "pl": "doniczka plastikowa, doniczki plastikowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "XIKWUKED1",
+    "name": {
+      "pl": "dyskietka, dyskietki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "SF9GA1MO7",
+    "name": {
+      "pl": "słoik po dżemie, słoiki po dżemie (szkoło bezbarwne)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "OBR3J0L4W",
+    "name": {
+      "pl": "firanka, firanki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "6NZ70SD1O",
+    "name": {
+      "pl": "flamaster, flamastery"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "0PA1NCUOA",
+    "name": {
+      "pl": "folia aluminiowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "QDBH9KZMO",
+    "name": {
+      "pl": "folia po parówce, folia po parówkach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "Y5XSI5KLA",
+    "name": {
+      "pl": "folia spożywcza"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "CE0ABCMSG",
+    "name": {
+      "pl": "folia z opakowania"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "1SOGKSP69",
+    "name": {
+      "pl": "folia, folie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "MX8D1V101",
+    "name": {
+      "pl": "fortepian"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "ZPEU1R6VD",
+    "name": {
+      "pl": "galanteria skórzana"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "S67W0VLHA",
+    "name": {
+      "pl": "gąbka, gąbki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "2BC7NIPP4",
+    "name": {
+      "pl": "gniazdo elektryczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "7T48PCPXA",
+    "name": {
+      "pl": "golarka, golarki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "FPTJQEL45",
+    "name": {
+      "pl": "grzałka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "692RZTQRY",
+    "name": {
+      "pl": "guma"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "2436OWOQ3",
+    "name": {
+      "pl": "gumka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ST1AHB4RV",
+    "name": {
+      "pl": "gumowe rękawice"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "OZTTOYIIY",
+    "name": {
+      "pl": "gumowy kabel, gumowe kable"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "KDMEAMKR0",
+    "name": {
+      "pl": "halogen, halogeny (całe lampy)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "9UE84E19Z",
+    "name": {
+      "pl": "igła, igły"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "U7B8JI5VP"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "5JR7GY7FZ",
+    "name": {
+      "pl": "jabłko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "CZES4LFAU",
+    "name": {
+      "pl": "jajko, jajka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "T3LWUORT4",
+    "name": {
+      "pl": "jarzeniówka, jarzeniówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "L4QE0POML"
+      }
+    ]
+  },
+  {
+    "id": "LVQPAYSIS",
+    "name": {
+      "pl": "jeansy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "KAYI48ZNZ",
+    "name": {
+      "pl": "kalafior"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "EUY1BXTJ3",
+    "name": {
+      "pl": "kalendarz"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "MR9AWTN2Q",
+    "name": {
+      "pl": "kalkulator"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "DGNHG93KT",
+    "name": {
+      "pl": "kaloryfer"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "EJKUUSCMB",
+    "name": {
+      "pl": "kalosze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "CJP6CK3NS",
+    "name": {
+      "pl": "karteczki samoprzylepne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "47VS1C3S6",
+    "name": {
+      "pl": "kartka, kartki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "J9JTFPFBB",
+    "name": {
+      "pl": "kartka pocztowa, kartki pocztowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "A0P1H9VD1",
+    "name": {
+      "pl": "kaseta magnetofonowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "B3SJVHZDL",
+    "name": {
+      "pl": "kawa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XPTO1XV6T",
+    "name": {
+      "pl": "kołdra"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "1CJUHQIL6",
+    "name": {
+      "pl": "koperta bąbelkowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9BDIDY1N5",
+    "name": {
+      "pl": "koperta z folią"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "B5F5982G9",
+    "name": {
+      "pl": "koperta, koperty (papierowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "TOS6BS0W8",
+    "name": {
+      "pl": "koperta z okienkiem, koperty z okienkami"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "M11EJGBPQ",
+    "name": {
+      "pl": "korkociąg"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "3EFX9UAIM",
+    "name": {
+      "pl": "opakowanie po kosmetykach, opakowania po kosmetykach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "VVM2DRBME",
+    "name": {
+      "pl": "kostka wc, kostki wc"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IG44X8NFL"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "1G00CXYI9",
+    "name": {
+      "pl": "koszyk plastikowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "0KD3L0VRC",
+    "name": {
+      "pl": "kran"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "E8UIKASJN",
+    "name": {
+      "pl": "kredka, kredki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BTQM4JJQZ",
+    "name": {
+      "pl": "krzesło, krzesła"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "HOGZGFN4C",
+    "name": {
+      "pl": "książka, książki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "5G5N4OM8T",
+    "name": {
+      "pl": "kwiaty sztuczne (plastikowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VKH8D4M95",
+    "name": {
+      "pl": "lakier do paznokci"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "V0I61KEBZ",
+    "name": {
+      "pl": "lakier do włosów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VCTQ0CH1D",
+    "name": {
+      "pl": "opakowanie po lakierze do włosów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "PD0PAPK0B",
+    "name": {
+      "pl": "lalka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "7U0DE5ECH",
+    "name": {
+      "pl": "lampa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "WZU82YF41",
+    "name": {
+      "pl": "lampy fluorescencyjne i zawierające rtęć"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "ZBMKM7W4Z",
+    "name": {
+      "pl": "lateks"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "DKKQAXOZR",
+    "name": {
+      "pl": "lewarek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "GPH8L1CCX",
+    "name": {
+      "pl": "lokówka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "VG4WX3GPC",
+    "name": {
+      "pl": "lornetka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "GBE8TIV40",
+    "name": {
+      "pl": "ładowarka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "WV9B2BN4L",
+    "name": {
+      "pl": "łożyska, łożysko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "94DGCIUL9",
+    "name": {
+      "pl": "łożyska toczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "B21RUDQUX",
+    "name": {
+      "pl": "marchewka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "JY4GED7N1",
+    "name": {
+      "pl": "masło, masła"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "NNAAEZVZT",
+    "name": {
+      "pl": "mata łazienkowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "MJ3EXNT49",
+    "name": {
+      "pl": "mąka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "7DCEB7ECR",
+    "name": {
+      "pl": "pokrywka metalowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "4XU5U5R6F",
+    "name": {
+      "pl": "zakrętka metalowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "3JLYNVJU6",
+    "name": {
+      "pl": "papier mokry"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "T66TRAEXZ",
+    "name": {
+      "pl": "nakrętki aluminiowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "0UEII1P28",
+    "name": {
+      "pl": "nalepki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "IKGZ2GG73",
+    "name": {
+      "pl": "namiot"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9FTY6V9PH",
+    "name": {
+      "pl": "narzędzia"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "1SESSNF87",
+    "name": {
+      "pl": "naświetlone klisze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "01WRJFE1K",
+    "name": {
+      "pl": "odświeżacz powietrza"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "7MSRTYGBR",
+    "name": {
+      "pl": "opakowanie po odświeżaczu do powietrza"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "HS4EJG0Y1",
+    "name": {
+      "pl": "okna, okno"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "XHKHA7XR7",
+    "name": {
+      "pl": "szyba"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "GTC8NU010",
+    "name": {
+      "pl": "opakowanie plastikowe po kosmetykach, opakowania plastikowe po kosmetykach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "8CRJPSBL4",
+    "name": {
+      "pl": "opakowanie plastikowe po lekach, opakowania plastikowe po lekach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "U7B8JI5VP"
+      }
+    ]
+  },
+  {
+    "id": "NL7ZJ55UI",
+    "name": {
+      "pl": "opakowanie po jajach, opakowania po jajach (plastikowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "GSCJLNBK2",
+    "name": {
+      "pl": "opakowanie po jogurtach, opakowania po jogurtach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "ARF0LD6AN",
+    "name": {
+      "pl": "opakowanie po batonach, opakowania po batonach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "KZ1SMN4L6",
+    "name": {
+      "pl": "opakowanie po paluszkach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "4IHRLTC1L",
+    "name": {
+      "pl": "opakowanie po papierosach (papierowa tekturka)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "7P9NRE7RH",
+    "name": {
+      "pl": "opakowanie po papierosach (folia i sreberko)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "1DHZRKEWS",
+    "name": {
+      "pl": "opakowanie po paście do zębów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "YGUKM7P29",
+    "name": {
+      "pl": "opakowanie po popcornie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "LXD8PFU8Q",
+    "name": {
+      "pl": "opakowanie po serze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "QB3NCCR1Z",
+    "name": {
+      "pl": "opakowanie po soku"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "0M7ASA47Q",
+    "name": {
+      "pl": "opakowanie po sosach (papierowo - metalowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "G9XE195JG",
+    "name": {
+      "pl": "opakowanie po śledziach (plastikowy pojemnik lub puszka)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "J3DVZ901G",
+    "name": {
+      "pl": "opakowanie po śmietanie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "BQ3ZD73UO",
+    "name": {
+      "pl": "opakowanie po zupie w proszku"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "WFWPDZP3Z",
+    "name": {
+      "pl": "opakowanie po chipsach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "S6B2M1GSG",
+    "name": {
+      "pl": "opakowanie ze sztywnej folii"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "U7RD8AR0M",
+    "name": {
+      "pl": "opona, opony"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "38MIVQUC0",
+    "name": {
+      "pl": "puszka po piwie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "5492SZC3P",
+    "name": {
+      "pl": "papierki po cukierkach (papierowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "NSYIKCAFL",
+    "name": {
+      "pl": "papierki po cukierkach (foliowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "RYV241STF",
+    "name": {
+      "pl": "pałeczka, pałeczki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "NMW7OX5D2",
+    "name": {
+      "pl": "papier (brudny)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "GRC4FITYF",
+    "name": {
+      "pl": "papier lakierowany"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "CAHTHGRZQ",
+    "name": {
+      "pl": "papier laminowany"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "3BSJ571QA",
+    "name": {
+      "pl": "papier po maśle"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9ZF3AWZIB",
+    "name": {
+      "pl": "papier po serze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "W66DHCGZN",
+    "name": {
+      "pl": "papier szary"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "90NJMKX2W",
+    "name": {
+      "pl": "papieros, papierosy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "LP0SHSCDY",
+    "name": {
+      "pl": "papierowy ręcznik (czysty)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "K38WC6XJG",
+    "name": {
+      "pl": "papierowy ręcznik (brudny)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "SY7H3080I",
+    "name": {
+      "pl": "paragon"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "LWN68S3GE",
+    "name": {
+      "pl": "parasol, parasolka, parasolki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "1MQIM0S8M",
+    "name": {
+      "pl": "parówka, parówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9NIU8E64R",
+    "name": {
+      "pl": "pasek skórzany"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "BNR2K34HY",
+    "name": {
+      "pl": "patelnia"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "UER5ZMM4K",
+    "name": {
+      "pl": "patyczek do uszu, patyczki do uszu"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "N608V9BGA",
+    "name": {
+      "pl": "flakon perfum, perfumy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      },
+      {
+        "id": "YGQP7RQOT"
+      }
+    ]
+  },
+  {
+    "id": "RFDMMVDWH",
+    "name": {
+      "pl": "pisak, pisaki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ES3WU92YQ",
+    "name": {
+      "pl": "plastelina"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "YVVIC4N61",
+    "name": {
+      "pl": "plomba"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XJFD9747U",
+    "name": {
+      "pl": "płyta wiórowa, płyty wiórowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "D8LWSFTBA",
+    "name": {
+      "pl": "poduszka, poduszki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "2X09M2QQA",
+    "name": {
+      "pl": "portmonetka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "24GK2ZY0D",
+    "name": {
+      "pl": "przykrywki garnków"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "B6COA676F",
+    "name": {
+      "pl": "pudełko po pizzy, pudełka po pizzy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "G0YQCPN2S",
+    "name": {
+      "pl": "rajstopy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "9288OLPJ5",
+    "name": {
+      "pl": "resztki jedzenia"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "UQIKERC87",
+    "name": {
+      "pl": "rolka po papierze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "BTFDBEBYC",
+    "name": {
+      "pl": "roślina, rośliny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "JZB96R9HQ",
+    "name": {
+      "pl": "rynna, rynny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "TIRC01FY0",
+    "name": {
+      "pl": "segregator, segregatory"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "OAYLNJZ50",
+    "name": {
+      "pl": "słuchawki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "XLHX0R5H4",
+    "name": {
+      "pl": "sofa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "1E91V1S1Z",
+    "name": {
+      "pl": "spray"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "FGEHDL2HO",
+    "name": {
+      "pl": "opakowania po sprayach"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "B0I165A80",
+    "name": {
+      "pl": "sreberka, sreberko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "6SC6TG9TN",
+    "name": {
+      "pl": "strzykawka, strzykawki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "U7B8JI5VP"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "MQFKOCI70",
+    "name": {
+      "pl": "suszarka do włosów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "UY6FXSQVY",
+    "name": {
+      "pl": "szafa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "B0CTAVANI",
+    "name": {
+      "pl": "szafka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "26N0KQLY3",
+    "name": {
+      "pl": "szczoteczka do zębów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "GF8D27F5L",
+    "name": {
+      "pl": "ścinki z niszczarki dokumentów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "9XT7U3984",
+    "name": {
+      "pl": "tablica korkowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "E6N5B577Q",
+    "name": {
+      "pl": "taśma klejąca"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "8QJPLV74T",
+    "name": {
+      "pl": "taśma pakowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VSAA10PWM",
+    "name": {
+      "pl": "tkaniny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "THKWR8LXZ",
+    "name": {
+      "pl": "walizka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "1L59T4J9H",
+    "name": {
+      "pl": "wał korbowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "724L3CQQD",
+    "name": {
+      "pl": "warzywa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "RU9J5SMXU",
+    "name": {
+      "pl": "wersalka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "43HIO84TY",
+    "name": {
+      "pl": "wiaderko po farbie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "HPHY60NNG",
+    "name": {
+      "pl": "wiadro"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "R0JIBBA10",
+    "name": {
+      "pl": "widokówka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "BEHOM2WJF",
+    "name": {
+      "pl": "wykałaczka, wykałaczki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XB4TPM8LQ",
+    "name": {
+      "pl": "zapalniczka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "78N0WIL2A",
+    "name": {
+      "pl": "zapałka, zapałki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ZXUYNO7K8",
+    "name": {
+      "pl": "zasłona"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "3DRIJ8F2F",
+    "name": {
+      "pl": "ziemia"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "MT9JQ6V1Z",
+    "name": {
+      "pl": "ziemniak, ziemniaki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "I3CHND818",
+    "name": {
+      "pl": "złotko po czekoladzie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "MFIR84I2J",
+    "name": {
+      "pl": "zmywacz"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "2MVJ3DU21",
+    "name": {
+      "pl": "żwirek dla kota"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "EHJ9BMA7R",
+    "name": {
+      "pl": "żyletka, żyletki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "8HCQJQDGF",
+    "name": {
+      "pl": "ubranie, ubrania"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "YPOSKV2HK",
+    "name": {
+      "pl": "mazak, mazaki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BWT8HEHWK",
+    "name": {
+      "pl": "tubka po paście, tubki po paście"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "72FVZPR9G",
+    "name": {
+      "pl": "laptop"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "2X4II9B8V",
+    "name": {
+      "pl": "makulatura"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "9ZUG3L9I2",
+    "name": {
+      "pl": "skarpety, skarpetki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "OIKB5YFXF",
+    "name": {
+      "pl": "teczka (plastikowa)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "H8ZZAK65Q",
+    "name": {
+      "pl": "teczka (papierowa)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "STI7Y84FF",
+    "name": {
+      "pl": "czapka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "IJJPMR2WT",
+    "name": {
+      "pl": "discman"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "4FXIW1XQT",
+    "name": {
+      "pl": "gąbka do naczyń, gąbki do naczyń"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "05OQS7XUA",
+    "name": {
+      "pl": "jajko, jaja, jajka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BXQRA15F5",
+    "name": {
+      "pl": "kąpielówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "3TTW46L0K",
+    "name": {
+      "pl": "konewka plastikowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "JTMG2SIXG",
+    "name": {
+      "pl": "koszulka, koszulki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "M4LJZR9MA",
+    "name": {
+      "pl": "kuchenka gazowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "2PW5W4ADT",
+    "name": {
+      "pl": "pestka, pestki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "H81DXDLEK",
+    "name": {
+      "pl": "płaszcz"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "UBNI0HZZT",
+    "name": {
+      "pl": "przeterminowana żywność"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "OZJFF8XI2",
+    "name": {
+      "pl": "serwetka, serwetki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "T3LQHYXCK",
+    "name": {
+      "pl": "sitko, sitka"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "ENBKFRAM6",
+    "name": {
+      "pl": "suszarka do naczyń"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "PPCXTIEHD",
+    "name": {
+      "pl": "tapczan"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "K0XFYDL5E",
+    "name": {
+      "pl": "wiaderko plastikowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "HPW43GQ3Z",
+    "name": {
+      "pl": "żarówka halogenowa"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ZXHO4AQHW",
+    "name": {
+      "pl": "halogen, halogeny (żarówki halogenowe)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "PX392SECL",
+    "name": {
+      "pl": "bidet"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "YOP3BNXKG",
+    "name": {
+      "pl": "biurko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "GC7Q643CV",
+    "name": {
+      "pl": "bojlery elektryczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "9Z74GYDFH",
+    "name": {
+      "pl": "butelki - szkło kolorowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "SWK1LRD8B",
+    "name": {
+      "pl": "meble"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "A9QGZYAZS",
+    "name": {
+      "pl": "obierki owoców"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "YLXAWDZU8",
+    "name": {
+      "pl": "złom (drobny złom)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "4IASBUXNX",
+    "name": {
+      "pl": "but, buty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "FNERLOUCI",
+    "name": {
+      "pl": "bilet, bilety"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "0700BEYFL",
+    "name": {
+      "pl": "blister, blistry"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "RSIL8NJMC",
+    "name": {
+      "pl": "błony filmowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XNGPHENEW",
+    "name": {
+      "pl": "bombki choinkowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "P7EKO9LI8",
+    "name": {
+      "pl": "chleb"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "KX6AG9BVL",
+    "name": {
+      "pl": "grzebień"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "OVFL8J9R3",
+    "name": {
+      "pl": "śrubokręt"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "RE40DMVXA",
+    "name": {
+      "pl": "kubek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VKTX9W1XW",
+    "name": {
+      "pl": "budyń"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "FC5OC9YIZ",
+    "name": {
+      "pl": "obuwie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "LW0WHLP8Y",
+    "name": {
+      "pl": "sreberko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "M2Z9LQEJQ",
+    "name": {
+      "pl": "cement"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "JTO3OCZHL",
+    "name": {
+      "pl": "chusteczki higieniczne (zużyte)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "4RKWCWJWW",
+    "name": {
+      "pl": "kuchenki elektryczne"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "3MM4FCMXU",
+    "name": {
+      "pl": "liście"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "79HVOSMQ5",
+    "name": {
+      "pl": "pestycydy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "YXZCUTNYR",
+    "name": {
+      "pl": "środki ochrony roślin"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "WKI6GQXI0",
+    "name": {
+      "pl": "termometry niertęciowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "Z0DFBUOQV",
+    "name": {
+      "pl": "termometry rtęciowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "RZCJPS8DS",
+    "name": {
+      "pl": "worki po cemencie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ZEJZIPN0F",
+    "name": {
+      "pl": "znicze z woskiem"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "9K3SKPTBP",
+    "name": {
+      "pl": "zużyty sprzęt elektryczny i elektroniczny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "AORQMX0ZX",
+    "name": {
+      "pl": "zwiędłe choinki żywe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "ZH1VB4FO0",
+    "name": {
+      "pl": "sztućce"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BC958C1IE",
+    "name": {
+      "pl": "wózek dziecięcy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "30A2TV2KM",
+    "name": {
+      "pl": "tłuszcz (spożywczy)"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "QYNSFVNOG",
+    "name": {
+      "pl": "olej spożywczy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "B6T6GXKLP",
+    "name": {
+      "pl": "odchody psów i kotów"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "8URC9XH0S",
+    "name": {
+      "pl": "chipsy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "P2R8XIPSG",
+    "name": {
+      "pl": "gruz po remoncie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "J5K5RHR3B",
+    "name": {
+      "pl": "klucz, klucze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "CSWP89UB7",
+    "name": {
+      "pl": "koc"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "QTJAJC3QC",
+    "name": {
+      "pl": "koszyczek po kostce do wc"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "WKOVGA9L7",
+    "name": {
+      "pl": "kości"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "79ZE5LE49",
+    "name": {
+      "pl": "popcorn"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "D8L2WHQR7",
+    "name": {
+      "pl": "porcelit"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "WYFLHSL8I",
+    "name": {
+      "pl": "pościel"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "4XLQG7UWH",
+    "name": {
+      "pl": "strecz"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "K75Z7M4QC",
+    "name": {
+      "pl": "smoczek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "TL578INF7",
+    "name": {
+      "pl": "widelec"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "US446Y2JO",
+    "name": {
+      "pl": "zdjęcie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "2TJ5R7MUM",
+    "name": {
+      "pl": "żywność"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "Z09M4BP4S",
+    "name": {
+      "pl": "pieczywo"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "C7K4LXBG1",
+    "name": {
+      "pl": "dętki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "Z6IM84VJV",
+    "name": {
+      "pl": "jedzenie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "VFDEBCP6H",
+    "name": {
+      "pl": "kino domowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "P2O7YAB5U",
+    "name": {
+      "pl": "sedes"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "UGX26U85W",
+    "name": {
+      "pl": "zwiędłe rośliny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "QE0URKFVH"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "1A966R28P",
+    "name": {
+      "pl": "zużyty długopis"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "E6VCBPLMU",
+    "name": {
+      "pl": "drewno"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "TOZ1VA0IE",
+    "name": {
+      "pl": "drzwi"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "A4JGXCCHW",
+    "name": {
+      "pl": "gwoźdź, gwoździe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "G2BCC537Z",
+    "name": {
+      "pl": "mydło"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "WIRP3D693",
+    "name": {
+      "pl": "odzież"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "X6ZO1J0BW",
+    "name": {
+      "pl": "pędzel, pędzelek, pędzle"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BJ09HNRHD",
+    "name": {
+      "pl": "tusz do rzęs"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "5IZUMK4TD",
+    "name": {
+      "pl": "wideo"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "S11Y4RT8Z",
+    "name": {
+      "pl": "spodnie"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "ZU697MS07",
+    "name": {
+      "pl": "dvd"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "N5S5VT0C7",
+    "name": {
+      "pl": "emulsje"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "UM6WPLEII",
+    "name": {
+      "pl": "filtry olejowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "6ZK1ASRDR",
+    "name": {
+      "pl": "fotele"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "TZRT7QDW9",
+    "name": {
+      "pl": "gresy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "S8POQ8YIN",
+    "name": {
+      "pl": "kieliszki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "6QSY5RVW2",
+    "name": {
+      "pl": "kleje"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "IPKRZPUWS",
+    "name": {
+      "pl": "komputer"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "4SQDPZ9AM",
+    "name": {
+      "pl": "leki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "U7B8JI5VP"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "882NT2Y47",
+    "name": {
+      "pl": "prospekty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "2YZ9BX1AD",
+    "name": {
+      "pl": "słoiki - szkło kolorowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "JCI1HZK6C"
+      }
+    ]
+  },
+  {
+    "id": "ZCD490AB4",
+    "name": {
+      "pl": "szkło stołowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "MJBA62GDP",
+    "name": {
+      "pl": "świetlówki, neonówki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "SBE1LHPPG",
+    "name": {
+      "pl": "telefon"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "E45GME4RF",
+    "name": {
+      "pl": "telefon komórkowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "8JALAUIUH",
+    "name": {
+      "pl": "telewizor"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "1IC1OL7C4",
+    "name": {
+      "pl": "toster"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "CE1X490A9",
+    "name": {
+      "pl": "tusze"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "X4JSI78U3",
+    "name": {
+      "pl": "zeszyty"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "RF9U5YJHM",
+    "name": {
+      "pl": "sprzęt RTV"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "RZMO70CPG",
+    "name": {
+      "pl": "rower"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "HKTIAVVPL",
+    "name": {
+      "pl": "rolety"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "MPUMHQZXG",
+    "name": {
+      "pl": "igły sosnowe"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "QE0URKFVH"
+      }
+    ]
+  },
+  {
+    "id": "DFARATEMA",
+    "name": {
+      "pl": "ołówek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "E72J1E545"
+      }
+    ]
+  },
+  {
+    "id": "XGB952XBQ",
+    "name": {
+      "pl": "felgi"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "FWWY2IRNJ"
+      },
+      {
+        "id": "BEL161OZD"
+      }
+    ]
+  },
+  {
+    "id": "QHGBV3NI9",
+    "name": {
+      "pl": "filtr oleju"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "IPJOOQWIW",
+    "name": {
+      "pl": "filtr węglowy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "YJPLJ9KCG",
+    "name": {
+      "pl": "korek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "IJ6K1RXO9",
+    "name": {
+      "pl": "kosmetyki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "3M2C7KIMB",
+    "name": {
+      "pl": "krem"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "DR2FT8H1N",
+    "name": {
+      "pl": "mięso"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "BW3TWZIM2",
+    "name": {
+      "pl": "młotek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "BGSP2MSDM",
+    "name": {
+      "pl": "ogórek, ogórki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "3FXUOLSOM",
+    "name": {
+      "pl": "ogryzek"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "LMOFL4KPS",
+    "name": {
+      "pl": "portfel"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "6EAQZ2IKV",
+    "name": {
+      "pl": "toner, tonery"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "SA5LPFJXN",
+    "name": {
+      "pl": "zlew"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "QN456UGIR",
+    "name": {
+      "pl": "mleko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "ZSCWLU8IQ",
+    "name": {
+      "pl": "sweter"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "X112395XP",
+    "name": {
+      "pl": "test"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "9AED6I0TW"
+      },
+      {
+        "id": "BEL161OZD"
+      }
+    ]
+  },
+  {
+    "id": "444FPBQ20",
+    "name": {
+      "pl": "sofy"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "3SLBOKPCA",
+    "name": {
+      "pl": "głośniki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "PX7I967VT",
+    "name": {
+      "pl": "gips"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "GOQKNPKSI",
+    "name": {
+      "pl": "jogurt"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "2CVFXYBML",
+    "name": {
+      "pl": "monitor"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "OIHFJDHZJ"
+      }
+    ]
+  },
+  {
+    "id": "D0UMZDR0B",
+    "name": {
+      "pl": "popiół"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "R2FUQ6PJO",
+    "name": {
+      "pl": "ulotki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "LA96WQQZR",
+    "name": {
+      "pl": "komiks"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "KPCXFHH6P"
+      }
+    ]
+  },
+  {
+    "id": "8PGM2M7WT",
+    "name": {
+      "pl": "koszyk z wikliny"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "BBW3W8I8B",
+    "name": {
+      "pl": "mrożonki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "XBUL6NWGF",
+    "name": {
+      "pl": "pilnik"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "O5SMP7MKF"
+      }
+    ]
+  },
+  {
+    "id": "JVSFH60F1",
+    "name": {
+      "pl": "pilot"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "OIHFJDHZJ"
+      },
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "8IUESKY1J",
+    "name": {
+      "pl": "zszywki"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "WT41WT97T",
+    "name": {
+      "pl": "łóżko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "927SJYQZQ",
+    "name": {
+      "pl": "tynk"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "4RETECDDH"
+      }
+    ]
+  },
+  {
+    "id": "TAGA159E1",
+    "name": {
+      "pl": "złotko"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "X243W92UE"
+      }
+    ]
+  },
+  {
+    "id": "S9BE3HMVD",
+    "name": {
+      "pl": "nylon"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "GXU346HO1",
+    "name": {
+      "pl": "opony"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  },
+  {
+    "id": "EW7YUZAPC",
+    "name": {
+      "pl": "stoły"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      },
+      {
+        "id": "5CQWNYA41"
+      }
+    ]
+  },
+  {
+    "id": "ZXEWFNZH0",
+    "name": {
+      "pl": "płot"
+    },
+    "description": {
+      "pl": ""
+    },
+    "categories": [
+      {
+        "id": "IS11DKEA5"
+      }
+    ]
+  }
+]
