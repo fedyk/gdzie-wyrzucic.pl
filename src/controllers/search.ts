@@ -65,7 +65,7 @@ function parseQueryParams(query: any) {
 /**
  * @see https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html
  */
-function buildWasteSearchParams(searchQuery: string, from = 0, size = 25): RequestParams.Search<> {
+function buildWasteSearchParams(searchQuery: string, from = 0, size = 25): RequestParams.Search {
   return {
     index: WASTES_INDEX,
     from: 0,
