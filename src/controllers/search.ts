@@ -1,26 +1,27 @@
 import { format } from "util";
-import { ParameterizedContext } from "koa";
+import { Middleware } from "koa";
 import { RequestParams } from "@elastic/elasticsearch";
 import { searchView } from "../views/search-view";
 import { AppContext, AppState, Waste, WasteCategory } from "../types";
 import { SearchHit } from "../elastic/types";
 import { WASTES_INDEX, CATEGORIES_INDEX } from "../elastic/constants";
 
-export async function search(ctx: ParameterizedContext<AppState, AppContext>) {
+export const search: Middleware<AppState, AppContext> = async function(ctx) {
   const query = parseQueryParams(ctx.request.query)
 
   if (query.q.length === 0) {
     return ctx.redirect("/")
   }
 
-  const { body: response } = await ctx.elastic.search(buildWasteSearchParams(query.q))
-  const categoryIds = parseSearchResultCategoryIds(response);
+  const response = await ctx.elastic.search(buildWasteSearchParams(query.q))
+
+  const categoryIds = parseSearchResultCategoryIds(response.body);
 
   const categories = await ctx.elastic.search(buildCategoriesSearchParams(categoryIds)).then(function ({ body }) {
     return parseCategories(body)
   })
 
-  const searchResults = buildSearchResults(response, categories);
+  const searchResults = buildSearchResults(response.body, categories);
 
   ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), query.q)
   ctx.state.headerQuery = query.q;
@@ -64,7 +65,7 @@ function parseQueryParams(query: any) {
 /**
  * @see https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html
  */
-function buildWasteSearchParams(searchQuery: string, from = 0, size = 25): RequestParams.Search {
+function buildWasteSearchParams(searchQuery: string, from = 0, size = 25): RequestParams.Search<> {
   return {
     index: WASTES_INDEX,
     from: 0,
@@ -72,7 +73,7 @@ function buildWasteSearchParams(searchQuery: string, from = 0, size = 25): Reque
     body: {
       query: {
         fuzzy: {
-          name: {
+          "name.pl": {
             value: searchQuery,
             fuzziness: "AUTO",
             prefix_length: 0
@@ -106,7 +107,11 @@ function parseSearchResultCategoryIds(searchResults): Set<string> {
     const categories = hit._source.categories;
 
     for (let j = 0; j < categories.length; j++) {
-      categoryIds.add(categories[j])
+      if (!categories[j].id) {
+        console.warn("category", categories[j], "has no id")
+      }
+
+      categoryIds.add(categories[j].id)
     }
   }
 
@@ -134,9 +139,9 @@ function buildSearchResults(searchResults: any, categories: Map<string, WasteCat
 
     return {
       id: id,
-      name: waste.name,
-      categories: waste.categories.map(function (id) {
-        const name = categories.has(id) ? categories.get(id).name : "Unknown"
+      name: waste.name.pl,
+      categories: waste.categories.map(function ({ id }) {
+        const name = categories.has(id) ? categories.get(id).name.pl : "Unknown"
   
         return {
           name

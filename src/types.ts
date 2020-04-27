@@ -17,15 +17,39 @@ export interface AppContext {
 export interface Waste {
   $version: 1
   id: string
-  name: string
-  description: string
-  categories: string[]
+  name: {
+    en: string,
+    de: string,
+    pl: string,
+    ua: string,
+    ru: string
+  }
+  description: {
+    en: string,
+    de: string,
+    pl: string,
+    ua: string,
+    ru: string
+  }
+  categories: {
+    id: string
+  }[]
 }
 
 export interface WasteCategory {
   $version: 1
   id: string
-  name: string
+  name: {
+    en: string,
+    de: string,
+    pl: string,
+    ua: string,
+    ru: string
+  }
   uiColor?: string
   uiBackground?: string
+}
+
+export interface MapPoint {
+  // TBD
 }
