@@ -14,24 +14,19 @@ interface Props {
 
 export function searchView(props: Props) {
   return /*html*/ `
-    <h1>Search ${escape(props.query)}</h1>
+    <div class="main-container">
+    ${props.results.length === 0 ? `<h4 class="text-center text-muted font-weight-light">Nothing found</h4>` : ``}
 
-    <div class="results">
-
-      ${props.results.length === 0 ? /*html*/`
-        <div class="empty-result">Nothing found</div>
-      ` : ``}
-
-      ${fastMapJoin(props.results, result => /*html*/`
-        <div class="result-item">
-          <h6 class="result-item-name">${escape(result.name)}</h6>
-          <div class="result-item-categories">
-            ${fastMapJoin(result.categories, category => /*html*/`
-              <span class="result-item-category">${escape(category.name)}</span>
-            `)}
-          </div>
+    ${fastMapJoin(props.results, result => /*html*/`
+      <p>
+        <h5>${escape(result.name)}</h6>
+        <div>
+          ${fastMapJoin(result.categories, category => /*html*/`
+            <a class="btn btn-sm btn-outline-primary" href="/search?q=${decodeURIComponent(category.name)}">${escape(category.name)}</a>
+          `)}
         </div>
-      `)}
+      </p>
+    `)}
     </div>
   `
 }

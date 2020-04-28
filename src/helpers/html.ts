@@ -5,46 +5,6 @@
 var has_own_property = Object.prototype.hasOwnProperty;
 
 /**
- * Merge two attribute objects giving precedence
- * to values in object `b`. Classes are special-cased
- * allowing for arrays and merging/joining appropriately
- * resulting in a string.
- *
- * @param {Object} a
- * @param {Object} b
- * @return {Object} a
- * @api private
- */
-export function merge(a: object | object[], b: object = null) {
-  if (arguments.length === 1) {
-    var attrs = a[0];
-    for (var i = 1; i < (a as object[]).length; i++) {
-      attrs = merge(attrs, a[i]);
-    }
-    return attrs;
-  }
-
-  let valA, valB;
-
-  for (var key in b) {
-    if (key === 'class') {
-      valA = a[key] || [];
-      a[key] = (Array.isArray(valA) ? valA : [valA]).concat(b[key] || []);
-    } else if (key === 'style') {
-      valA = style(a[key]);
-      valA = valA && valA[valA.length - 1] !== ';' ? valA + ';' : valA;
-      valB = style(b[key]);
-      valB = valB && valB[valB.length - 1] !== ';' ? valB + ';' : valB;
-      a[key] = valA + valB;
-    } else {
-      a[key] = b[key];
-    }
-  }
-
-  return a;
-};
-
-/**
  * Process array, object, or string as a string of classes delimited by a space.
  *
  * If `val` is an array, all members of it and its subarrays are counted as
@@ -62,7 +22,7 @@ export function merge(a: object | object[], b: object = null) {
  * @return {String}
  */
 
-function classes_array(val: any[], escaping) {
+function classes_array(val: any[], escaping: any) {
   var classString = '', className, padding = '', escapeEnabled = Array.isArray(escaping);
   for (var i = 0; i < val.length; i++) {
     className = classes(val[i]);
@@ -74,7 +34,7 @@ function classes_array(val: any[], escaping) {
   return classString;
 }
 
-function classes_object(val: object) {
+function classes_object(val: any) {
   var classString = '', padding = '';
   for (var key in val) {
     if (key && val[key] && has_own_property.call(val, key)) {
@@ -103,7 +63,7 @@ export function classes(val: string[] | Array<{string: boolean}> | string | obje
  */
 
 
-export function style(val) {
+export function style(val: any) {
   if (!val) return '';
   if (typeof val === 'object') {
     var out = '';
@@ -129,7 +89,7 @@ export function style(val) {
  * @return {String}
  */
 
-function attr(key, val, escaped = false, terse = false) {
+function attr(key: string, val: any, escaped = false, terse = false) {
   if (val === false || val == null || !val && (key === 'class' || key === 'style')) {
     return '';
   }
@@ -167,6 +127,7 @@ export function attrs(obj: object, escaped = true, terse = false) {
 
   for (var key in obj) {
     if (has_own_property.call(obj, key)) {
+      // @ts-ignore
       var val = obj[key];
 
       if ('class' === key) {
@@ -193,7 +154,7 @@ export function attrs(obj: object, escaped = true, terse = false) {
  */
 
 var match_html = /["&<>]/;
-export function escape(_html) {
+export function escape(_html: string) {
   var html = '' + _html;
   var regexResult = match_html.exec(html);
   if (!regexResult) return _html;

@@ -1,4 +1,4 @@
-import { ParameterizedContext } from "koa";
+import { ParameterizedContext, Middleware } from "koa";
 import { AppState, AppContext } from "../types";
 import { templateView } from "../views/template-view";
 
@@ -12,13 +12,11 @@ import { templateView } from "../views/template-view";
  * })
  * ```
  */
-export async function templateMiddleware(ctx: ParameterizedContext<AppState, AppContext>, next) {
+export const templateMiddleware: Middleware<AppState, AppContext> = async function(ctx, next) {
   ctx.state.title = ""   
   ctx.state.description = ""
   ctx.state.scripts = []
-  ctx.state.styles = [
-    "/css/main.css?1"
-  ];
+  ctx.state.styles = []
 
   await next()
 

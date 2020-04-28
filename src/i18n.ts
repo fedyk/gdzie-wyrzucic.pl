@@ -24,5 +24,6 @@ function i18n(phrase: string, lang: string) {
 
   const locale = locales.get(lang);
 
-  return locale && locale[phrase] || phrase;
+  // @ts-ignore
+  return locale ? locale[phrase] :  phrase;
 }

@@ -23,5 +23,5 @@ if (!process.env.ELASTICSEARCH_URL) {
 export const config: Config = {
   PORT: process.env.PORT || 3000,
   APP_KEYS: process.env.APP_KEYS || "",
-  ELASTICSEARCH_URL: process.env.ELASTICSEARCH_URL
+  ELASTICSEARCH_URL: process.env.ELASTICSEARCH_URL || ""
 };

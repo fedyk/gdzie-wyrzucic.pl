@@ -3,7 +3,8 @@
     "module": "commonjs",
     "outDir": "./dist",
     "target": "es2019",
-    "sourceMap": true
+    "sourceMap": true,
+    "strict": true
   },
   "include": [
     "./src/**/*"

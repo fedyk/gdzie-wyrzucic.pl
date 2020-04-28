@@ -25,7 +25,6 @@ export const search: Middleware<AppState, AppContext> = async function(ctx) {
 
   ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), query.q)
   ctx.state.headerQuery = query.q;
-  ctx.state.styles.push('/css/result.css');
   ctx.body = searchView({
     query: ctx.query.q,
     results: searchResults
@@ -98,7 +97,7 @@ function buildCategoriesSearchParams(categoryIds: Set<string>): RequestParams.Se
   }
 }
 
-function parseSearchResultCategoryIds(searchResults): Set<string> {
+function parseSearchResultCategoryIds(searchResults: any): Set<string> {
   const hits: SearchHit<Waste>[] = searchResults.hits.hits;
   const categoryIds = new Set<string>()
 
@@ -141,8 +140,9 @@ function buildSearchResults(searchResults: any, categories: Map<string, WasteCat
       id: id,
       name: waste.name.pl,
       categories: waste.categories.map(function ({ id }) {
-        const name = categories.has(id) ? categories.get(id).name.pl : "Unknown"
-  
+        const category = categories.get(id)
+        const name = category ?category.name.pl :  "Unknown category"
+
         return {
           name
         }

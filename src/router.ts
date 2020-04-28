@@ -7,5 +7,5 @@ import { templateMiddleware } from "./middlewares/template";
 
 export const router = new Router<AppState, AppContext>();
 
-router.get("/", templateMiddleware, welcome);
+router.get("/", templateMiddleware, layoutMiddleware, welcome);
 router.all("/search", templateMiddleware, layoutMiddleware, search);
