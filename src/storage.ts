@@ -1,5 +1,5 @@
 import * as fs from "fs"
-import * as Fuse from "fuse.js"
+import Fuse from "fuse.js"
 import * as config from "./config"
 import * as types from "./types"
 
@@ -14,8 +14,7 @@ if (!fs.existsSync(config.CATEGORIES_PATH)) {
 const wastes = require(config.WASTES_PATH) as types.Waste[]
 const categories = require(config.CATEGORIES_PATH) as types.WasteCategory[]
 const categoriesMap = new Map(categories.map(v => [v.id, v]))
-// @ts-ignore
-const fuse = new Fuse<types.Waste>(wastes, {
+const options = {
   includeScore: true,
   minMatchCharLength: 3,
   location: 0,
@@ -23,9 +22,11 @@ const fuse = new Fuse<types.Waste>(wastes, {
   distance: 100,
   useExtendedSearch: false,
   keys: ["name.pl"]
-});
+}
 
-export function search(query: string): Fuse.default.FuseResult<types.Waste>[] {
+const fuse = new Fuse<types.Waste, typeof options>(wastes, options);
+
+export function search(query: string): Fuse.FuseResult<types.Waste>[] {
   return fuse.search(query)
 }
 

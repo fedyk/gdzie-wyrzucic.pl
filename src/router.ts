@@ -1,4 +1,4 @@
-import * as Router from "koa-router";
+import Router from "koa-router";
 import { AppState, AppContext } from "./types";
 import { welcome } from "./controllers/welcome";
 import { search } from "./controllers/search";
