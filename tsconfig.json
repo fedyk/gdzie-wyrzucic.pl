@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "outDir": "./dist",
-    "target": "es2019",
-    "sourceMap": true,
-    "strict": true
+    "module": "CommonJS",
+    "outDir": "dist",
+    "target": "ES2015",
+    "strict": true,
+    "esModuleInterop": true
   },
   "include": [
-    "./src/**/*"
+    "src"
   ]
 }

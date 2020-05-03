@@ -1,8 +1,8 @@
-import * as Koa from "koa";
+import Koa from "koa";
 import { join } from "path";
-import * as serve from "koa-static";
-import * as helmet from "koa-helmet";
-import * as bodyParser from "koa-bodyparser";
+import serve from "koa-static";
+import helmet from "koa-helmet";
+import bodyParser from "koa-bodyparser";
 import { Client } from "@elastic/elasticsearch"
 import { i18Middleware } from "./i18n";
 import { router } from "./router";
