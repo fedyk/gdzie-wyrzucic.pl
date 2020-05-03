@@ -28,6 +28,7 @@
     "@types/koa-router": "^7.4.0",
     "@types/koa-static": "^4.0.1",
     "dotenv": "^8.2.0",
+    "fuse.js": "^5.2.3",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
     "koa-helmet": "^5.2.0",
