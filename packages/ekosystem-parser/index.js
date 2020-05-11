@@ -2,11 +2,15 @@ const fs = require("fs")
 const url = require("url")
 const https = require("https")
 const path = require("path")
+const assert = require("assert")
 const HTMLParser = require("node-html-parser")
 const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
 const productsPath = path.resolve(__dirname, "products.json")
 const categoriesPath = path.resolve(__dirname, "categories.json")
+const pointsTypesPath = path.resolve(__dirname, "points-types.json")
+const pointsPath = path.resolve(__dirname, "points.json")
+const pointsParsedPath = path.resolve(__dirname, "points-parsed.json")
 const wastesPath = path.resolve(__dirname, "wastes.json")
 const wastesCURLPath = path.resolve(__dirname, "wastes.curl")
 const [, , action] = process.argv;
@@ -16,9 +20,10 @@ Usage: node index.js <action>
 
 node index.js sync-phrases         fetch and save autocomplete results to file 'phases.json'
 node index.js sync-products        fetch and save phrase search results to 'products.json'
-node index.js sync-points          fetch and save map points to 'points.json'
 node index.js prepare-categories   extract categories from products
 node index.js prepare-wastes       extract wastes to PUT in ES
+node index.js sync-points          fetch and save map points to 'points.json'
+node index.js parse-points         parse fetched point and assign them with categories data, the output 'parsed-points.json'
 `
 
 switch (action) {
@@ -30,6 +35,9 @@ switch (action) {
 
   case "sync-points":
     return syncPoints()
+
+  case "parse-points":
+    return parsePoints()
 
   case "prepare-categories":
     return prepareCategories()
@@ -115,7 +123,6 @@ async function fetchPhrases() {
   return phrases;
 }
 
-
 async function getSearchPage(phrase) {
   const url = `https://ekosystem.wroc.pl/segregacja-odpadow/gdzie-wrzucic/?odpad=${encodeURIComponent(phrase)}`;
   const html = await get(url);
@@ -187,29 +194,140 @@ async function saveSearchResults() {
 }
 
 async function fetchPoints() {
-  const pointsTypes = require('./points-types.json');
+  const pointTypes = require(pointsTypesPath);
   const url = `https://mapa.ekosystem.wroc.pl/admin/admin-ajax.php`
   const results = new Map();
 
   // for (let i = 0; i < 1; i++) {
-  for (let i = 0; i < pointsTypes.length; i++) {
-    const pointsType = pointsTypes[i];
+  for (let i = 0; i < pointTypes.length; i++) {
+    const pointType = pointTypes[i];
+
+    if (typeof pointType !== "object") {
+      throw new Error("`pointType` should be an object")
+    }
+
+    const query = pointType.query
+
+    if (typeof query !== "string") {
+      throw new Error("`query` should be a string")
+    }
+
     const resp = await post(url, {
       action: "get-points",
-      "points[]": pointsType
+      "points[]": query
     })
-    const parsedResp = JSON.parse(resp);
-    const markers = parsedResp ? parsedResp.markers : void 0
+
+    let parserResponse
+
+    try {
+      parserResponse = JSON.parse(resp)
+    }
+    catch (err) {
+      console.error("fetchPoints", err)
+    }
+
+    const markers = parserResponse && parserResponse.markers || void 0;
 
     if (!Array.isArray(markers)) {
-      console.warn(pointsType, "has no markets")
+      console.warn(query, "has no markets")
     }
     else {
-      results.set(pointsType, markers);
+      results.set(query, markers);
     }
   }
 
   return results;
+}
+
+function parsePoints() {
+  const pointTypes = require(pointsTypesPath);
+  const pointsGroups = require(pointsPath)
+
+  /**
+   * @type {Map<query: string, categoryId: string>}
+   */
+  const pointTypesMap = new Map(pointTypes.map(v => [v.query, v.categoryId]))
+  const parsedPoints = new Map()
+
+  assert.ok(Array.isArray(pointsGroups), new Error("`points` should be an array"))
+
+  pointsGroups.forEach(function (pointGroup) {
+    assert.ok(Array.isArray(pointGroup), new Error("`pointGroup` should be an array"))
+    assert.ok(pointGroup.length === 2, new Error("`pointGroup` should be a ['categoryName', points[]]"))
+
+    const query = pointGroup[0]
+    const points = pointGroup[1]
+    const categoryId = pointTypesMap.get(query)
+
+    if (!categoryId) {
+      return console.warn("`pointGroup` with query", query, "has no defined categoryId")
+    }
+
+    assert.ok(Array.isArray(points), new Error("`points` should be an array"))
+
+    points.forEach(function (point) {
+      const name = point.title ? String(point.title).trim() : ""
+      const useInfoWindow = point.useInfoWindow && point.useInfoWindow.content || ""
+      const lat = point.position && point.position.lat ? Number(point.position.lat) : Number.NaN
+      const lng = point.position && point.position.lng ? Number(point.position.lng) : Number.NaN
+      const id = point.position && point.position.lat && point.position.lng ? `${point.position.lat}_${point.position.lng}` : null
+
+      if (Number.isNaN(lat)) {
+        return console.log("`point` has missed `lat`", point)
+      }
+
+      if (Number.isNaN(lng)) {
+        return console.log("`point` has missed `lng`", point)
+      }
+
+      if (!id) {
+        return console.warn("`point` has missed `id`", point)
+      }
+
+      if (name.length === 0) {
+        return console.log("`point` cannot have empty `title`", point)
+      }
+
+      if (useInfoWindow.length === 0) {
+        return console.log("`useInfoWindow` cannot be empty", point)
+      }
+
+      const html = HTMLParser.parse(useInfoWindow)
+      const h3 = html.querySelector("h3")
+      const heading = h3 ? h3.text.trim().replace(/\s\s+/g, ' ') : void 0
+      const p = html.querySelectorAll("p")
+      const address = p[0] ? p[0].text : heading
+
+      if (!address) {
+        console.log("`address` cannot be empty", point)
+      }
+
+      if (!parsedPoints.has(id)) {
+        parsedPoints.set(id, {
+          id,
+          name,
+          lat,
+          lng,
+          address,
+          category_ids: [categoryId]
+        })
+      }
+      else {
+        const parsedPoint = parsedPoints.get(id)
+
+        if (parsedPoint.name !== name) {
+          console.warn("parsed point", id, "and next similar point have different names", parsedPoint.name, name)
+        }
+
+        parsedPoint.category_ids.push(categoryId)
+      }
+    })
+  })
+
+  const values = Array.from(parsedPoints.values())
+  const data = JSON.stringify(values, null, 2)
+
+  fs.writeFileSync(pointsParsedPath, data)
 }
 
 /**
@@ -242,7 +360,7 @@ async function syncPoints() {
   const entries = Array.from(results.entries());
   const data = JSON.stringify(entries, null, 2);
 
-  fs.writeFileSync(__dirname + '/points.json', data)
+  fs.writeFileSync(pointsPath, data)
 }
 
 function prepareCategories() {
@@ -299,14 +417,14 @@ async function prepareWastes() {
   }
 
   // create map with `category-name` => `category-id`
-  categories.forEach(function(category) {
+  categories.forEach(function (category) {
     const name = category && category.name && category.name.pl
     const id = category && category.id
 
     if (!name) {
       return console.warn("`category`", category, "has empty name")
     }
-    
+
     if (!id) {
       return console.warn("`category`", category, "has empty id")
     }
@@ -318,7 +436,7 @@ async function prepareWastes() {
     throw new Error("`products` should be an array")
   }
 
-  products.forEach(function(product) {
+  products.forEach(function (product) {
     if (!Array.isArray(product)) {
       return console.warn("`product`", product, "should be an array")
     }
@@ -345,7 +463,7 @@ async function prepareWastes() {
       categories: []
     }
 
-    types.forEach(function(type) {
+    types.forEach(function (type) {
       const name = type.name
 
       if (!name) {
@@ -368,7 +486,7 @@ async function prepareWastes() {
     }
 
     wastes.push(waste)
-    wastesBulk.push(JSON.stringify({ index : { "_index" : "wastes", "_id" : waste.id } }))
+    wastesBulk.push(JSON.stringify({ index: { "_index": "wastes", "_id": waste.id } }))
     wastesBulk.push(JSON.stringify(waste))
   })
 

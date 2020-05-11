@@ -51,5 +51,11 @@ export interface WasteCategory {
 }
 
 export interface MapPoint {
-  // TBD
+  id: string
+  name: string
+  lat: number
+  lng: number
+  categoryNames: string[]
+  formattedOpeningHours: string
+  websiteUrl: string
 }

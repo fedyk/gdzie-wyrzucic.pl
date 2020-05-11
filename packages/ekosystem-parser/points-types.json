@@ -1,10 +1,34 @@
 [
-  "przeterminowane-leki",
-  "opakowania-na-zuzyte-igly-i-strzykawki",
-  "pszok",
-  "bok-ekosystem",
-  "papier",
-  "baterie",
-  "szklo",
-  "plastik"
+  {
+    "query": "przeterminowane-leki",
+    "categoryId": "U7B8JI5VP"
+  },
+  {
+    "query": "opakowania-na-zuzyte-igly-i-strzykawki",
+    "categoryId": "U7B8JI5V2"
+  },
+  {
+    "query": "pszok",
+    "categoryId": "IS11DKEA5"
+  },
+  {
+    "query": "bok-ekosystem",
+    "categoryId": "IS11DKEA5"
+  },
+  {
+    "query": "papier",
+    "categoryId": "KPCXFHH6P"
+  },
+  {
+    "query": "baterie",
+    "categoryId": "X9LLY100L"
+  },
+  {
+    "query": "szklo",
+    "categoryId": "JCI1HZK6C"
+  },
+  {
+    "query": "plastik",
+    "categoryId": "X243W92UE"
+  }
 ]
