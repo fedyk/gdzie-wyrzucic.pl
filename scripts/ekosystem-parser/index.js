@@ -13,7 +13,6 @@ const pointsTypesPath = path.resolve(__dirname, "points-types.json")
 const pointsPath = path.resolve(__dirname, "points.json")
 const pointsParsedPath = path.resolve(__dirname, "points-parsed.json")
 const wastesPath = path.resolve(__dirname, "wastes.json")
-const wastesCURLPath = path.resolve(__dirname, "wastes.curl")
 const [, , action] = process.argv;
 
 const help = `
@@ -409,8 +408,9 @@ async function prepareWastes() {
   const categories = require(categoriesPath)
   const products = require(productsPath)
   const wastes = []
-  const wastesBulk = []
   const categoryIdsMap = new Map()
+  const productNames = new Set()
+  const productIds = new Set()
 
   if (!Array.isArray(categories)) {
     throw new Error("`categories` should be an array")
@@ -418,7 +418,7 @@ async function prepareWastes() {
 
   // create map with `category-name` => `category-id`
   categories.forEach(function (category) {
-    const name = category && category.name && category.name.pl
+    const name = category && category.name || void 0
     const id = category && category.id
 
     if (!name) {
@@ -448,21 +448,31 @@ async function prepareWastes() {
       return console.warn("`name` of product", product, "should NOT be empty")
     }
 
+    if (productNames.has(name)) {
+      console.warn(`"product" with name "${name}" already was registered`)
+    }
+
+    productNames.add(name)
+
     if (!Array.isArray(types)) {
       return console.warn("`types` of product", product, "should be an array")
     }
 
-    const waste = {
-      id: Math.random().toString(36).substr(2, 9).toUpperCase(),
-      name: {
-        pl: name,
-      },
-      description: {
-        pl: ""
-      },
-      categories: []
+    const id = sha256(name).substr(0, 8).toUpperCase()
+
+    if (productIds.has(id)) {
+      console.warn(`"product" with id "${id}" already was registered`)
     }
 
+    productIds.add(id)
+
+    const waste = {
+      id: id,
+      name: name,
+      categoyIds: []
+    }
+
+    // parse waste categories
     types.forEach(function (type) {
       const name = type.name
 
@@ -476,24 +486,19 @@ async function prepareWastes() {
         return console.warn("cannot find id for", name)
       }
 
-      waste.categories.push({
-        id: id
-      })
+      waste.categoyIds.push(id)
     })
 
-    if (waste.categories.length === 0) {
+    if (waste.categoyIds.length === 0) {
       console.warn("`waste`", waste, "has empty categories")
     }
 
     wastes.push(waste)
-    wastesBulk.push(JSON.stringify({ index: { "_index": "wastes", "_id": waste.id } }))
-    wastesBulk.push(JSON.stringify(waste))
   })
 
   console.log("write result to", path.basename(wastesPath))
 
   fs.writeFileSync(wastesPath, JSON.stringify(wastes, null, 2))
-  fs.writeFileSync(wastesCURLPath, wastesBulk.join("\n"))
 }
 
 function sha256(str) {
