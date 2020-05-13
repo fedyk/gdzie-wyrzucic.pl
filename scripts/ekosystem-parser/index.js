@@ -3,6 +3,7 @@ const url = require("url")
 const https = require("https")
 const path = require("path")
 const assert = require("assert")
+const crypto = require("crypto")
 const HTMLParser = require("node-html-parser")
 const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
@@ -20,7 +21,7 @@ Usage: node index.js <action>
 
 node index.js sync-phrases         fetch and save autocomplete results to file 'phases.json'
 node index.js sync-products        fetch and save phrase search results to 'products.json'
-node index.js prepare-categories   extract categories from products
+node index.js prepare-categories   extract categories from the products(${path.basename(productsPath)})
 node index.js prepare-wastes       extract wastes to PUT in ES
 node index.js sync-points          fetch and save map points to 'points.json'
 node index.js parse-points         parse fetched point and assign them with categories data, the output 'parsed-points.json'
@@ -40,7 +41,7 @@ switch (action) {
     return parsePoints()
 
   case "prepare-categories":
-    return prepareCategories()
+    return parseCategories()
 
   case "prepare-wastes":
     return prepareWastes()
@@ -363,7 +364,7 @@ async function syncPoints() {
   fs.writeFileSync(pointsPath, data)
 }
 
-function prepareCategories() {
+function parseCategories() {
   const names = new Set()
   const categories = []
   const products = require(productsPath)
@@ -383,18 +384,17 @@ function prepareCategories() {
 
     for (let j = 0; j < types.length; j++) {
       const type = types[j];
+      const name = String(type.name).trim()
 
-      names.add(type.name)
+      names.add(name)
     }
   }
 
   // prepare categories
   for (const name of names) {
     categories.push({
-      id: Math.random().toString(36).substr(2, 9).toUpperCase(),
-      name: {
-        pl: name
-      }
+      id: sha256(name).substr(0, 8).toUpperCase(),
+      name: name
     })
   }
 
@@ -494,4 +494,12 @@ async function prepareWastes() {
 
   fs.writeFileSync(wastesPath, JSON.stringify(wastes, null, 2))
   fs.writeFileSync(wastesCURLPath, wastesBulk.join("\n"))
+}
+
+function sha256(str) {
+  const hash = crypto.createHash("sha256");
+
+  hash.update(str)
+
+  return hash.digest("hex")
 }
