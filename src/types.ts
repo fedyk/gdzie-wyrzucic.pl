@@ -1,3 +1,4 @@
+import * as Koa from "koa"
 import { Client } from "@elastic/elasticsearch";
 
 // TODO: split this interface
@@ -36,7 +37,7 @@ export interface Waste {
   }[]
 }
 
-export interface WasteCategory {
+export interface Category {
   $version: 1
   id: string
   name: {
@@ -58,4 +59,29 @@ export interface MapPoint {
   categoryNames: string[]
   formattedOpeningHours: string
   websiteUrl: string
+}
+
+
+
+export type Middleware = Koa.Middleware<AppState, AppContext>
+
+export interface Waste2 {
+  id: string
+  name: string,
+  categoryIds: string[]
+}
+
+export interface Category2 {
+  id: string
+  name: string,
+}
+
+export interface MapPoint_WIP {
+  id: string
+  name: string
+  lat: number
+  lng: number
+  // categoryNames: string[]
+  // formattedOpeningHours: string
+  // websiteUrl: string
 }

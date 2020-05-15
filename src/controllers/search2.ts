@@ -36,14 +36,14 @@ function parseQueryParams(query: any) {
 
 function buildSearchResults(hits: ReturnType<typeof storage.search>) {
   return hits.map(function (hit) {
-    const { id, name, categories } = hit.item
+    const { id, name, categoryIds } = hit.item
 
     return {
       id: id,
-      name: name.pl,
-      categories: categories.map(function ({ id }) {
-        const category = storage.getCategoryById(id)
-        const name = category ? category.name.pl : "Unknown category"
+      name: name,
+      categories: categoryIds.map(categoryId => {
+        const category = storage.getCategoryById(categoryId)
+        const name = category?.name ?? "Unknown category"
 
         return {
           name

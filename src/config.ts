@@ -3,9 +3,8 @@ import { config as dotenv } from "dotenv";
 
 dotenv({ path: __dirname + "/../.env" })
 
-export const DATA_PATH = path.resolve(__dirname, "../data/")
-export const WASTES_PATH = path.resolve(DATA_PATH, "wastes.json")
-export const CATEGORIES_PATH = path.resolve(DATA_PATH, "categories.json")
+export const WASTES_PATH = path.resolve(__dirname, "../data/wastes.json")
+export const CATEGORIES_PATH = path.resolve(__dirname, "../data/categories.json")
 
 interface Config {
   PORT: string | number;

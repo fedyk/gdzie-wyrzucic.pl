@@ -14,7 +14,7 @@ interface Props {
 
 export function searchView(props: Props) {
   return /*html*/ `
-    <div class="main-container">
+    <div class="main-container px-3">
     ${props.results.length === 0 ? `<h4 class="text-center text-muted font-weight-light">Nothing found</h4>` : ``}
 
     ${fastMapJoin(props.results, result => /*html*/`

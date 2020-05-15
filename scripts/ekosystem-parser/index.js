@@ -469,7 +469,7 @@ async function prepareWastes() {
     const waste = {
       id: id,
       name: name,
-      categoyIds: []
+      categoryIds: []
     }
 
     // parse waste categories
@@ -486,10 +486,10 @@ async function prepareWastes() {
         return console.warn("cannot find id for", name)
       }
 
-      waste.categoyIds.push(id)
+      waste.categoryIds.push(id)
     })
 
-    if (waste.categoyIds.length === 0) {
+    if (waste.categoryIds.length === 0) {
       console.warn("`waste`", waste, "has empty categories")
     }
 

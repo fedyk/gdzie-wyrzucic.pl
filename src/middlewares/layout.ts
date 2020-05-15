@@ -5,7 +5,7 @@ import { escape, attrs } from "../helpers/html";
 export const layoutMiddleware: Middleware<AppState, AppContext> = async function (ctx, next) {
   if (Array.isArray(ctx.state.styles)) {
     ctx.state.styles.push(
-      "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+      "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css",
       "/css/main.css"
     )
   }
@@ -14,7 +14,7 @@ export const layoutMiddleware: Middleware<AppState, AppContext> = async function
     ctx.state.scripts.push(
       "https://code.jquery.com/jquery-3.4.1.slim.min.js",
       "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
-      "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+      "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js",
     )
   }
 

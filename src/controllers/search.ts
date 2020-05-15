@@ -2,7 +2,7 @@ import { format } from "util";
 import { Middleware } from "koa";
 import { RequestParams } from "@elastic/elasticsearch";
 import { searchView } from "../views/search-view";
-import { AppContext, AppState, Waste, WasteCategory } from "../types";
+import { AppContext, AppState, Waste, Category } from "../types";
 import { SearchHit } from "../elastic/types";
 import { WASTES_INDEX, CATEGORIES_INDEX } from "../elastic/constants";
 
@@ -118,8 +118,8 @@ function parseSearchResultCategoryIds(searchResults: any): Set<string> {
 }
 
 function parseCategories(response: any) {
-  const hits: SearchHit<WasteCategory>[] = response.hits.hits
-  const categories = new Map<string, WasteCategory>()
+  const hits: SearchHit<Category>[] = response.hits.hits
+  const categories = new Map<string, Category>()
 
   for (let i = 0; i < hits.length; i++) {
     const hit = hits[i];
@@ -130,7 +130,7 @@ function parseCategories(response: any) {
   return categories;
 }
 
-function buildSearchResults(searchResults: any, categories: Map<string, WasteCategory>) {
+function buildSearchResults(searchResults: any, categories: Map<string, Category>) {
   const hits: SearchHit<Waste>[] = searchResults.hits.hits;
 
   return hits.map(function (hit) {
