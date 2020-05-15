@@ -33,17 +33,17 @@ switch (action) {
   case "sync-products":
     return syncProducts();
 
-  case "sync-points":
-    return syncPoints()
-
-  case "parse-points":
-    return parsePoints()
-
   case "prepare-categories":
     return parseCategories()
 
   case "prepare-wastes":
     return prepareWastes()
+
+  case "sync-points":
+    return syncPoints()
+
+  case "parse-points":
+    return parsePoints()
 
   default:
     console.log(help)
@@ -270,7 +270,9 @@ function parsePoints() {
       const useInfoWindow = point.useInfoWindow && point.useInfoWindow.content || ""
       const lat = point.position && point.position.lat ? Number(point.position.lat) : Number.NaN
       const lng = point.position && point.position.lng ? Number(point.position.lng) : Number.NaN
-      const id = point.position && point.position.lat && point.position.lng ? `${point.position.lat}_${point.position.lng}` : null
+      const id = point.position && point.position.lat && point.position.lng
+        ? sha256(`${point.position.lat}_${point.position.lng}`).substr(0, 8).toUpperCase()
+        : null;
 
       if (Number.isNaN(lat)) {
         return console.log("`point` has missed `lat`", point)
@@ -309,7 +311,7 @@ function parsePoints() {
           lat,
           lng,
           address,
-          category_ids: [categoryId]
+          categoryIds: [categoryId]
         })
       }
       else {
@@ -319,7 +321,7 @@ function parsePoints() {
           console.warn("parsed point", id, "and next similar point have different names", parsedPoint.name, name)
         }
 
-        parsedPoint.category_ids.push(categoryId)
+        parsedPoint.categoryIds.push(categoryId)
       }
     })
   })

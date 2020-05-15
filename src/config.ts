@@ -5,6 +5,7 @@ dotenv({ path: __dirname + "/../.env" })
 
 export const WASTES_PATH = path.resolve(__dirname, "../data/wastes.json")
 export const CATEGORIES_PATH = path.resolve(__dirname, "../data/categories.json")
+export const POINTS_PATH = path.resolve(__dirname, "../data/points.json")
 
 interface Config {
   PORT: string | number;

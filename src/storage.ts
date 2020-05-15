@@ -7,6 +7,7 @@ import * as types from "./types"
 
 const wastes = new Map<string, types.Waste2>()
 const categories = new Map<string, types.Category2>()
+const points = new Array<types.Point>()
 
 const fuse = new Fuse<types.Waste2, {}>([], {
   includeScore: true,
@@ -26,11 +27,25 @@ export function loadData() {
   if (!fs.existsSync(config.CATEGORIES_PATH)) {
     throw new Error("Cannot find a file " + path.basename(config.CATEGORIES_PATH))
   }
+  
+  if (!fs.existsSync(config.POINTS_PATH)) {
+    throw new Error("Cannot find a file " + path.basename(config.CATEGORIES_PATH))
+  }
 
   const wastesJSON = require(config.WASTES_PATH)
+  const categoriesJSON = require(config.CATEGORIES_PATH)
+  const pointsJSON = require(config.POINTS_PATH)
 
   if (!Array.isArray(wastesJSON)) {
     throw new Error("`wasteJSON` should be an array")
+  }
+
+  if (!Array.isArray(categoriesJSON)) {
+    throw new Error("`categoriesJSON` should be an array")
+  }
+
+  if (!Array.isArray(pointsJSON)) {
+    throw new Error("`pointsJSON` should be an array")
   }
 
   wastesJSON.forEach(v => {
@@ -41,23 +56,40 @@ export function loadData() {
     wastes.set(v.id, v)
   })
 
-  const categoriesJSON = require(config.CATEGORIES_PATH)
-
-  if (!Array.isArray(categoriesJSON)) {
-    throw new Error("`categoriesJSON` should be an array")
-  }
-
   categoriesJSON.forEach(v => {
     assert.ok(v)
     assert.ok(typeof v.id === "string")
     assert.ok(typeof v.name === "string")
     categories.set(v.id, v)
+  }) 
+  
+  pointsJSON.forEach(v => {
+    assert.ok(v)
+    assert.ok(typeof v.id === "string")
+    assert.ok(typeof v.name === "string")
+    assert.ok(typeof v.lat === "number")
+    assert.ok(typeof v.lng === "number")
+    assert.ok(typeof v.address === "string")
+    assert.ok(Array.isArray(v.categoryIds))
+    points.push(v.id, v)
   })
 
   /**
    * Test code for playing with search
    */
   fuse.setCollection(wastesJSON)
+}
+
+export function findWastesByCategory(categoryId: string) {
+  const result = new Array<types.Waste2>()
+
+  for (const waste of wastes.values()) {
+    if (waste.categoryIds.includes(categoryId)) {
+      result.push(waste)
+    }
+  }
+
+  return result
 }
 
 export function search(query: string): Fuse.FuseResult<types.Waste2>[] {

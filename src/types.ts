@@ -76,12 +76,11 @@ export interface Category2 {
   name: string,
 }
 
-export interface MapPoint_WIP {
+export interface Point {
   id: string
   name: string
   lat: number
   lng: number
-  // categoryNames: string[]
-  // formattedOpeningHours: string
-  // websiteUrl: string
+  address: string
+  categoryIds: string[]
 }
