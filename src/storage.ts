@@ -27,7 +27,7 @@ export function loadData() {
   if (!fs.existsSync(config.CATEGORIES_PATH)) {
     throw new Error("Cannot find a file " + path.basename(config.CATEGORIES_PATH))
   }
-  
+
   if (!fs.existsSync(config.POINTS_PATH)) {
     throw new Error("Cannot find a file " + path.basename(config.CATEGORIES_PATH))
   }
@@ -61,8 +61,8 @@ export function loadData() {
     assert.ok(typeof v.id === "string")
     assert.ok(typeof v.name === "string")
     categories.set(v.id, v)
-  }) 
-  
+  })
+
   pointsJSON.forEach(v => {
     assert.ok(v)
     assert.ok(typeof v.id === "string")
@@ -92,8 +92,8 @@ export function findWastesByCategory(categoryId: string) {
   return result
 }
 
-export function search(query: string): Fuse.FuseResult<types.Waste2>[] {
-  return fuse.search(query)
+export function search(query: string, limit = 25): Fuse.FuseResult<types.Waste2>[] {
+  return fuse.search(query, { limit: 25 }).sort((a, b) => (a?.score ?? 0) - (b?.score ?? 0))
 }
 
 export function getCategoryById(categoryId: string) {
