@@ -28,12 +28,12 @@
     "@types/koa-router": "^7.4.1",
     "@types/koa-static": "^4.0.1",
     "dotenv": "^8.2.0",
-    "fuse.js": "^6.0.0",
-    "koa": "^2.11.0",
+    "fuse.js": "^6.0.4",
+    "koa": "^2.12.1",
     "koa-bodyparser": "^4.3.0",
     "koa-helmet": "^5.2.0",
-    "koa-router": "^8.0.8",
+    "koa-router": "^9.0.1",
     "koa-static": "^5.0.0",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.5"
   }
 }
