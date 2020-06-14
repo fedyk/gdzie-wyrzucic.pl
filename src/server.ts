@@ -3,7 +3,6 @@ import { join } from "path";
 import serve from "koa-static";
 import helmet from "koa-helmet";
 import bodyParser from "koa-bodyparser";
-import { Client } from "@elastic/elasticsearch"
 import { i18Middleware } from "./i18n";
 import { router } from "./router";
 import { config } from "./config";
@@ -11,11 +10,7 @@ import { AppState, AppContext } from "./types";
 import { loadData } from "./storage";
 
 const app = new Koa<AppState, AppContext>();
-const elastic = new Client({
-  node: config.ELASTICSEARCH_URL
-})
 
-app.context.elastic = elastic;
 app.keys = config.APP_KEYS.split(";");
 app.use(helmet())
 app.use(bodyParser())

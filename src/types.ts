@@ -1,5 +1,4 @@
 import * as Koa from "koa"
-import { Client } from "@elastic/elasticsearch";
 
 // TODO: split this interface
 export interface AppState {
@@ -11,7 +10,6 @@ export interface AppState {
 }
 
 export interface AppContext {
-  elastic: Client;
   i18n(phrase: string): string;
 }
 
