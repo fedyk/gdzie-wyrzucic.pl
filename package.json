@@ -4,6 +4,7 @@
   "description": "Let's segregate waste properly",
   "main": "index.js",
   "scripts": {
+    "gcp-build": "tsc",
     "build": "tsc",
     "watch": "tsc --watch",
     "start": "node dist/server",
