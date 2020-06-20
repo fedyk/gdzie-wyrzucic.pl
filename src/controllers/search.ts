@@ -1,8 +1,8 @@
 import { format } from "util";
 import { Middleware } from "koa";
 import * as storage from "../storage"
-import { searchView } from "../views/search-view";
 import { AppContext, AppState } from "../types";
+import { fastMapJoin } from "../helpers/fast-map-join";
 
 export const search: Middleware<AppState, AppContext> = async function (ctx) {
   const query = parseQueryParams(ctx.request.query)
@@ -16,7 +16,7 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
 
   ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), query.q)
   ctx.state.headerQuery = query.q;
-  ctx.body = searchView({
+  ctx.body = render({
     query: ctx.query.q,
     results: searchResults
   })
@@ -51,4 +51,34 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
       })
     }
   })
+}
+
+interface Props {
+  query: string
+  results: {
+    id: string
+    name: string
+    categories: {
+      name: string
+    }[]
+  }[]
+}
+
+function render(props: Props) {
+  return /*html*/ `
+    <div class="main-container px-3">
+    ${props.results.length === 0 ? `<h4 class="text-center text-muted font-weight-light">Nothing found</h4>` : ``}
+
+    ${fastMapJoin(props.results, result => /*html*/`
+      <p>
+        <h5>${escape(result.name)}</h6>
+        <div>
+          ${fastMapJoin(result.categories, category => /*html*/`
+            <a class="btn btn-sm btn-outline-primary" href="/search?q=${decodeURIComponent(category.name)}">${escape(category.name)}</a>
+          `)}
+        </div>
+      </p>
+    `)}
+    </div>
+  `
 }

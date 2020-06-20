@@ -1,6 +1,7 @@
-import { ParameterizedContext, Middleware } from "koa";
+import { Middleware } from "koa";
 import { AppState, AppContext } from "../types";
-import { templateView } from "../views/template-view";
+import { fastMapJoin } from "../helpers/fast-map-join";
+import { stylesheet, script } from "../helpers/html";
 
 /**
  * @example
@@ -22,7 +23,7 @@ export const templateMiddleware: Middleware<AppState, AppContext> = async functi
 
   ctx.response.type = "html"
 
-  ctx.body = templateView({
+  ctx.body = render({
     title: ctx.state.title,
     description: ctx.state.description,
     scripts: ctx.state.scripts,
@@ -30,3 +31,27 @@ export const templateMiddleware: Middleware<AppState, AppContext> = async functi
     body: ctx.body,
   })
 }
+
+interface Props {
+  title: string;
+  description: string;
+  styles: string[];
+  scripts: string[];
+  body: string;
+}
+
+export const render = (props: Props) => `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <title>${escape(props.title)}</title>
+    ${props.description ? `<meta name="description" content="${escape(props.description)}">` : ""}
+    ${fastMapJoin(props.styles, (href => stylesheet(href)))}
+  </head>
+  <body>
+    ${props.body}
+    ${fastMapJoin(props.scripts, (src => script(src)))}
+  </body>
+</html>`
