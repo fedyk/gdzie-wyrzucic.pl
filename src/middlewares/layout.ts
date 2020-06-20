@@ -2,7 +2,7 @@ import { Middleware } from "koa";
 import { AppState, AppContext } from "../types";
 import { escape, attrs } from "../helpers/html";
 
-export const layoutMiddleware: Middleware<AppState, AppContext> = async function (ctx, next) {
+export const layout: Middleware<AppState, AppContext> = async function (ctx, next) {
   if (Array.isArray(ctx.state.styles)) {
     ctx.state.styles.push(
       "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css",
@@ -22,7 +22,7 @@ export const layoutMiddleware: Middleware<AppState, AppContext> = async function
 
   await next()
 
-  ctx.body = renderLayout({
+  ctx.body = render({
     body: ctx.body,
     query: ctx.state.headerQuery
   })
@@ -33,20 +33,20 @@ interface LayoutProps {
   body: string;
 }
 
-export const renderLayout = (props: LayoutProps) => `
-  ${renderLayoutHeader2(props.query)}
+export const render = (props: LayoutProps) => `
+  <div class="main-container">
+    <header>
+      <a href="/"><img class="d-block ml-auto mr-auto pt-3 pb-3" src="./img/logo.svg" /></a>
+    </header>
+    <form action="/search" method="GET">
+      <div class="input-group mb-3">
+        <input class="form-control" ${attrs({ name: "q", value: props.query, placeholder: "gdzie wyrzucic ...", type: "search" })} required="">
+        <div class="input-group-append">
+          <button class="btn btn-dark" type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
   ${props.body}
 `
-
-function renderLayoutHeader2(query: string) {
-  return /*html*/`
-    <div class="px-3 py-2 mb-3 bg-white border-bottom shadow-sm">
-      <div class="main-container">
-        <form action="/search" method="GET">
-          <input class="form-control form-control-lg d-block" type="search" name="q" ${attrs({ value: query, placeholder: "gdzie wyrzucic ..." })}>
-        </form>
-      </div>
-    </div>
-  `
-}
