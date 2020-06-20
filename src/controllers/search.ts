@@ -3,6 +3,7 @@ import { Middleware } from "koa";
 import * as storage from "../storage"
 import { AppContext, AppState } from "../types";
 import { fastMapJoin } from "../helpers/fast-map-join";
+import { escape } from "../helpers/html";
 
 export const search: Middleware<AppState, AppContext> = async function (ctx) {
   const query = parseQueryParams(ctx.request.query)
