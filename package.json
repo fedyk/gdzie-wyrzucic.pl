@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gcp-build": "tsc",
+    "deploy": "gcloud app deploy",
     "build": "tsc",
     "watch": "tsc --watch",
     "start": "node dist/server",
