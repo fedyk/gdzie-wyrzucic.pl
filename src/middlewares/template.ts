@@ -1,7 +1,7 @@
 import { Middleware } from "koa";
 import { AppState, AppContext } from "../types";
 import { fastMapJoin } from "../helpers/fast-map-join";
-import { stylesheet, script } from "../helpers/html";
+import { stylesheet, script, escape } from "../helpers/html";
 
 /**
  * @example
