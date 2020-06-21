@@ -10,8 +10,6 @@ import { renderView } from "../views";
 export const search: Middleware<AppState, AppContext> = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
 
-  console.log(queryParams)
-
   if (queryParams.query.length === 0) {
     return ctx.redirect("/")
   }
