@@ -1,7 +1,7 @@
 import { Middleware } from "koa";
 import { AppState, AppContext } from "../types";
 import { fastMapJoin } from "../helpers/fast-map-join";
-import { stylesheet, script, escape } from "../helpers/html";
+import { stylesheet, script, escapeHtml } from "../helpers/html";
 
 /**
  * @example
@@ -46,8 +46,8 @@ export const render = (props: Props) => `<!doctype html>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/img/favicon.png" type="image/png">
-    <title>${escape(props.title)}</title>
-    ${props.description ? `<meta name="description" content="${escape(props.description)}">` : ""}
+    <title>${escapeHtml(props.title)}</title>
+    ${props.description ? `<meta name="description" content="${escapeHtml(props.description)}">` : ""}
     ${fastMapJoin(props.styles, (href => stylesheet(href)))}
   </head>
   <body>

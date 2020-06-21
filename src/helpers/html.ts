@@ -27,7 +27,7 @@ function classes_array(val: any[], escaping: any) {
   for (var i = 0; i < val.length; i++) {
     className = classes(val[i]);
     if (!className) continue;
-    escapeEnabled && escaping[i] && (className = escape(className));
+    escapeEnabled && escaping[i] && (className = escapeHtml(className));
     classString = classString + padding + className;
     padding = ' ';
   }
@@ -110,7 +110,7 @@ function attr(key: string, val: any, escaped = false, terse = false) {
     }
   }
 
-  if (escaped) val = escape(val);
+  if (escaped) val = escapeHtml(val);
   return ' ' + key + '="' + val + '"';
 };
 
@@ -154,13 +154,18 @@ export function attrs(obj: object, escaped = true, terse = false) {
  */
 
 var match_html = /["&<>]/;
-export function escape(_html: string) {
+
+export function escapeHtml(_html: string) {
   var html = '' + _html;
   var regexResult = match_html.exec(html);
-  if (!regexResult) return _html;
+
+  if (!regexResult) {
+    return _html;
+  }
 
   var result = '';
   var i, lastIndex, escape;
+
   for (i = regexResult.index, lastIndex = 0; i < html.length; i++) {
     switch (html.charCodeAt(i)) {
       case 34: escape = '&quot;'; break;
@@ -169,12 +174,22 @@ export function escape(_html: string) {
       case 62: escape = '&gt;'; break;
       default: continue;
     }
-    if (lastIndex !== i) result += html.substring(lastIndex, i);
+    
+    if (lastIndex !== i) {
+      result += html.substring(lastIndex, i);
+    }
+
     lastIndex = i + 1;
+
     result += escape;
   }
-  if (lastIndex !== i) return result + html.substring(lastIndex, i);
-  else return result;
+
+  if (lastIndex !== i) {
+    return result + html.substring(lastIndex, i);
+  }
+  else {
+    return result;
+  }
 };
 
 

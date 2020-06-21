@@ -1,6 +1,6 @@
 import { Middleware } from "koa";
 import { AppState, AppContext } from "../types";
-import { escape, attrs } from "../helpers/html";
+import { escapeHtml, attrs } from "../helpers/html";
 
 export const layout: Middleware<AppState, AppContext> = async function (ctx, next) {
   if (Array.isArray(ctx.state.styles)) {

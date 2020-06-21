@@ -1,38 +1,33 @@
 import { format } from "util";
 import { Middleware } from "koa";
+import * as querystring from "querystring";
 import * as storage from "../storage"
 import { AppContext, AppState } from "../types";
 import { fastMapJoin } from "../helpers/fast-map-join";
-import { escape } from "../helpers/html";
+import { escapeHtml } from "../helpers/html";
 
 export const search: Middleware<AppState, AppContext> = async function (ctx) {
-  const query = parseQueryParams(ctx.request.query)
+  const queryParams = parseQueryParams(ctx.request.query)
 
-  if (query.q.length === 0) {
+  if (queryParams.query.length === 0) {
     return ctx.redirect("/")
   }
 
-  const hits = storage.search(query.q)
-  const searchResults = buildSearchResults(hits);
+  const hits = storage.search(queryParams.query)
 
-  ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), query.q)
-  ctx.state.headerQuery = query.q;
-  ctx.body = render({
-    query: ctx.query.q,
-    results: searchResults
-  })
+  ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), queryParams.query)
+  ctx.state.headerQuery = queryParams.query;
+  ctx.body = render(buildSearchResults(hits))
 }
 
-function parseQueryParams(query: any) {
-  const queryParams = {
-    q: "",
-  }
+function parseQueryParams(queryParams: any = {}) {
+  const query = queryParams?.q ? String(queryParams.q).trim() : ""
+  const categoryId = queryParams.cid ? String(queryParams.cid) : void 0
 
-  if (query && query.q) {
-    queryParams.q = String(query.q).trim()
+  return {
+    query,
+    categoryId
   }
-
-  return queryParams
 }
 
 function buildSearchResults(hits: ReturnType<typeof storage.search>) {
@@ -47,6 +42,7 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
         const name = category?.name ?? "Unknown category"
 
         return {
+          id: categoryId,
           name
         }
       })
@@ -54,32 +50,27 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
   })
 }
 
-interface Props {
-  query: string
-  results: {
-    id: string
-    name: string
-    categories: {
-      name: string
-    }[]
-  }[]
-}
-
-function render(props: Props) {
+function render(results: ReturnType<typeof buildSearchResults>) {
   return /*html*/ `
     <div class="main-container px-3">
-    ${props.results.length === 0 ? `<h4 class="text-center text-muted font-weight-light">Nothing found</h4>` : ``}
+    ${results.length === 0 ? `<h4 class="text-center text-muted font-weight-light">Nothing found</h4>` : ``}
 
-    ${fastMapJoin(props.results, result => /*html*/`
+    ${fastMapJoin(results, result => /*html*/`
       <p>
-        <h5>${escape(result.name)}</h6>
+        <h5>${escapeHtml(result.name)}</h6>
         <div>
-          ${fastMapJoin(result.categories, category => /*html*/`
-            <a class="btn btn-sm btn-outline-primary" href="/search?q=${decodeURIComponent(category.name)}">${escape(category.name)}</a>
-          `)}
+          ${fastMapJoin(result.categories, c => renderCategory(c.id, c.name))}
         </div>
       </p>
     `)}
     </div>
   `
+}
+
+function renderCategory(id: string, name: string) {
+  const query = querystring.stringify({
+    q: name,
+    cid: id,
+  })
+  return `<a class="btn btn-sm btn-outline-primary" href="/search?${query}">${escapeHtml(name)}</a>`
 }
