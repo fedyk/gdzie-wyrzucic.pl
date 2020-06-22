@@ -2,10 +2,11 @@ import { format } from "util";
 import { Middleware } from "koa";
 import * as querystring from "querystring";
 import * as storage from "../storage"
-import { AppContext, AppState, Category2 } from "../types";
+import { AppContext, AppState, Category2, Point } from "../types";
 import { fastMapJoin } from "../helpers/fast-map-join";
 import { escapeHtml } from "../helpers/html";
 import { renderView } from "../views";
+import { GOOGLE_MAPS_STATIC_API_KEY } from "../config";
 
 export const search: Middleware<AppState, AppContext> = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
@@ -16,6 +17,7 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
 
   if (queryParams.categoryId) {
     const category = storage.getCategoryById(queryParams.categoryId)
+    const points = storage.findPointsByCategoryId(queryParams.categoryId)
 
     if (!category) {
       return ctx.throw(new Error("Category does not exist"), 404)
@@ -23,7 +25,7 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
 
     ctx.state.title = format(ctx.i18n("Gdzie wyrzucić · %s"), queryParams.query)
     ctx.state.headerQuery = queryParams.query;
-    ctx.body = await renderCategory(category)
+    ctx.body = await renderCategory(category, points)
     return
   }
 
@@ -89,6 +91,18 @@ function renderCategoryItem(id: string, name: string) {
   return `<a class="btn btn-sm btn-outline-primary" href="/search?${query}">${escapeHtml(name)}</a>`
 }
 
-function renderCategory(category: Category2) {
-  return renderView("search/category.ejs", category)
+function renderCategory(category: Category2, points: Point[]) {
+  const markers = points.slice(0, 50).reduce((result, point) => result + "|" + point.lat + "," + point.lng, "color:red|size:small")
+  const mapUrl = "https://maps.googleapis.com/maps/api/staticmap?" + querystring.stringify({
+    center: points.length > 0 ? void 0 : "51.11328,17.0144343",
+    zoom: points.length > 0 ? void 0 : 13,
+    size: "600x300",
+    scale: 2,
+    maptype: "terrain",
+    key: GOOGLE_MAPS_STATIC_API_KEY,
+    markers: points.length > 0 ? markers : void 0,
+    format: "png",
+  })
+
+  return renderView("search/category.ejs", { category, points, mapUrl })
 }
