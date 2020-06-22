@@ -71,7 +71,7 @@ export function loadData() {
     assert.ok(typeof v.lng === "number")
     assert.ok(typeof v.address === "string")
     assert.ok(Array.isArray(v.categoryIds))
-    points.push(v.id, v)
+    points.push(v)
   })
 
   /**
@@ -98,4 +98,11 @@ export function search(query: string, limit = 25): Fuse.FuseResult<types.Waste2>
 
 export function getCategoryById(categoryId: string) {
   return categories.get(categoryId)
+}
+
+/** @todo: optimization is required */
+export function findPointsByCategoryId(categoryId: string) {
+  return points.filter(function(p) {
+    return p.categoryIds.includes(categoryId)
+  })
 }
