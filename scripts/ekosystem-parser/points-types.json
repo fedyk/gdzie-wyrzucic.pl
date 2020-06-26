@@ -1,27 +1,27 @@
 [
   {
     "query": "przeterminowane-leki",
-    "categoryId": "U7B8JI5VP"
+    "categoryId": "62B779E5"
   },
   {
     "query": "opakowania-na-zuzyte-igly-i-strzykawki",
-    "categoryId": "U7B8JI5V2"
+    "categoryId": "62B779E5"
   },
   {
     "query": "pszok",
-    "categoryId": "IS11DKEA5"
+    "categoryId": "DD95DF21"
   },
   {
     "query": "bok-ekosystem",
-    "categoryId": "IS11DKEA5"
+    "categoryId": "DD95DF21"
   },
   {
     "query": "papier",
-    "categoryId": "KPCXFHH6P"
+    "categoryId": "97113F89"
   },
   {
     "query": "baterie",
-    "categoryId": "X9LLY100L"
+    "categoryId": "E2103836"
   },
   {
     "query": "szklo",
@@ -29,6 +29,6 @@
   },
   {
     "query": "plastik",
-    "categoryId": "X243W92UE"
+    "categoryId": "E4060C87"
   }
 ]

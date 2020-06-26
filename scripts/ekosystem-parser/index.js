@@ -10,7 +10,7 @@ const cachedPhrases = require('./phrases.json');
 const productsPath = path.resolve(__dirname, "products.json")
 const categoriesPath = path.resolve(__dirname, "categories.json")
 const pointsTypesPath = path.resolve(__dirname, "points-types.json")
-const pointsPath = path.resolve(__dirname, "points.json")
+const pointsRawPath = path.resolve(__dirname, "points-raw.json")
 const pointsParsedPath = path.resolve(__dirname, "points-parsed.json")
 const wastesPath = path.resolve(__dirname, "wastes.json")
 const [, , action] = process.argv;
@@ -20,27 +20,27 @@ Usage: node index.js <action>
 
 node index.js sync-phrases         fetch and save autocomplete results to file 'phases.json'
 node index.js sync-products        fetch and save phrase search results to 'products.json'
-node index.js prepare-categories   extract categories from the products(${path.basename(productsPath)})
-node index.js prepare-wastes       extract wastes to PUT in ES
-node index.js sync-points          fetch and save map points to 'points.json'
+node index.js sync-points          fetch and save map points to 'points-raw.json'
+node index.js parse-categories     extract categories from 'products.json'
+node index.js parse-wastes         extract wastes to PUT in ES
 node index.js parse-points         parse fetched point and assign them with categories data, the output 'parsed-points.json'
 `
 
 switch (action) {
   case "sync-phrases":
-    return syncPhrases();
+    return syncPhrases()
 
   case "sync-products":
-    return syncProducts();
-
-  case "prepare-categories":
-    return parseCategories()
-
-  case "prepare-wastes":
-    return prepareWastes()
+    return syncProducts()
 
   case "sync-points":
     return syncPoints()
+
+  case "parse-categories":
+    return parseCategories()
+
+  case "parse-wastes":
+    return parseWastes()
 
   case "parse-points":
     return parsePoints()
@@ -123,7 +123,7 @@ async function fetchPhrases() {
   return phrases;
 }
 
-async function getSearchPage(phrase) {
+async function fetchSearchPage(phrase) {
   const url = `https://ekosystem.wroc.pl/segregacja-odpadow/gdzie-wrzucic/?odpad=${encodeURIComponent(phrase)}`;
   const html = await get(url);
 
@@ -172,7 +172,7 @@ function parsePhraseResults(html) {
   return results;
 }
 
-async function saveSearchResults() {
+async function fetchSearchResults() {
   const results = new Map();
 
   for (let i = 0; i < cachedPhrases.length; i++) {
@@ -180,7 +180,7 @@ async function saveSearchResults() {
 
     console.log("fetch & parse: %s", phrase)
 
-    const html = await getSearchPage(phrase);
+    const html = await fetchSearchPage(phrase);
     const parsedResults = parsePhraseResults(html);
 
     for (let j = 0; j < parsedResults.length; j++) {
@@ -241,23 +241,32 @@ async function fetchPoints() {
 
 function parsePoints() {
   const pointTypes = require(pointsTypesPath);
-  const pointsGroups = require(pointsPath)
+  const pointsRaw = require(pointsRawPath)
+  const categories = require(categoriesPath)
 
   /**
    * @type {Map<query: string, categoryId: string>}
    */
   const pointTypesMap = new Map(pointTypes.map(v => [v.query, v.categoryId]))
   const parsedPoints = new Map()
+  const categoriesMap = new Map(categories.map(v => [v.id, v.name]))
 
-  assert.ok(Array.isArray(pointsGroups), new Error("`points` should be an array"))
+  assert.ok(Array.isArray(pointsRaw), new Error("`points` should be an array"))
 
-  pointsGroups.forEach(function (pointGroup) {
+  pointsRaw.forEach(function (pointGroup) {
     assert.ok(Array.isArray(pointGroup), new Error("`pointGroup` should be an array"))
     assert.ok(pointGroup.length === 2, new Error("`pointGroup` should be a ['categoryName', points[]]"))
 
     const query = pointGroup[0]
     const points = pointGroup[1]
     const categoryId = pointTypesMap.get(query)
+
+    if (!categoriesMap.has(categoryId)) {
+      console.warn(
+        `WARN: category ${categoryId} does not exist in ${path.basename(categoriesPath)}. ` +
+        `Please check if 'query' ${query} has proper category in ${path.basename(pointsTypesPath)}`
+      )
+    }
 
     if (!categoryId) {
       return console.warn("`pointGroup` with query", query, "has no defined categoryId")
@@ -332,26 +341,29 @@ function parsePoints() {
   fs.writeFileSync(pointsParsedPath, data)
 }
 
-/**
- * Sync phrases from autocomplete
- */
+/** Sync phrases from autocomplete */
 async function syncPhrases() {
   const phrases = await fetchPhrases();
   const values = Array.from(phrases.values());
   const data = JSON.stringify(values, null, 2)
 
   fs.writeFileSync(__dirname + '/phrases.json', data)
+
+  console.log("Synced phrases")
+  console.log("Synced phrases to phrases.json")
 }
 
 /**
  * Sync phrases and it categories
  */
 async function syncProducts() {
-  const results = await saveSearchResults();
+  const results = await fetchSearchResults();
   const entries = Array.from(results.entries());
   const data = JSON.stringify(entries, null, 2);
 
   fs.writeFileSync(productsPath, data)
+
+  console.log("Synced products to", path.basename(productsPath))
 }
 
 /**
@@ -362,7 +374,9 @@ async function syncPoints() {
   const entries = Array.from(results.entries());
   const data = JSON.stringify(entries, null, 2);
 
-  fs.writeFileSync(pointsPath, data)
+  fs.writeFileSync(pointsRawPath, data)
+
+  console.log("Synced points to", path.basename(pointsRawPath))
 }
 
 function parseCategories() {
@@ -406,7 +420,7 @@ function parseCategories() {
   fs.writeFileSync(categoriesPath, result)
 }
 
-async function prepareWastes() {
+async function parseWastes() {
   const categories = require(categoriesPath)
   const products = require(productsPath)
   const wastes = []
