@@ -7,22 +7,22 @@ const crypto = require("crypto")
 const HTMLParser = require("node-html-parser")
 const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
-const productsPath = path.resolve(__dirname, "products.json")
+const productsRawPath = path.resolve(__dirname, "products-raw.json")
 const categoriesPath = path.resolve(__dirname, "categories.json")
 const pointsTypesPath = path.resolve(__dirname, "points-types.json")
 const pointsRawPath = path.resolve(__dirname, "points-raw.json")
 const pointsParsedPath = path.resolve(__dirname, "points-parsed.json")
-const wastesPath = path.resolve(__dirname, "wastes.json")
+const productsParsedPath = path.resolve(__dirname, "products-parsed.json")
 const [, , action] = process.argv;
 
 const help = `
 Usage: node index.js <action>
 
 node index.js sync-phrases         fetch and save autocomplete results to file 'phases.json'
-node index.js sync-products        fetch and save phrase search results to 'products.json'
+node index.js sync-products        fetch and save phrase search results to 'products-raw.json'
 node index.js sync-points          fetch and save map points to 'points-raw.json'
-node index.js parse-categories     extract categories from 'products.json'
-node index.js parse-wastes         extract wastes to PUT in ES
+node index.js parse-categories     extract categories from 'products-raw.json'
+node index.js parse-products       extract products from raw data
 node index.js parse-points         parse fetched point and assign them with categories data, the output 'parsed-points.json'
 `
 
@@ -39,8 +39,8 @@ switch (action) {
   case "parse-categories":
     return parseCategories()
 
-  case "parse-wastes":
-    return parseWastes()
+  case "parse-products":
+    return parseProducts()
 
   case "parse-points":
     return parsePoints()
@@ -330,7 +330,9 @@ function parsePoints() {
           console.warn("parsed point", id, "and next similar point have different names", parsedPoint.name, name)
         }
 
-        parsedPoint.categoryIds.push(categoryId)
+        if (!parsedPoint.categoryIds.includes(categoryId)) {
+          parsedPoint.categoryIds.push(categoryId)
+        }
       }
     })
   })
@@ -339,6 +341,8 @@ function parsePoints() {
   const data = JSON.stringify(values, null, 2)
 
   fs.writeFileSync(pointsParsedPath, data)
+
+  console.log("write result to", path.basename(pointsParsedPath))
 }
 
 /** Sync phrases from autocomplete */
@@ -361,9 +365,9 @@ async function syncProducts() {
   const entries = Array.from(results.entries());
   const data = JSON.stringify(entries, null, 2);
 
-  fs.writeFileSync(productsPath, data)
+  fs.writeFileSync(productsRawPath, data)
 
-  console.log("Synced products to", path.basename(productsPath))
+  console.log("Synced products to", path.basename(productsRawPath))
 }
 
 /**
@@ -382,7 +386,7 @@ async function syncPoints() {
 function parseCategories() {
   const names = new Set()
   const categories = []
-  const products = require(productsPath)
+  const products = require(productsRawPath)
 
   if (!Array.isArray(products)) {
     throw new Error("products should be an array")
@@ -413,6 +417,16 @@ function parseCategories() {
     })
   }
 
+  // custom category
+  {
+    const name = "Opakowania na zuzyte igly i strzykawki"
+
+    categories.push({
+      id: sha256(name).substr(0, 8).toUpperCase(),
+      name,
+    })
+  }
+
   const result = JSON.stringify(categories, null, 2)
 
   console.log("write result to", path.basename(categoriesPath))
@@ -420,9 +434,9 @@ function parseCategories() {
   fs.writeFileSync(categoriesPath, result)
 }
 
-async function parseWastes() {
+async function parseProducts() {
   const categories = require(categoriesPath)
-  const products = require(productsPath)
+  const products = require(productsRawPath)
   const wastes = []
   const categoryIdsMap = new Map()
   const productNames = new Set()
@@ -512,9 +526,27 @@ async function parseWastes() {
     wastes.push(waste)
   })
 
-  console.log("write result to", path.basename(wastesPath))
+  {
+    const iglyStrukawkiCategoryId = "8830C24C"
 
-  fs.writeFileSync(wastesPath, JSON.stringify(wastes, null, 2))
+    // check if hardcoded id is valid
+    if (!categories.find(c => c.id === "8830C24C")) {
+      console.warn("WARN: `iglyStrukawkiCategoryId` doesn't present in categories")
+    }
+    else {
+      const name = "Zuzyte igly i strzykawki"
+
+      wastes.push({
+        id: sha256(name).substr(0, 8).toUpperCase(),
+        name: name,
+        categoryIds: [iglyStrukawkiCategoryId]
+      })
+    }
+  }
+
+  console.log("write result to", path.basename(productsParsedPath))
+
+  fs.writeFileSync(productsParsedPath, JSON.stringify(wastes, null, 2))
 }
 
 function sha256(str) {
