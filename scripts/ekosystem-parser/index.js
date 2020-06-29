@@ -9,6 +9,7 @@ const querystring = require("querystring")
 const cachedPhrases = require('./phrases.json');
 const productsRawPath = path.resolve(__dirname, "products-raw.json")
 const categoriesPath = path.resolve(__dirname, "categories.json")
+const categoriesDuplicatePath = path.resolve(__dirname, "categories-duplicate.json")
 const pointsTypesPath = path.resolve(__dirname, "points-types.json")
 const pointsRawPath = path.resolve(__dirname, "points-raw.json")
 const pointsParsedPath = path.resolve(__dirname, "points-parsed.json")
@@ -387,6 +388,7 @@ function parseCategories() {
   const names = new Set()
   const categories = []
   const products = require(productsRawPath)
+  const categoriesDuplicate = require(categoriesDuplicatePath)
 
   if (!Array.isArray(products)) {
     throw new Error("products should be an array")
@@ -404,6 +406,11 @@ function parseCategories() {
     for (let j = 0; j < types.length; j++) {
       const type = types[j];
       const name = String(type.name).trim()
+
+      // this category already is added and duplicate is ignored
+      if (categoriesDuplicate[name]) {
+        continue
+      }
 
       names.add(name)
     }
@@ -436,6 +443,7 @@ function parseCategories() {
 
 async function parseProducts() {
   const categories = require(categoriesPath)
+  const categoriesDuplicate = require(categoriesDuplicatePath)
   const products = require(productsRawPath)
   const wastes = []
   const categoryIdsMap = new Map()
@@ -504,16 +512,26 @@ async function parseProducts() {
 
     // parse waste categories
     types.forEach(function (type) {
-      const name = type.name
+      let name = type.name
 
       if (!name) {
         return console.warn("`name` of product type", type, "cannot be empty")
+      }
+
+      // some category can be duplicated,
+      // to group them, use the name from `categoriesDuplicate`
+      if (categoriesDuplicate[name]) {
+        name = categoriesDuplicate[name]
       }
 
       const id = categoryIdsMap.get(name)
 
       if (!id) {
         return console.warn("cannot find id for", name)
+      }
+
+      if (waste.categoryIds.includes(id)) {
+        return console.warn(`WARN: "${waste.name} already has category with id "${id}""`)
       }
 
       waste.categoryIds.push(id)

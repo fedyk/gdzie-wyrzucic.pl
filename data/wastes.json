@@ -1752,7 +1752,6 @@
     "id": "D5D3DE35",
     "name": "tampony, tampon",
     "categoryIds": [
-      "0B2D3028",
       "F60E5C27"
     ]
   },
@@ -1760,7 +1759,6 @@
     "id": "2626D1DD",
     "name": "podpaski, podpaska",
     "categoryIds": [
-      "0B2D3028",
       "F60E5C27"
     ]
   },
@@ -1768,7 +1766,7 @@
     "id": "A44BEFF6",
     "name": "pudełka po zapałkach, pudełko po zapałkach",
     "categoryIds": [
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
@@ -1846,7 +1844,6 @@
     "id": "CFB1E358",
     "name": "jednorazowa maszynka do golenia, maszynki do golenia, maszynka do golenia",
     "categoryIds": [
-      "0B2D3028",
       "F60E5C27"
     ]
   },
@@ -1949,7 +1946,7 @@
     "id": "6EB155B6",
     "name": "puszka, puszki (brudne)",
     "categoryIds": [
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
@@ -1957,7 +1954,7 @@
     "name": "bryndza w plastikowym opakowaniu",
     "categoryIds": [
       "E4060C87",
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
@@ -2064,7 +2061,7 @@
     "name": "cerata, ceraty",
     "categoryIds": [
       "E4060C87",
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
@@ -2115,8 +2112,7 @@
     "id": "23857416",
     "name": "dętka, dętki",
     "categoryIds": [
-      "0B2D3028",
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
@@ -3861,7 +3857,7 @@
     "id": "456BC130",
     "name": "dętki",
     "categoryIds": [
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
@@ -4144,7 +4140,7 @@
     "id": "FF59B2C5",
     "name": "ołówek",
     "categoryIds": [
-      "0B2D3028"
+      "F60E5C27"
     ]
   },
   {
