@@ -13,6 +13,8 @@ export interface AppContext {
   i18n(phrase: string): string;
 }
 
+export type Middleware = Koa.Middleware<AppState, AppContext>
+
 export interface Waste {
   $version: 1
   id: string
@@ -58,10 +60,6 @@ export interface MapPoint {
   formattedOpeningHours: string
   websiteUrl: string
 }
-
-
-
-export type Middleware = Koa.Middleware<AppState, AppContext>
 
 export interface Waste2 {
   id: string

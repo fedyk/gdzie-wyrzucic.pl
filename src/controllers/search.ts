@@ -33,7 +33,9 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
 
   ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), queryParams.query)
   ctx.state.headerQuery = queryParams.query;
-  ctx.body = renderResults(buildSearchResults(hits))
+  ctx.body = await renderView("search/results.ejs", {
+    results: buildSearchResults(hits)
+  })
 }
 
 function parseQueryParams(queryParams: any = {}) {
@@ -56,9 +58,13 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
       categories: categoryIds.map(categoryId => {
         const category = storage.getCategoryById(categoryId)
         const name = category?.name ?? "Unknown category"
+        const query = querystring.stringify({
+          q: name,
+          cid: categoryId,
+        })
 
         return {
-          id: categoryId,
+          url: "/search?" + query,
           name
         }
       })
@@ -66,43 +72,23 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
   })
 }
 
-function renderResults(results: ReturnType<typeof buildSearchResults>) {
-  return /*html*/ `
-    <div class="main-container px-3">
-    ${results.length === 0 ? `<h4 class="text-center text-muted font-weight-light">Nothing found</h4>` : ``}
-
-    ${fastMapJoin(results, result => /*html*/`
-      <p>
-        <h6>${escapeHtml(result.name)}</h6>
-        <div>
-          ${fastMapJoin(result.categories, c => renderCategoryItem(c.id, c.name))}
-        </div>
-      </p>
-    `)}
-    </div>
-  `
-}
-
-function renderCategoryItem(id: string, name: string) {
-  const query = querystring.stringify({
-    q: name,
-    cid: id,
-  })
-  return `<a class="btn btn-sm btn-outline-primary" href="/search?${query}">${escapeHtml(name)}</a>`
-}
-
 function renderCategory(category: Category2, points: Point[]) {
-  const markers = points.slice(0, 50).reduce((result, point) => result + "|" + point.lat + "," + point.lng, "color:red|size:small")
-  const mapUrl = "https://maps.googleapis.com/maps/api/staticmap?" + querystring.stringify({
-    center: points.length > 0 ? void 0 : "51.11328,17.0144343",
-    zoom: points.length > 0 ? void 0 : 13,
+  const mapUrl = points.length > 0 ? getMapURL(points) : void 0
+
+  return renderView("search/category.ejs", { category, points, mapUrl })
+}
+
+function getMapURL(points: Point[]) {
+  const markers = points
+    .slice(0, 50)
+    .reduce((result, point) => result + "|" + point.lat + "," + point.lng, "color:red|size:small")
+
+  return "https://maps.googleapis.com/maps/api/staticmap?" + querystring.stringify({
     size: "600x300",
     scale: 2,
     maptype: "terrain",
     key: GOOGLE_MAPS_STATIC_API_KEY,
-    markers: points.length > 0 ? markers : void 0,
+    markers: markers,
     format: "png",
   })
-
-  return renderView("search/category.ejs", { category, points, mapUrl })
 }

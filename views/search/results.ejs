@@ -1,0 +1,14 @@
+<div class="main-container px-3">
+  <%_ if (results.length === 0) { -%>
+    <h5 class="text-center text-muted font-weight-light">Nothing found</h5>
+  <%_ } else { -%>
+    <%_ results.forEach(function(result) { -%>
+      <div class="h6"><%= result.name %></div>
+      <div class="mb-1">
+        <%_ result.categories.forEach(function(category) { -%>
+          <a class="btn btn-sm btn-outline-primary mb-2 mr-2" href="<%= category.url %>"><%= category.name %></a>
+        <%_ }) -%>
+      </div>
+    <%_ }) -%>
+  <%_ } -%>
+</div>

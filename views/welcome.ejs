@@ -1,0 +1,9 @@
+<div class="main-container text-center">
+  <nav class="my-2 my-md-0 mr-md-3">
+    <ul>
+      <% queries.forEach(function(query) { %>
+      <a class="p-2 d-block" href="<%= query.url %>"><%= query.text %></a>
+      <% }) %>
+    </ul>
+  </nav>
+</div>
