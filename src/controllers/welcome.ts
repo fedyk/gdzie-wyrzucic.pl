@@ -7,6 +7,14 @@ export const welcome: Middleware = async function (ctx) {
 
   ctx.body = await renderView("welcome.ejs", {
     queries: [
+      createQueryParams("opakowanie"),
+      createQueryParams("butelke"),
+      createQueryParams("choinke"),
+      createQueryParams("żarówke"),
+      createQueryParams("dywan"),
+      createQueryParams("sprzęt komputerowy"),
+      createQueryParams("leki"),
+      createQueryParams("płyta kompaktowa"),
       createQueryParams("baterie"),
       createQueryParams("maski"),
       createQueryParams("rękawiczki"),
