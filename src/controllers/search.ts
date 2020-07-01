@@ -3,8 +3,6 @@ import { Middleware } from "koa";
 import * as querystring from "querystring";
 import * as storage from "../storage"
 import { AppContext, AppState, Category2, Point } from "../types";
-import { fastMapJoin } from "../helpers/fast-map-join";
-import { escapeHtml } from "../helpers/html";
 import { renderView } from "../views";
 import { GOOGLE_MAPS_STATIC_API_KEY } from "../config";
 

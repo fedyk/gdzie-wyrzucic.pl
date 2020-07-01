@@ -1,7 +1,6 @@
 import { Middleware } from "koa";
 import { AppState, AppContext } from "../types";
-import { fastMapJoin } from "../helpers/fast-map-join";
-import { stylesheet, script, escapeHtml } from "../helpers/html";
+import { renderView } from "../views";
 
 /**
  * @example
@@ -13,7 +12,7 @@ import { stylesheet, script, escapeHtml } from "../helpers/html";
  * })
  * ```
  */
-export const templateMiddleware: Middleware<AppState, AppContext> = async function(ctx, next) {
+export const template: Middleware<AppState, AppContext> = async function(ctx, next) {
   ctx.state.title = ""   
   ctx.state.description = ""
   ctx.state.scripts = []
@@ -23,7 +22,7 @@ export const templateMiddleware: Middleware<AppState, AppContext> = async functi
 
   ctx.response.type = "html"
 
-  ctx.body = render({
+  ctx.body = await renderView("template.ejs", {
     title: ctx.state.title,
     description: ctx.state.description,
     scripts: ctx.state.scripts,
@@ -31,27 +30,3 @@ export const templateMiddleware: Middleware<AppState, AppContext> = async functi
     body: ctx.body,
   })
 }
-
-interface Props {
-  title: string;
-  description: string;
-  styles: string[];
-  scripts: string[];
-  body: string;
-}
-
-export const render = (props: Props) => `<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="/img/favicon.png" type="image/png">
-    <title>${escapeHtml(props.title)}</title>
-    ${props.description ? `<meta name="description" content="${escapeHtml(props.description)}">` : ""}
-    ${fastMapJoin(props.styles, (href => stylesheet(href)))}
-  </head>
-  <body>
-    ${props.body}
-    ${fastMapJoin(props.scripts, (src => script(src)))}
-  </body>
-</html>`

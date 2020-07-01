@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="/img/favicon.png" type="image/png">
+  <title><%= title %></title>
+  <%_ if (description) { -%>
+  <meta name="description" content="<%= description %>">
+  <%_ } %>
+  <%_ styles.forEach(function(style) { -%>
+  <link rel="stylesheet" href="<%= style %>">
+  <%_ }) -%>
+</head>
+
+<body>
+  <%- body -%>
+
+  <%_ scripts.forEach(function(script) { -%>
+  <script src="<%= script %>"></script>
+  <%_ }) -%>
+</body>
+
+</html>

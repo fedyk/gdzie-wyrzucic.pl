@@ -1,6 +1,5 @@
 import * as Koa from "koa"
 
-// TODO: split this interface
 export interface AppState {
   title?: string;
   headerQuery?: string;
@@ -14,52 +13,6 @@ export interface AppContext {
 }
 
 export type Middleware = Koa.Middleware<AppState, AppContext>
-
-export interface Waste {
-  $version: 1
-  id: string
-  name: {
-    en: string,
-    de: string,
-    pl: string,
-    ua: string,
-    ru: string
-  }
-  description: {
-    en: string,
-    de: string,
-    pl: string,
-    ua: string,
-    ru: string
-  }
-  categories: {
-    id: string
-  }[]
-}
-
-export interface Category {
-  $version: 1
-  id: string
-  name: {
-    en: string,
-    de: string,
-    pl: string,
-    ua: string,
-    ru: string
-  }
-  uiColor?: string
-  uiBackground?: string
-}
-
-export interface MapPoint {
-  id: string
-  name: string
-  lat: number
-  lng: number
-  categoryNames: string[]
-  formattedOpeningHours: string
-  websiteUrl: string
-}
 
 export interface Waste2 {
   id: string
