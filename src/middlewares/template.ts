@@ -7,7 +7,7 @@ import { renderView } from "../views";
  * 
  * Code:
  * ```
- * router.get("/", templateMiddleware, async (ctx) => {
+ * router.get("/", template, async (ctx) => {
  *   ctx.body = "Hello";
  * })
  * ```
