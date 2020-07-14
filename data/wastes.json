@@ -3297,6 +3297,9 @@
     "id": "970F013F",
     "name": "ubranie, ubrania",
     "categoryIds": [
+      "3e1f50db",
+      "690b3fcc",
+      "60702fea",
       "1ACFC3B0",
       "DD95DF21"
     ]

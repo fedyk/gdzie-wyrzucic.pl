@@ -100,6 +100,18 @@ export function getCategoryById(categoryId: string) {
   return categories.get(categoryId)
 }
 
+export function getCategoriesIds() {
+  return Array.from(categories.keys())
+}
+
+export function getWastesIds() {
+  return Array.from(wastes.keys())
+}
+
+export function getWastesById(wasteid: string) {
+  return wastes.get(wasteid)
+}
+
 /** @todo: optimization is required */
 export function findPointsByCategoryId(categoryId: string) {
   return points.filter(function(p) {

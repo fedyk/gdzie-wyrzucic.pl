@@ -9993,5 +9993,1825 @@
     "categoryIds": [
       "E4060C87"
     ]
+  },
+  {
+    "id": "cefcfa47",
+    "name": "Schronisko dla Mężczyzn",
+    "lat": 51.0836836,
+    "lng": 17.0674079,
+    "address": "ul. bp. Bogedaina 5\n 50-514 Wrocław",
+    "categoryIds": [
+      "60702fea"
+    ]
+  },
+  {
+    "id": "b94108f4",
+    "name": "Schronisko dla Kobiet",
+    "lat": 51.1139275,
+    "lng": 16.9967669,
+    "address": "ul. Strzegomska 9, 53-611 Wrocław",
+    "categoryIds": [
+      "60702fea"
+    ]
+  },
+  {
+    "id": "ad181c87",
+    "name": "Noclegownia dla Mężczyzn",
+    "lat": 51.097891,
+    "lng": 17.0404813,
+    "address": "ul. Małachowskiego 15, 50-848 Wrocław",
+    "categoryIds": [
+      "60702fea"
+    ]
+  },
+  {
+    "id": "1E1FA4C9",
+    "name": "H&M, Marszałkowska",
+    "lat": 52.23093,
+    "lng": 21.01144,
+    "address": "ul. Marszalkowska 104/122, 00-017, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "72AF9178",
+    "name": "H&M, Wola Park",
+    "lat": 52.2413843,
+    "lng": 20.9312364,
+    "address": "ul. Górczewska 124, 01-460, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "527C52A8",
+    "name": "H&M, Atrium Reduta",
+    "lat": 52.2125406,
+    "lng": 20.9515792,
+    "address": "Aleje Jerozolimskie 148, 02-326, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9EA000C7",
+    "name": "H&M, Stary Browar",
+    "lat": 52.40164,
+    "lng": 16.9272,
+    "address": "ul. Półwiejska 32, Poznań, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "25D0AAE1",
+    "name": "H&M, Centrum Janki",
+    "lat": 52.134109,
+    "lng": 20.888499,
+    "address": "ul. Mszczonowska 3, 05-090, Janki k/Warszawy",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "1353F017",
+    "name": "H&M, CH Galaxy",
+    "lat": 53.4343,
+    "lng": 14.55504,
+    "address": "Al. Wyzwolenia 18, 70-554, Szczecin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "41DB9D84",
+    "name": "H&M, DH Merkury",
+    "lat": 51.1081921,
+    "lng": 17.0322989,
+    "address": "ul. Świdnicka 7, 50-064, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "D1FC8FCA",
+    "name": "H&M, CH Manhattan",
+    "lat": 54.37746474254882,
+    "lng": 18.60829952803442,
+    "address": "ul. Grunwaldzka 82, 80-252, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "D20376DF",
+    "name": "H&M, CH Alfa",
+    "lat": 54.40446571694857,
+    "lng": 18.58850083196523,
+    "address": "ul. Kołobrzeska 41C, 80-391, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "18B8F71A",
+    "name": "H&M, CH Arkadia",
+    "lat": 52.25802,
+    "lng": 20.98305,
+    "address": "Al. Jana Pawła II 82, 01-501, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "CE536F0D",
+    "name": "H&M, CH Klif",
+    "lat": 54.47529442874922,
+    "lng": 18.55190895578596,
+    "address": "Aleja Zwycięstwa 256, 81-525, Gdynia",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "0614EAF0",
+    "name": "H&M, Centrum Handlowe Złote Tarasy",
+    "lat": 52.230004,
+    "lng": 21.003408,
+    "address": "ul. Złota 59, 00-120, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "EDC5E048",
+    "name": "H&M, Galeria Kazimierz",
+    "lat": 50.053412,
+    "lng": 19.95582,
+    "address": "ul. Podgórska 34, 31-536, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "0FBED308",
+    "name": "H&M, CH M1 Czeladź",
+    "lat": 50.318832,
+    "lng": 19.105564,
+    "address": "Będzińska 80, 41-250, Czeladź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "01DA6B21",
+    "name": "H&M, H&M Stawowa",
+    "lat": 50.260123,
+    "lng": 19.017994,
+    "address": "Stawowa 9, 40-095, Katowice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "5CFDAD00",
+    "name": "H&M, Centrum Handlowe Manufaktura",
+    "lat": 51.779856,
+    "lng": 19.446142,
+    "address": "ul. Karskiego 5, 91-071, Łódź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C6125292",
+    "name": "H&M, CH M1 Kraków",
+    "lat": 50.063696,
+    "lng": 20.000397,
+    "address": "Al. Pokoju 67, 31-580, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "5DFB1E1F",
+    "name": "H&M, CH M1",
+    "lat": 52.38182,
+    "lng": 16.99403,
+    "address": "ul. Szwajcarska 14, 61-285, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "E90746AB",
+    "name": "H&M, Centrum Handlowe Aura",
+    "lat": 53.77752334004569,
+    "lng": 20.4827065490781,
+    "address": "Aleja Piłsudskiego 16, 10-576, Olsztyn",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "360BFA8F",
+    "name": "H&M, CH King Cross Marcellin",
+    "lat": 52.41082,
+    "lng": 16.8615168,
+    "address": "ul. Bukowska 156, 60-196, Poznan",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "AADDE4A0",
+    "name": "H&M, Park Handlowy Matarnia",
+    "lat": 54.37237681815681,
+    "lng": 18.51902054613322,
+    "address": "ul. Złota Karczma 26, 80-298, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "33F2C882",
+    "name": "H&M, CH Plaza",
+    "lat": 52.44068,
+    "lng": 16.91914,
+    "address": "ul. K.Drużbickiego 2, 61-692, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "7FE625BD",
+    "name": "H&M, Galeria Krakowska",
+    "lat": 50.06624,
+    "lng": 19.946652,
+    "address": "Pawia 5, 31-154, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "963E840B",
+    "name": "H&M, CH Plejada Sosnowiec",
+    "lat": 50.290594,
+    "lng": 19.152635,
+    "address": "ul. Staszica 8, 41-200, Sosnowiec",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "429BB59B",
+    "name": "H&M, CH M1 Zabrze",
+    "lat": 50.317189,
+    "lng": 18.750347,
+    "address": "ul. Plutonowego R. Szkubacza 1, 41-800, Zabrze",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C8CAD65F",
+    "name": "H&M, CH Trzy Stawy",
+    "lat": 50.242778,
+    "lng": 19.036809,
+    "address": "Pułaskiego 60, 40-289, Katowice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C1E14A87",
+    "name": "H&M, Galeria Pomorska",
+    "lat": 53.12524720776188,
+    "lng": 18.06707739222873,
+    "address": "ul. Fordońska 141, 85-739, Bydgoszcz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "BDA30D5E",
+    "name": "H&M, Atrium Copernicus",
+    "lat": 53.025522,
+    "lng": 18.636331,
+    "address": "ul.Żółkiewskiego 15, 87-100, Toruń",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "5D25961F",
+    "name": "H&M, CH Plaza Rybnik",
+    "lat": 50.096053,
+    "lng": 18.537209,
+    "address": "Raciborska 16, 44-200, Rybnik",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "19400714",
+    "name": "H&M, Atrium Plejada",
+    "lat": 50.346688,
+    "lng": 18.849681,
+    "address": "Al. Jana Nowaka Jeziorańskiego 25, 41-923, Bytom",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "683FE098",
+    "name": "H&M, CH Pasaż Grunwaldzki",
+    "lat": 51.11268,
+    "lng": 17.0591,
+    "address": "Plac Grunwaldzki 22, 50-377, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "7E846822",
+    "name": "H&M, CH Plaza Lublin",
+    "lat": 51.24469,
+    "lng": 22.55131,
+    "address": "ul. Lipowa 13, 20-030, Lublin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "455FAFD6",
+    "name": "H&M, Atrium Biała",
+    "lat": 53.122818,
+    "lng": 23.178355,
+    "address": "ul. Czesława Miłosza 2, 15-265, Białystok",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "6460180F",
+    "name": "H&M, CH Forum Gliwice",
+    "lat": 50.300197,
+    "lng": 18.682372,
+    "address": "Lipowa 1, 44-100, Gliwice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B5929A91",
+    "name": "H&M, Auchan Piaseczno",
+    "lat": 52.096745,
+    "lng": 21.022828,
+    "address": "ul. Puławska 46, 05-500, Piaseczno",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "DE12E4EB",
+    "name": "H&M, Arkady Wrocławskie",
+    "lat": 51.09986,
+    "lng": 17.02841,
+    "address": "ul. Powstańców Śl. 2-4, 53-332, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "6A5B92ED",
+    "name": "H&M, Galeria Bałtycka",
+    "lat": 54.38214152047271,
+    "lng": 18.60136850489664,
+    "address": "ul. Grunwaldzka 141, 80-264, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "8AF09875",
+    "name": "H&M, Galeria Graffica",
+    "lat": 50.035575,
+    "lng": 21.997019,
+    "address": "Lisa Kuli 19, 35-025, Rzeszów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C162827D",
+    "name": "H&M, Galeria Łódzka",
+    "lat": 51.75942,
+    "lng": 19.465563,
+    "address": "Aleja Piłsudskiego 15/23, 90-307, Łódź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "897A603C",
+    "name": "H&M, Focus Park Bydgoszcz",
+    "lat": 53.12473972315281,
+    "lng": 18.01783390854575,
+    "address": "ul. Jagiellońska 39, 85-097, Bydgoszcz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "75C702E2",
+    "name": "H&M, CH Port rumia",
+    "lat": 54.58629373017621,
+    "lng": 18.37105718458474,
+    "address": "ul. Grunwaldzka 108, 84-230, Rumia",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F1B7CB55",
+    "name": "H&M, Centrum Handlowe Alfa Białystok",
+    "lat": 53.12549,
+    "lng": 23.169018,
+    "address": "ul. Świętojańska 15, 15-277, Białystok",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C3D2B61D",
+    "name": "H&M, CH Karolinka",
+    "lat": 50.68278,
+    "lng": 17.87652,
+    "address": "ul. Wrocławska 154, 45-836, Opole",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "FA56992F",
+    "name": "H&M, CH Jantar",
+    "lat": 54.454446,
+    "lng": 16.988168,
+    "address": "ul. Szczecińska 58, 76-200, Słupsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "78890136",
+    "name": "H&M, Galeria Malta",
+    "lat": 52.40174,
+    "lng": 16.95933,
+    "address": "ul. Maltańska 1, 61-131, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "16270D9D",
+    "name": "H&M, Krupówki",
+    "lat": 49.293115,
+    "lng": 19.956023,
+    "address": "Krupówki 49, 34-500, Zakopane",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "E1A9E710",
+    "name": "H&M, Galeria Piastów",
+    "lat": 51.20935,
+    "lng": 16.16493,
+    "address": "ul. Najświętszej Marii Panny 18A, 59-220, Legnica",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "75F6E2C2",
+    "name": "H&M, Galeria Sandecja",
+    "lat": 49.585925,
+    "lng": 20.671592,
+    "address": "Węgierska 170, 33-300, Nowy Sącz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "D39F17DE",
+    "name": "H&M, Galeria Tarnovia",
+    "lat": 50.000924,
+    "lng": 20.957762,
+    "address": "Krakowska 149, 33-100, Tarnów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "36FFB371",
+    "name": "H&M, CH Ferio",
+    "lat": 52.18278,
+    "lng": 18.23168,
+    "address": "ul. Ogrodowa 31, 62-571, Stare Miasto k/Konina",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F9F08D45",
+    "name": "H&M, CH Atrium Koszalin",
+    "lat": 54.17770572134621,
+    "lng": 16.20211114683525,
+    "address": "ul. Ignacego Paderewskiego 1, 75-710, Koszalin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "CC734947",
+    "name": "H&M, CH Plaza",
+    "lat": 51.15255,
+    "lng": 15.026,
+    "address": "ul. Armii Krajowej 52a, 59-900, Zgorzelec",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C2119EFF",
+    "name": "H&M, Centrum Handlowe Suwałki Plaza",
+    "lat": 54.107314,
+    "lng": 22.932843,
+    "address": "ul. Generała Józefa Dwernickiego 15, 16-400, Suwałki",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "62A2D7EF",
+    "name": "H&M, Centrum Handlowe Toruń Plaza",
+    "lat": 53.015636,
+    "lng": 18.561561,
+    "address": "ul. Broniewskiego 90, 87-100, Toruń",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "E6064165",
+    "name": "H&M, CH Focus Park Zielona Góra",
+    "lat": 51.9363014555422,
+    "lng": 15.51200866699219,
+    "address": "ul. Wrocławska 17, 65-057, Zielona Góra",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "6A8BA67C",
+    "name": "H&M, Focus Park",
+    "lat": 51.41054,
+    "lng": 19.6675,
+    "address": "ul. Słowackiego 115/121, 97-300, Piotrków Trybunalski",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "812E46D1",
+    "name": "H&M, CH Agora",
+    "lat": 50.34755,
+    "lng": 18.918673,
+    "address": "Plac Kościuszki 1, 41-900, Bytom",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "7AC23BD1",
+    "name": "H&M, CH Auchan Poczesna",
+    "lat": 50.730084,
+    "lng": 19.154564,
+    "address": "Krakowska 10, 42-262, Poczesna k/Częstochowy",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "34A77802",
+    "name": "H&M, Cuprum Arena",
+    "lat": 51.39392,
+    "lng": 16.2066,
+    "address": "ul. Sikorskiego 20, 59-300, Lubin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B1B1B2B4",
+    "name": "H&M, CH Pogoria",
+    "lat": 50.326716,
+    "lng": 19.183405,
+    "address": "Jana III Sobieskiego 6, 41-300, Dąbrowa Górnicza",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "5F1F0009",
+    "name": "H&M, Centrum Handlowe Wzorcownia",
+    "lat": 52.65529255075311,
+    "lng": 19.06358886803866,
+    "address": "ul. Kilińskiego 3, 87-800, Włocławek",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F423E212",
+    "name": "H&M, Galeria Zielona",
+    "lat": 51.41585,
+    "lng": 21.97008,
+    "address": "ul. Lubelska 2, 24-100, Puławy",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "410CE51A",
+    "name": "H&M, CH Gemini",
+    "lat": 49.803507,
+    "lng": 19.050688,
+    "address": "Leszczyńska 20, 43-300, Bielsko-Biała",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9BB0056C",
+    "name": "H&M, Galeria Victoria",
+    "lat": 50.76617,
+    "lng": 16.26452,
+    "address": "ul. 1 Maja 64, 58-300, Wałbrzych",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "8E408779",
+    "name": "H&M, Centrum Handlowe Port Łódź",
+    "lat": 51.703707,
+    "lng": 19.41288,
+    "address": "ul. Pabianicka 245, 93-457, Łódź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C6D2E696",
+    "name": "H&M, Galeria Ostrovia",
+    "lat": 51.65735,
+    "lng": 17.84607,
+    "address": "ul. Kaliska 120, 63-400, Ostrów Wielkopolski",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "851600A4",
+    "name": "H&M, CH Nova Park",
+    "lat": 52.72746,
+    "lng": 15.24289,
+    "address": "ul. Przemysłowa 2, 66-400, Gorzów Wielkoposlski",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "49B424E8",
+    "name": "H&M, Galeria Echo",
+    "lat": 50.880565,
+    "lng": 20.648677,
+    "address": "Świętokrzyska 20, 25-406, Kielce",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C1DFB2F9",
+    "name": "H&M, Galeria Sanowa",
+    "lat": 49.791254,
+    "lng": 22.782461,
+    "address": "Brudzewskiego 1, 37-700, Przemyśl",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "BFFE496F",
+    "name": "H&M, Galeria Słoneczna",
+    "lat": 51.40563,
+    "lng": 21.15436,
+    "address": "ul. Bolesława Chrobrego 1, 26-609, Radom",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "258A5032",
+    "name": "H&M, Galeria Sfera",
+    "lat": 49.825935,
+    "lng": 19.048079,
+    "address": "Mostowa 2, 43-300, Bielsko-Biała",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F602B062",
+    "name": "H&M, Bonarka City Center",
+    "lat": 50.027071,
+    "lng": 19.949372,
+    "address": "Kamieńskiego 11, 30-644, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9327C1EE",
+    "name": "H&M, Galeria Jurajska",
+    "lat": 50.808177,
+    "lng": 19.12998,
+    "address": "Al. Wojska Polskiego 207, 42-200, Częstochowa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9AAF1B10",
+    "name": "H&M, CH Nowy Świat",
+    "lat": 50.048975,
+    "lng": 21.975694,
+    "address": "Krakowska 20, 35-213, Rzeszów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "8D23356B",
+    "name": "H&M, Galeria Mazovia",
+    "lat": 52.53822585417757,
+    "lng": 19.75051001158124,
+    "address": "ul. Wyszogrodzka 127, 09-410, Płock",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9B8436BC",
+    "name": "H&M, CH Atrium Molo",
+    "lat": 53.41117,
+    "lng": 14.52195,
+    "address": "ul. Mieszka I 73, 71-011, Szczecin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "612A7796",
+    "name": "H&M, Galeria Gniezno",
+    "lat": 52.560682,
+    "lng": 17.6124558,
+    "address": "ul. Pałucka 2, 62-200, Gniezno",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "AEB774CD",
+    "name": "H&M, Galeria Twierdza",
+    "lat": 50.72743,
+    "lng": 23.26308,
+    "address": "ul. Przemysłowa 10, 22-400, Zamość",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "602017AD",
+    "name": "H&M, Centrum Handlowe Pasaż Łódzki",
+    "lat": 51.75065828578729,
+    "lng": 19.43966388702393,
+    "address": "Aleja Jana Pawła II 30, 93-570, Łódź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "DEFF0F21",
+    "name": "H&M, Galeria Handlowa Niwa",
+    "lat": 50.043797,
+    "lng": 19.20666,
+    "address": "Powstańców Śląskich 1, 32-600, Oświęcim",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "282990A3",
+    "name": "H&M, Galeria Leszno",
+    "lat": 51.82639,
+    "lng": 16.59923,
+    "address": "Al. Konstytucji 3-go Maja 12, 64-100, Leszno",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "1EC04BD3",
+    "name": "H&M, Silesia City Center",
+    "lat": 50.271877,
+    "lng": 19.002831,
+    "address": "Chorzowska 107, 40-001, Katowice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C03FC353",
+    "name": "H&M, CH Magnolia",
+    "lat": 51.11913,
+    "lng": 16.98992,
+    "address": "ul. Legnicka 58, 58-204, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "1438B5A8",
+    "name": "H&M, Geleria Nowy Rynek",
+    "lat": 50.90566,
+    "lng": 15.73296,
+    "address": "ul. Podwale 25, 58-500, Jelenia Góra",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "92A7652C",
+    "name": "H&M, Europa Centralna",
+    "lat": 50.267667,
+    "lng": 18.717944,
+    "address": "Pszczyńska 315, 44-100, Gliwice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "3D37A0CB",
+    "name": "H&M, Galeria Szperk",
+    "lat": 54.56534050627833,
+    "lng": 18.50240975942756,
+    "address": "ul. Pułkownika Stanisława Dąbka 293, 81-198, Kosakowo k. Gdynia",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F747FEC7",
+    "name": "H&M, Centrum Handlowe Alfa",
+    "lat": 53.48520996170733,
+    "lng": 18.74816783918027,
+    "address": "ul. Chełmińska 4, 86-300, Grudziądz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "85BFFA37",
+    "name": "H&M, Galeria Tęcza",
+    "lat": 51.76584,
+    "lng": 18.08794,
+    "address": "ul. 3 Maja 1, 62-800, Kalisz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "1C372594",
+    "name": "H&M, Galeria Handlowa Starówka",
+    "lat": 53.33869,
+    "lng": 15.04435,
+    "address": "ul. Chrobrego 8, 73-110, Stargard Szczeciński",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "DCC0370A",
+    "name": "H&M, CH Millenium Hall",
+    "lat": 50.027297,
+    "lng": 22.01479,
+    "address": "Kopisto 1, 35-315, Rzeszów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "BFCD97D5",
+    "name": "H&M, Galeria Rzeszów",
+    "lat": 50.041932,
+    "lng": 21.999077,
+    "address": "Al. Pilsudskiego 44, 35-001, Rzeszów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "06527BEB",
+    "name": "H&M, Centrum Handlowe Dekada Sieradz",
+    "lat": 51.59759140201179,
+    "lng": 18.72590170291596,
+    "address": "ul. Wojska Polskiego 11, 98-200, Sieradz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "AC8E319E",
+    "name": "H&M, CH Dekada",
+    "lat": 52.05391,
+    "lng": 20.44075,
+    "address": "ul. 1 Maja 40, 96-300, Żyrardów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "709FFB33",
+    "name": "H&M, Galeria Kociewska",
+    "lat": 54.09670176674378,
+    "lng": 18.78801757650615,
+    "address": "ul. Pomorska 1, 83-110, Tczew",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "33EEFAB6",
+    "name": "H&M, CH Sarni Stok",
+    "lat": 49.838871,
+    "lng": 19.032811,
+    "address": "ul. Sarni Stok 2, 43-300, Bielsko-Biała",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "58DC0E85",
+    "name": "H&M, Galeria Olimpia",
+    "lat": 51.35337,
+    "lng": 19.37606,
+    "address": "ul. Kolejowa 6, 97-400, Bełchatów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "21A38402",
+    "name": "H&M, Galeria Łomianki",
+    "lat": 52.32529319626799,
+    "lng": 20.90339407244455,
+    "address": "ul. Brukowa 25, 05-092, Łomianki",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "410374C0",
+    "name": "H&M, Galeria Trzy Korony",
+    "lat": 49.624085,
+    "lng": 20.707484,
+    "address": "ul. Lwowska 80, 33-300, Nowy Sacz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B393AC50",
+    "name": "H&M, Galeria Siedlce",
+    "lat": 52.16830031944403,
+    "lng": 22.2693865121164,
+    "address": "ul. Piłsudskiego 74, 08-110, Siedlce",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B4204038",
+    "name": "H&M, M1 Radom",
+    "lat": 51.38227,
+    "lng": 21.16926,
+    "address": "Al. Grzecznarowskiego 28, 26-604, Radom",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "3EC2E11A",
+    "name": "H&M, Plac Unii",
+    "lat": 52.21280629354498,
+    "lng": 21.02056011266086,
+    "address": "ul. Puławska 2, 02-566, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "20F31745",
+    "name": "H&M, Poznań City Center",
+    "lat": 52.40043,
+    "lng": 16.91296,
+    "address": "Stanisława Matyi 2, 61-586, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "80EE19CF",
+    "name": "H&M, Odrzańskie Ogrody",
+    "lat": 50.34118788597151,
+    "lng": 18.19018363952637,
+    "address": "ul. Armii Krajowej 38, 47-220, Kędzierzyn-Koźle",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F1C652FD",
+    "name": "H&M, CH Felicity",
+    "lat": 51.23224335926495,
+    "lng": 22.61409312499308,
+    "address": "Al. Wincentego Witosa 32, 20-030, Lublin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "365385C1",
+    "name": "H&M, Centrum Handlowe M1 Łódź",
+    "lat": 51.79247257879196,
+    "lng": 19.50978214554891,
+    "address": "u. Brzezińska 27/29, 92-103, Łódź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "7CE1A714",
+    "name": "H&M, Galeria Dębicka",
+    "lat": 50.046559,
+    "lng": 21.412908,
+    "address": "Ul. Ks. Nosala 2, 39-200, Dębica",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "0F293D89",
+    "name": "H&M, CH HERMES",
+    "lat": 51.114482,
+    "lng": 20.861719,
+    "address": "ul. Krasińskiego 18, 26-110, Skarżysko-Kamienna",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F45F1D52",
+    "name": "H&M, Galeria Solna",
+    "lat": 52.78448,
+    "lng": 18.24055,
+    "address": "ul. Wojska Polskiego 16, 88-110, Inowrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "973EDE53",
+    "name": "H&M, Galeria Podkowa",
+    "lat": 52.12947,
+    "lng": 20.70932,
+    "address": "ul. Gołębia 26, 05-807, Podkowa Leśna",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B1853FB9",
+    "name": "H&M, Galeria Mokotów",
+    "lat": 52.1789470763327,
+    "lng": 21.00379154338827,
+    "address": "ul. Wołoska 12, 02-675, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "7C011641",
+    "name": "H&M, CH Marino",
+    "lat": 51.15217,
+    "lng": 17.02677,
+    "address": "ul. Paprotna 7, 51-117, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "70CF1364",
+    "name": "H&M, MMG Center Ciechanów",
+    "lat": 52.881338,
+    "lng": 20.656341,
+    "address": "Władysławowo 65, 06-406, Opinogóra Górna",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "63FC1433",
+    "name": "H&M, Sadyba Best Mall",
+    "lat": 52.1881342149194,
+    "lng": 21.06059032266103,
+    "address": "ul. Powsińska 31, 02-903, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "45A45DD3",
+    "name": "H&M, Galeria Bursztynowa",
+    "lat": 53.075384,
+    "lng": 21.57813,
+    "address": "28 ul. Gen. Augusta Emila Fieldorfa \"Nila\" St., 07-410, Ostroleka",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "4E462A99",
+    "name": "H&M, CH Riviera",
+    "lat": 54.50327812750908,
+    "lng": 18.53199247443376,
+    "address": "ul. Kazimierza Górskiego 2, 81-304, Gdynia",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "AA42D169",
+    "name": "H&M, Galeria Amber",
+    "lat": 51.74365,
+    "lng": 18.06944,
+    "address": "ul. Górnośląska 82, 62-800, Kalisz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "5A614854",
+    "name": "H&M, Era Park",
+    "lat": 51.07071089999999,
+    "lng": 19.43673790000003,
+    "address": "ul. Sierakowskiego 11, 97-500, Radomsko",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "A9B6F957",
+    "name": "H&M, Centrum Handlowe Ogrody",
+    "lat": 54.18558201938377,
+    "lng": 19.40724667148902,
+    "address": "ul. Pułkownika Dąbka 152, 82-300, Elbląg",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "7A1BC23B",
+    "name": "H&M, CH Brama Pomorza",
+    "lat": 53.69338408828371,
+    "lng": 17.61711467340366,
+    "address": "ul. Podmiejska 2A, 89-620, Lipienice/ k. Chojnic",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9FC2905B",
+    "name": "H&M, H&M Sopot",
+    "lat": 54.44425611930867,
+    "lng": 18.56697126614313,
+    "address": "ul. Bohaterów Monte Cassino 55/57, 81-704, Sopot",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "FE7AA4F8",
+    "name": "H&M, Galeria Bronowice",
+    "lat": 50.092169,
+    "lng": 19.896614,
+    "address": "Stawowa 61, 31-346, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "E8D57857",
+    "name": "H&M, Centrum Handlowe Rywal",
+    "lat": 52.0345942484014,
+    "lng": 23.12420368202766,
+    "address": "ul. Brzeska 27, 21-500, Biała Podlaska",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "FA5E78BD",
+    "name": "H&M, Galeria Corso",
+    "lat": 53.90998,
+    "lng": 14.24641,
+    "address": "Jarosława Dąbrowskiego 5, 72-600, Świnoujście",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "9220054B",
+    "name": "H&M, Galeria Korona Kielce",
+    "lat": 50.876038,
+    "lng": 20.63499,
+    "address": "ul. Warszawska 26, 25-312, Kielce",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "BEBEE08D",
+    "name": "H&M, Posnania",
+    "lat": 52.39624,
+    "lng": 16.95487,
+    "address": "ul. Pleszewska 1, 61-136, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "2B6610A6",
+    "name": "H&M, Galeria Kasztanowa",
+    "lat": 53.1591,
+    "lng": 16.75607,
+    "address": "al. Powstańców Wielk. 99, 64-920, Piła",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C3703CCC",
+    "name": "H&M, VIVO! Piła",
+    "lat": 53.14466,
+    "lng": 16.74547,
+    "address": "ul. 14 lutego 26, 64-920, Piła",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "5A34FF65",
+    "name": "H&M, CH Plaza Ruda Śląska",
+    "lat": 50.275481,
+    "lng": 18.865597,
+    "address": "1 Maja 310, 41-710, Ruda Ślaska",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "37679344",
+    "name": "H&M, Galeria Handlowa Brama Mazur",
+    "lat": 53.82278998224304,
+    "lng": 22.36176066435291,
+    "address": "Plac Miejski 1, 19-300, Ełk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "554D13B9",
+    "name": "H&M, CH Turzyn",
+    "lat": 53.42708,
+    "lng": 14.53093,
+    "address": "Al. Bohaterów Warszawy 42, 70-342, Szczecin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "D5984708",
+    "name": "H&M, Dekada Malbork",
+    "lat": 54.03603237442341,
+    "lng": 19.03456453071863,
+    "address": "Aleja Rodła 9, 82-200, Malbork",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B43876FD",
+    "name": "H&M, Forum Gdańsk",
+    "lat": 54.34911660750592,
+    "lng": 18.64329654456537,
+    "address": "ul. Targ Sienny 7, 80-806, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "BDCC06A5",
+    "name": "H&M, CH Ikea Lublin",
+    "lat": 51.28158,
+    "lng": 22.57428,
+    "address": "Al. Spółdzielczości Pracy 86, 20-147, Lublin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "ADCE7AD4",
+    "name": "H&M, Zielone Arkady",
+    "lat": 53.11538056827956,
+    "lng": 18.00980838773251,
+    "address": "ul. Wojska Polskiego 1, 85-171, Bydgoszcz",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "8D6382AA",
+    "name": "H&M, CH Serenada",
+    "lat": 50.088771,
+    "lng": 19.986762,
+    "address": "Al. Gen. T Bora-Komorowskiego 41, 31-876, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "673B6E54",
+    "name": "H&M, Centrum Handlowe Auchan Hetmańska",
+    "lat": 53.13467119454072,
+    "lng": 23.11792731285095,
+    "address": "ul. Hetmańska 16, 15-727, Białystok",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "2F44D0B7",
+    "name": "H&M, CH Klif",
+    "lat": 52.24703,
+    "lng": 20.9801,
+    "address": "ul. Okopowa 58/72, 01-042, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "428C6314",
+    "name": "H&M, Galeria Warmińska",
+    "lat": 53.755018,
+    "lng": 20.485392,
+    "address": "ul. Tuwima 26, 10-748, Olsztyn",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "175A7DCE",
+    "name": "H&M, Vendo Park Nysa",
+    "lat": 50.46627,
+    "lng": 17.34313,
+    "address": "ul. Józefa Pilsudskiego 7, 48-303, Nysa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "88D87AB5",
+    "name": "H&M, Centrum Handlowe Blue City",
+    "lat": 52.21218569355641,
+    "lng": 20.95608470090031,
+    "address": "Aleje Jerozolimskie 179, 02-222, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "AF4DCF55",
+    "name": "H&M, Galeria Neptun",
+    "lat": 53.96382617772799,
+    "lng": 18.53048254872351,
+    "address": "ul. Pomorska 7, 83-200, Starogard Gdański",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "843A524F",
+    "name": "H&M, Sonata Park",
+    "lat": 52.22763557545335,
+    "lng": 20.26714364152531,
+    "address": "ul. Warszawska 119, 96-515, Sochaczew",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C6BC79BD",
+    "name": "H&M, Stop Shop Legnica",
+    "lat": 51.18539,
+    "lng": 16.17262,
+    "address": "ul. Schumana 17, 59-220, Legnica",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "F4F46AED",
+    "name": "H&M, MMG Centres Kutno",
+    "lat": 52.2450658230192,
+    "lng": 19.37484043039444,
+    "address": "ul. Kościuszki 73, 99-300, Kutno",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "BB891AA9",
+    "name": "H&M, Fabryka Wołomin",
+    "lat": 52.3563714265679,
+    "lng": 21.25768661499023,
+    "address": "ul. Geodetów 2, 05-200, Wołomin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "199B44A5",
+    "name": "H&M, CH Sukcesja",
+    "lat": 51.75040395886548,
+    "lng": 19.44785713621525,
+    "address": "Aleja Politechniki 1, 90-423, Łódź",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "70CA0741",
+    "name": "H&M, Galeria Morena",
+    "lat": 54.35144545313764,
+    "lng": 18.59442381741212,
+    "address": "ul. Schuberta 102A, 80-172, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "0CA7A08A",
+    "name": "H&M, Galeria Navigator",
+    "lat": 50.288471,
+    "lng": 21.460713,
+    "address": "Powstańców Warszawy 4, 39-300, Mielec",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "19CE8513",
+    "name": "H&M, Galeria Galena",
+    "lat": 50.203259,
+    "lng": 19.268789,
+    "address": "ul. Grunwladzka 59, 43-600, Jaworzno",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "0F4AD217",
+    "name": "H&M, Galeria Tomaszów",
+    "lat": 51.53449,
+    "lng": 20.00759,
+    "address": "ul. Barlickiego 1, 97-200, Tomaszow Mazowiecki",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "E6C795A7",
+    "name": "H&M, Galeria Północna",
+    "lat": 52.3182761519023,
+    "lng": 20.96698519833683,
+    "address": "ul. Swiatowida 17, 03-144, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "EEC68D72",
+    "name": "H&M, CH Promenada",
+    "lat": 52.23332,
+    "lng": 21.10643,
+    "address": "ul. Ostrobramska 75 C, 04- 575, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "E4C3B8E2",
+    "name": "H&M, CH Ferio Wawer",
+    "lat": 52.2074,
+    "lng": 21.16865,
+    "address": "ul. Szpotańskiego 4, 04-760, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "039A83BC",
+    "name": "H&M, Galeria HIT",
+    "lat": 52.43454210632265,
+    "lng": 20.69791582494827,
+    "address": "Ul. Warszawska 36, 05-100, Nowy Dwór Mazowiecki",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C4A4FE67",
+    "name": "H&M, Vivo! Stalowa Wola",
+    "lat": 50.587168,
+    "lng": 22.063862,
+    "address": "ul. Fryderyka Chopina 42, 37-450, Stalowa Wola",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "90700708",
+    "name": "H&M, IKEA Bielany",
+    "lat": 51.04894,
+    "lng": 16.9586,
+    "address": "Ul. Czekoladowa 9, 55-040, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "96DE0198",
+    "name": "H&M, Galeria A2",
+    "lat": 52.35313,
+    "lng": 16.84107,
+    "address": "ul. Głogowska 440/442, 60-004, Poznań",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "0E62C8CA",
+    "name": "H&M, Tarasy Zamkowe",
+    "lat": 51.24919,
+    "lng": 22.57704,
+    "address": "al. Unii Lubelskiej 2, 20-108, Lublin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "FBBEA251",
+    "name": "H&M, Emka Koszalin",
+    "lat": 54.20717280910856,
+    "lng": 16.18641728598323,
+    "address": "ul. Jana Pawła II 20, 75-452, Koszalin",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "11D69110",
+    "name": "H&M, Galeria Zdrój Carrefour",
+    "lat": 49.940087,
+    "lng": 18.594659,
+    "address": "Podhalańska 26, 44-335, Jastrzębie-Zdrój",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "EE8297D5",
+    "name": "H&M, CH Liwa",
+    "lat": 53.73397553800498,
+    "lng": 18.93170579200478,
+    "address": "ul. Konopnickiej 19, 82-500, Kwidzyn",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "486AC198",
+    "name": "H&M, Galeria Stela",
+    "lat": 49.74972047378133,
+    "lng": 18.63972488342481,
+    "address": "Wojciecha Korfantego 25, 43-400, Cieszyn",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "1CC59BAC",
+    "name": "H&M, CH Osowa",
+    "lat": 54.42569225208067,
+    "lng": 18.49096912038954,
+    "address": "ul. Spacerowa 48, 80-299, Gdańsk",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "ED42BD65",
+    "name": "H&M, Centrun Handlowe Nowa Stacja",
+    "lat": 52.1704725,
+    "lng": 20.8118862,
+    "address": "ul. Kolejowa 14, 05-800, Pruszkow",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "1BBF7815",
+    "name": "H&M, CH Twierdza Kłodzko",
+    "lat": 50.45293,
+    "lng": 16.63815,
+    "address": "ul. Noworudzka 2, 57-300, Kłodzko",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "B25041C7",
+    "name": "H&M, Quick Park Mysłowice",
+    "lat": 50.250044,
+    "lng": 19.117585,
+    "address": "Katowicka 64, 41-400, Mysłowice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "ABF7F05B",
+    "name": "H&M, CH Mlociny",
+    "lat": 52.29688,
+    "lng": 20.931974,
+    "address": "UL. Zgrupowania AK “KAMPINOS” 15, 01-943, Warszawa",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "4B596A6C",
+    "name": "H&M, CH Wroclavia",
+    "lat": 51.09634,
+    "lng": 17.03633,
+    "address": "ul. Sucha 1, 50-086, Wrocław",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "347C54F6",
+    "name": "H&M, Gemini Park Tychy",
+    "lat": 50.096601,
+    "lng": 19.009082,
+    "address": "Towarowa 2C, 43-100, Tychy",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "FCBEF4D2",
+    "name": "H&M, Tesco Zielona Góra",
+    "lat": 51.94969,
+    "lng": 15.49575,
+    "address": "ul. Energetyków 2A, 65-729, Zielona Góra",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "C97D5EE4",
+    "name": "H&M, VIVO! Krosno",
+    "lat": 49.676416,
+    "lng": 21.77574,
+    "address": "Bieszczadzka 29, 38-400, Krosno",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "A6C0F43D",
+    "name": "H&M, Galeria Askana",
+    "lat": 52.73101,
+    "lng": 15.22609,
+    "address": "Al. Konstytucji 3 Maja 102, 66-400, Gorzów Wielkopolski",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "819C7806",
+    "name": "H&M, Tesco Kapelanka",
+    "lat": 50.03225,
+    "lng": 19.924771,
+    "address": "Kapelanka 54, 30-347, Kraków",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "4E25B21F",
+    "name": "H&M, Tesco Tarnowskie Góry",
+    "lat": 50.454707,
+    "lng": 18.832003,
+    "address": "Zagórska 220, 42-600, Tarnowskie Góry",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "85C8EF22",
+    "name": "H&M, Zorska 2",
+    "lat": 50.09344,
+    "lng": 18.560825,
+    "address": ", 44-200, Rybnik",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "641E9955",
+    "name": "H&M, Tesco Wałbrzych",
+    "lat": 50.81556,
+    "lng": 16.26854,
+    "address": "ul. Łączyńskiego 44, 58-310, Szczawno-Zdrój",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "564BFF1E",
+    "name": "H&M, Carrefour Głogów",
+    "lat": 51.64526,
+    "lng": 16.09656,
+    "address": "ul. Ks. Józefa Poniatowskiego 12, 67-205, Głogów",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "4BC4325E",
+    "name": "H&M, ul. Tadeusza Kościuszki 229",
+    "lat": 50.22265,
+    "lng": 18.988032,
+    "address": ", 40-615, Katowice",
+    "categoryIds": [
+      "3e1f50db"
+    ]
+  },
+  {
+    "id": "605F701D",
+    "name": "H&M, Atrium Targówek",
+    "lat": 52.300626,
+    "lng": 21.0539053,
+    "address": "ul. Głębocka 13, Warszawa, 03-285",
+    "categoryIds": [
+      "3e1f50db"
+    ]
   }
 ]

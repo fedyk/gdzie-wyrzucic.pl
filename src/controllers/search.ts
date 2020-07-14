@@ -5,12 +5,26 @@ import * as storage from "../storage"
 import { AppContext, AppState, Category2, Point } from "../types";
 import { renderView } from "../views";
 import { GOOGLE_MAPS_STATIC_API_KEY } from "../config";
+import { renderMarkdown } from "../remarkable";
 
 export const search: Middleware<AppState, AppContext> = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
 
-  if (queryParams.query.length === 0) {
-    return ctx.redirect("/")
+  if (queryParams.wasteId) {
+    const waste = storage.getWastesById(queryParams.wasteId)
+
+    if (!waste) {
+      return ctx.throw(new Error("Page doesn't exist"), 404)
+    }
+
+    ctx.state.headerQuery = waste.name
+    ctx.body = await renderView("search/results.ejs", {
+      results: buildSearchResults([{
+        item: waste,
+        refIndex: 0,
+      }])
+    })
+    return
   }
 
   if (queryParams.categoryId) {
@@ -22,9 +36,13 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
     }
 
     ctx.state.title = format(ctx.i18n("Gdzie wyrzucić · %s"), queryParams.query)
-    ctx.state.headerQuery = queryParams.query;
+    ctx.state.headerQuery = category.name;
     ctx.body = await renderCategory(category, points)
     return
+  }
+
+  if (queryParams.query.length === 0) {
+    return ctx.redirect("/")
   }
 
   const hits = storage.search(queryParams.query)
@@ -38,10 +56,12 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
 
 function parseQueryParams(queryParams: any = {}) {
   const query = queryParams?.q ? String(queryParams.q).trim() : ""
+  const wasteId = queryParams.wid ? String(queryParams.wid) : void 0
   const categoryId = queryParams.cid ? String(queryParams.cid) : void 0
 
   return {
     query,
+    wasteId,
     categoryId
   }
 }
@@ -53,16 +73,14 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
     return {
       id: id,
       name: name,
+      url: "/search?" + querystring.stringify({ wid: id }),
       categories: categoryIds.map(categoryId => {
         const category = storage.getCategoryById(categoryId)
         const name = category?.name ?? "Unknown category"
-        const query = querystring.stringify({
-          q: name,
-          cid: categoryId,
-        })
+        const url = "/search?" + querystring.stringify({ q: name, cid: categoryId, })
 
         return {
-          url: "/search?" + query,
+          url,
           name
         }
       })
@@ -72,8 +90,14 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
 
 function renderCategory(category: Category2, points: Point[]) {
   const mapUrl = points.length > 0 ? getMapURL(points) : void 0
+  const description = category.description ? renderMarkdown(category.description) : void 0
 
-  return renderView("search/category.ejs", { category, points, mapUrl })
+  return renderView("search/category.ejs", {
+    description,
+    category,
+    points,
+    mapUrl
+  })
 }
 
 function getMapURL(points: Point[]) {

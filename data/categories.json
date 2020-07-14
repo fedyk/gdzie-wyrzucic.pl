@@ -5,7 +5,8 @@
   },
   {
     "id": "DD95DF21",
-    "name": "Punkt Selektywnego Zbierania Odpadów Komunalnych"
+    "name": "PSZOK",
+    "description": "Punkt Selektywnego Zbierania Odpadów Komunalnych. Więcej tut https://ekosystem.wroc.pl/segregacja-odpadow/pszok/"
   },
   {
     "id": "1A9CB0D1",
@@ -13,7 +14,8 @@
   },
   {
     "id": "F60E5C27",
-    "name": "Odpady zmieszane - pojemnik oznaczony kolorem czarnym"
+    "name": "Odpady zmieszane",
+    "description": "Pojemnik oznaczony kolorem czarnym"
   },
   {
     "id": "D8BCE6BD",
@@ -21,7 +23,8 @@
   },
   {
     "id": "E4060C87",
-    "name": "Tworzywa sztuczne i metal - pojemnik oznaczony kolorem żółtym"
+    "name": "Tworzywa sztuczne i metal",
+    "description": "Pojemnik oznaczony kolorem żółtym"
   },
   {
     "id": "51F9B8A1",
@@ -33,7 +36,8 @@
   },
   {
     "id": "97113F89",
-    "name": "Pojemnik na papier - pojemnik oznaczony kolorem niebieskim"
+    "name": "Papier",
+    "description": "Pojemnik oznaczony kolorem niebieskim"
   },
   {
     "id": "906406E9",
@@ -57,7 +61,8 @@
   },
   {
     "id": "1ACFC3B0",
-    "name": "Pojemniki ogólnodostępne na używaną odzież"
+    "name": "Pojemniki na używaną odzież",
+    "description": "Pojemniki ogólnodostępne na używaną odzież. "
   },
   {
     "id": "7323342D",
@@ -70,5 +75,20 @@
   {
     "id": "8830C24C",
     "name": "Opakowania na zuzyte igly i strzykawki"
+  },
+  {
+    "id": "60702fea",
+    "name": "Tow. im. św. Brata Alberta",
+    "description": "Towarzystwo Pomocy im. św. Brata Alberta. \n\nZachęcamy do przekazywania nam niepotrzebnych ubrań. Najbardziej zależy nam na odzieży *męskiej*. Prosimy aby ubrania były *czyste* i w *dobrym stanie* (bez plam, dziur, przetarć). \n\n Wiencej [https://www.bratalbert.wroclaw.pl/?option=com_content&view=category&layout=blog&id=54&Itemid=58](https://www.bratalbert.wroclaw.pl/?option=com_content&view=category&layout=blog&id=54&Itemid=58)"
+  },
+  {
+    "id": "3e1f50db",
+    "name": "H&M",
+    "description": "**Program zbiórki tekstyliów. zamknij obieg mody**\n\nProgram zbiórki tekstyliów to globalna inicjatywa H&M na rzecz lepszej przyszłości mody. Oto, jak to działa:\n\n**Ponowne noszenie**\n\nOdzież, która nadaje się do noszenia, jest wprowadzana na rynek dóbr z drugiej ręki.\n\n**Powtórne wykorzystanie**\n\nTekstylia i ubrania, które nie nadają się już do noszenia, są przetwarzane na inne produkty, takie jak szmatki i ściereczki do sprzątania.\n\n**Recykling**\n\nTekstylia, których nie można powtórnie użyć, dostają drugą szansę: odzyskuje się z nich włókna lub wykorzystuje do produkcji materiałów tłumiących i izolacyjnych w przemyśle motoryzacyjnym. Wszelkie nadwyżki ze zbiórki przekazywane są na badania procesu recyklingu tekstyliów oraz akcje społeczne.\n\nWrzuć torbę z niepotrzebnymi tekstyliami do specjalnego pojemnika w najbliższym sklepie H&M. Przyjmujemy wszystkie tekstylia, również nieparzyste skarpetki, sprane T-shirty i stare prześcieradła. Przekażemy je do najbliższego zakładu recyklingu, w którym zostaną posortowane ręcznie. Za każdą torbę zostawionych tekstyliów dostaniesz kupon rabatowy na następne zakupy!\n\n Źródło: [https://www2.hm.com/pl_pl/ona/kampanie/16r-garment-collecting.html](https://www2.hm.com/pl_pl/ona/kampanie/16r-garment-collecting.html)"
+  },
+  {
+    "id": "690b3fcc",
+    "name": "Na dobrą sprawę",
+    "description": "**Na dobrą sprawę** jest sklepem charytatywnym w formie butikowego second-handu, prowadzonym przez nasz fundacyjny kolektyw.\n\nSklep jest częścią Fundacji Go’n’Act – cały zysk przeznaczony jest na wsparcie jej działań statutowych.\n\nPrzyjmujemy ubrania damskie.\n\nŹródło [http://nadobrasprawe.pl/](http://nadobrasprawe.pl/)\n"
   }
 ]

@@ -16,13 +16,15 @@ export type Middleware = Koa.Middleware<AppState, AppContext>
 
 export interface Waste2 {
   id: string
-  name: string,
+  name: string
+  description?: string
   categoryIds: string[]
 }
 
 export interface Category2 {
   id: string
-  name: string,
+  name: string
+  description?: string
 }
 
 export interface Point {
