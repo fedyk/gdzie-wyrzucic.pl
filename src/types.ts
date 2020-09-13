@@ -8,7 +8,7 @@ export interface AppState {
   styles?: string[];
 }
 
-export interface AppContext {
+export interface AppContext extends Koa.Context {
   i18n(phrase: string): string;
 }
 

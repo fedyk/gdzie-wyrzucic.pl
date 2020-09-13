@@ -5,7 +5,7 @@ import { renderView } from "../views";
 export const layout: Middleware<AppState, AppContext> = async function (ctx, next) {
   ctx.state.styles?.push(
     "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css",
-    "/css/main.css"
+    "/css/main.css?1"
   )
 
   ctx.state.scripts?.push(
