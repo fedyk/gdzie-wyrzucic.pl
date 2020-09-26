@@ -4,16 +4,18 @@ import { renderView } from "../views"
 import { getWastesIds, getCategoriesIds } from "../storage"
 
 export const sitemap: Middleware = async (ctx) => {
-  const urls: string[] = []
+  const urls: string[] = [
+    getUrl("/all")
+  ]
 
   getWastesIds().forEach(wastesId => {
-    urls.push(ctx.request.protocol + "://" + ctx.request.host + "/search?" + querystring.stringify({
+    urls.push(getSearchUrl({
       wid: wastesId
     }))
   })
-  
+
   getCategoriesIds().forEach(categoryId => {
-    urls.push(ctx.request.protocol + "://" + ctx.request.host + "/search?" + querystring.stringify({
+    urls.push(getSearchUrl({
       cid: categoryId
     }))
   })
@@ -22,4 +24,12 @@ export const sitemap: Middleware = async (ctx) => {
   ctx.body = await renderView("sitemap.ejs", {
     urls: urls
   })
+
+  function getSearchUrl(params: querystring.ParsedUrlQueryInput) {
+    return getUrl("/search?" + querystring.stringify(params))
+  }
+
+  function getUrl(path: string) {
+    return ctx.request.protocol + "://" + ctx.request.host + path
+  }
 }

@@ -104,12 +104,16 @@ export function getCategoriesIds() {
   return Array.from(categories.keys())
 }
 
+export function getWastes() {
+  return Array.from(wastes.values())
+}
+
 export function getWastesIds() {
   return Array.from(wastes.keys())
 }
 
-export function getWastesById(wasteid: string) {
-  return wastes.get(wasteid)
+export function getWastesById(wasteId: string) {
+  return wastes.get(wasteId)
 }
 
 /** @todo: optimization is required */
