@@ -9,7 +9,7 @@ const wastes = new Map<string, types.Waste2>()
 const categories = new Map<string, types.Category2>()
 const points = new Array<types.Point>()
 
-const fuse = new Fuse<types.Waste2, {}>([], {
+const fuse = new Fuse<types.Waste2>([], {
   includeScore: true,
   minMatchCharLength: 3,
   location: 0,
