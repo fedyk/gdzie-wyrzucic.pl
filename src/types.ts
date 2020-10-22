@@ -1,6 +1,6 @@
 import * as Koa from "koa"
 
-export interface AppState {
+export interface IState {
   title?: string;
   headerQuery?: string;
   description?: string;
@@ -8,11 +8,12 @@ export interface AppState {
   styles?: string[];
 }
 
-export interface AppContext {
+export interface IContext {
   i18n(phrase: string): string;
 }
 
-export type Middleware = Koa.Middleware<AppState, AppContext>
+export type Context = Koa.ParameterizedContext<IContext, IState>
+export type Middleware = Koa.Middleware<IState, Context>
 
 export interface Waste2 {
   id: string

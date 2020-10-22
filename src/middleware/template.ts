@@ -1,5 +1,5 @@
 import { Middleware } from "koa";
-import { AppState, AppContext } from "../types";
+import { IState, Context } from "../types";
 import { renderView } from "../views";
 
 /**
@@ -12,7 +12,7 @@ import { renderView } from "../views";
  * })
  * ```
  */
-export const template: Middleware<AppState, AppContext> = async function(ctx, next) {
+export const template: Middleware<IState, Context> = async function(ctx, next) {
   ctx.state.title = ""   
   ctx.state.description = ""
   ctx.state.scripts = []

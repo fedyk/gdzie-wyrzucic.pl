@@ -1,11 +1,10 @@
 
-import { Middleware } from "koa";
 import * as querystring from "querystring";
 import * as storage from "../storage"
-import { AppContext, AppState } from "../types";
+import { Middleware } from "../types";
 import { renderView } from "../views";
 
-export const all: Middleware<AppState, AppContext> = async function (ctx) {
+export const all: Middleware = async function (ctx) {
   const wastes = storage.getWastes()
 
   ctx.body = await renderView("all.ejs", {

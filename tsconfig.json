@@ -1,12 +1,12 @@
 {
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
     "module": "CommonJS",
     "outDir": "dist",
     "target": "ES2019",
     "strict": true,
     "esModuleInterop": true
-  },
-  "include": [
-    "src"
-  ]
+  }
 }

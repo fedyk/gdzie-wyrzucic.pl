@@ -100,6 +100,10 @@ export function getCategoryById(categoryId: string) {
   return categories.get(categoryId)
 }
 
+export function getCategories() {
+  return Array.from(categories.values())
+}
+
 export function getCategoriesIds() {
   return Array.from(categories.keys())
 }

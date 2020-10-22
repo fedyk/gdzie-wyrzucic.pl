@@ -1,13 +1,12 @@
 import { format } from "util";
-import { Middleware } from "koa";
 import * as querystring from "querystring";
 import * as storage from "../storage"
-import { AppContext, AppState, Category2, Point } from "../types";
+import { Middleware, Category2, Point } from "../types";
 import { renderView } from "../views";
 import { GOOGLE_MAPS_STATIC_API_KEY } from "../config";
 import { renderMarkdown } from "../remarkable";
 
-export const search: Middleware<AppState, AppContext> = async function (ctx) {
+export const search: Middleware = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
 
   if (queryParams.wasteId) {
@@ -35,7 +34,7 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
       return ctx.throw(new Error("Category does not exist"), 404)
     }
 
-    ctx.state.title = format(ctx.i18n("Gdzie wyrzucić · %s"), queryParams.query)
+    ctx.state.title = format("Gdzie wyrzucić · %s", queryParams.query)
     ctx.state.headerQuery = category.name;
     ctx.body = await renderCategory(category, points)
     return
@@ -47,7 +46,7 @@ export const search: Middleware<AppState, AppContext> = async function (ctx) {
 
   const hits = storage.search(queryParams.query)
 
-  ctx.state.title = format(ctx.i18n("Gdzie wyrzucić \"%s\"?"), queryParams.query)
+  ctx.state.title = format("Gdzie wyrzucić \"%s\"?", queryParams.query)
   ctx.state.headerQuery = queryParams.query;
   ctx.body = await renderView("search/results.ejs", {
     results: buildSearchResults(hits)
