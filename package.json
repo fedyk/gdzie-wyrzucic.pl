@@ -31,7 +31,7 @@
     "@types/koa-static": "^4.0.1",
     "@types/node-fetch": "^2.5.7",
     "dotenv": "^8.2.0",
-    "ejs": "^3.1.5",
+    "ejs": "^3.1.7",
     "fuse.js": "^6.4.1",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
