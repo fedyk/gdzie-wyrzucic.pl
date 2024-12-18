@@ -1,7 +1,7 @@
 import * as querystring from "querystring"
-import { Middleware } from "../types"
-import { renderView } from "../views"
-import { getWastesIds, getCategoriesIds } from "../storage"
+import { Middleware } from "../types.js"
+import { renderView } from "../views.js"
+import { getWastesIds, getCategoriesIds } from "../storage.js"
 
 export const sitemap: Middleware = async (ctx) => {
   const urls: string[] = [

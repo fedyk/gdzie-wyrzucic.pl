@@ -1,8 +1,8 @@
 import Router from "koa-router";
-import { IState, Context } from "../types";
-import { listCategories } from "./list-categories"
-import { createCategory } from "./create-category"
-import { listWastes } from "./list-wastes"
+import { IState, Context } from "../types.js";
+import { listCategories } from "./list-categories.js"
+import { createCategory } from "./create-category.js"
+import { listWastes } from "./list-wastes.js"
 
 export const router = new Router<IState, Context>();
 

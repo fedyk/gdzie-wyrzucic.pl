@@ -1,6 +1,8 @@
 import * as path from "path"
 import { config as dotenv } from "dotenv";
-import { parseTrustedEmails } from "./parsers";
+import { parseTrustedEmails } from "./parsers.js";
+
+const __dirname = import.meta.dirname
 
 dotenv({ path: __dirname + "/../.env" })
 

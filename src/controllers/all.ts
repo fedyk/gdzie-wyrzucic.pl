@@ -1,8 +1,8 @@
 
 import * as querystring from "querystring";
-import * as storage from "../storage"
-import { Middleware } from "../types";
-import { renderView } from "../views";
+import * as storage from "../storage.js"
+import { Middleware } from "../types.js";
+import { renderView } from "../views.js";
 
 export const all: Middleware = async function (ctx) {
   const wastes = storage.getWastes()

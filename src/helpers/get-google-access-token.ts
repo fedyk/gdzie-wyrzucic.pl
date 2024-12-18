@@ -1,5 +1,5 @@
 import {stringify }from "querystring"
-import { GOOGLE_REDIRECT_URL, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET }from "../config"
+import { GOOGLE_REDIRECT_URL, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET }from "../config.js"
 import fetch from "node-fetch"
 
 export function getGoogleAccessToken(code: string) {

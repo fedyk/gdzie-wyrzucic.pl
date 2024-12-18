@@ -1,4 +1,4 @@
-import { GOOGLE_REDIRECT_URL, GOOGLE_CLIENT_ID } from "../config"
+import { GOOGLE_REDIRECT_URL, GOOGLE_CLIENT_ID } from "../config.js"
 
 export function getGoogleAuthUrl() {
   return `https://accounts.google.com/o/oauth2/v2/auth?` +

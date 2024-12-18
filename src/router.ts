@@ -1,12 +1,12 @@
 import Router from "koa-router";
-import { IState, Context } from "./types";
-import { welcome } from "./controllers/welcome";
-import { search } from "./controllers/search";
-import { sitemap } from "./controllers/sitemap";
-import { all } from "./controllers/all";
-import { layout } from "./middleware/layout";
-import { template } from "./middleware/template";
-import { login } from "./controllers/login";
+import { IState, Context } from "./types.js";
+import { welcome } from "./controllers/welcome.js";
+import { search } from "./controllers/search.js";
+import { sitemap } from "./controllers/sitemap.js";
+import { all } from "./controllers/all.js";
+import { layout } from "./middleware/layout.js";
+import { template } from "./middleware/template.js";
+import { login } from "./controllers/login.js";
 
 export const router = new Router<IState, Context>();
 

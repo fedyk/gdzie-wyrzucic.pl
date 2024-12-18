@@ -1,6 +1,6 @@
 import { Middleware } from "koa";
-import { IState, Context } from "../types";
-import { renderView } from "../views";
+import { IState, Context } from "../types.js";
+import { renderView } from "../views.js";
 
 /**
  * @example

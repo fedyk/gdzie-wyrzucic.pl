@@ -1,9 +1,9 @@
 import * as fs from "fs"
 import * as path from "path"
 import * as assert from "assert"
-import Fuse from "fuse.js"
-import * as config from "./config"
-import * as types from "./types"
+import Fuse, { FuseResult } from "fuse.js"
+import * as config from "./config.js"
+import * as types from "./types.js"
 
 const wastes = new Map<string, types.Waste2>()
 const categories = new Map<string, types.Category2>()
@@ -32,9 +32,9 @@ export function loadData() {
     throw new Error("Cannot find a file " + path.basename(config.CATEGORIES_PATH))
   }
 
-  const wastesJSON = require(config.WASTES_PATH)
-  const categoriesJSON = require(config.CATEGORIES_PATH)
-  const pointsJSON = require(config.POINTS_PATH)
+  const wastesJSON = JSON.parse(fs.readFileSync(config.WASTES_PATH, "utf8"))
+  const categoriesJSON = JSON.parse(fs.readFileSync(config.CATEGORIES_PATH, "utf8"))
+  const pointsJSON = JSON.parse(fs.readFileSync(config.POINTS_PATH, "utf8"))
 
   if (!Array.isArray(wastesJSON)) {
     throw new Error("`wasteJSON` should be an array")
@@ -92,7 +92,7 @@ export function findWastesByCategory(categoryId: string) {
   return result
 }
 
-export function search(query: string, limit = 25): Fuse.FuseResult<types.Waste2>[] {
+export function search(query: string, limit = 25): FuseResult<types.Waste2>[] {
   return fuse.search(query, { limit: 25 }).sort((a, b) => (a?.score ?? 0) - (b?.score ?? 0))
 }
 
@@ -122,7 +122,7 @@ export function getWastesById(wasteId: string) {
 
 /** @todo: optimization is required */
 export function findPointsByCategoryId(categoryId: string) {
-  return points.filter(function(p) {
+  return points.filter(function (p) {
     return p.categoryIds.includes(categoryId)
   })
 }

@@ -1,7 +1,5 @@
-const { Remarkable } = require('remarkable');
-const md = new Remarkable()
+import { marked } from "marked"
 
-export function renderMarkdown(markdown: string): string {
-  return md.render(markdown)
+export function renderMarkdown(markdown: string) {
+  return marked(markdown)
 }
-

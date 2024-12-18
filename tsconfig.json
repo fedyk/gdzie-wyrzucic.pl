@@ -1,12 +1,11 @@
 {
-  "include": [
-    "src"
-  ],
   "compilerOptions": {
-    "module": "CommonJS",
-    "outDir": "dist",
-    "target": "ES2019",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "outDir": "./dist/",
+    "rootDir": "./src/",
     "strict": true,
-    "esModuleInterop": true
-  }
+    "allowJs": true
+  },
+  "include": ["src/**/*"]
 }

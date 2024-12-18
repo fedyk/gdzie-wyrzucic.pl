@@ -1,7 +1,7 @@
-import { Middleware } from "../types";
-import { getGoogleAuthUrl } from "../helpers/get-google-auth-url";
-import { getGoogleAccessToken } from "../helpers/get-google-access-token";
-import { getGoogleAccessTokenInfo } from "../helpers/get-google-access-token-info";
+import { Middleware } from "../types.js";
+import { getGoogleAuthUrl } from "../helpers/get-google-auth-url.js";
+import { getGoogleAccessToken } from "../helpers/get-google-access-token.js";
+import { getGoogleAccessTokenInfo } from "../helpers/get-google-access-token-info.js";
 
 export const login: Middleware = async function (ctx) {
   let token: any = null

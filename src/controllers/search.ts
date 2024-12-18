@@ -1,10 +1,10 @@
 import { format } from "util";
 import * as querystring from "querystring";
-import * as storage from "../storage"
-import { Middleware, Category2, Point } from "../types";
-import { renderView } from "../views";
-import { GOOGLE_MAPS_STATIC_API_KEY } from "../config";
-import { renderMarkdown } from "../remarkable";
+import * as storage from "../storage.js"
+import { Middleware, Category2, Point } from "../types.js";
+import { renderView } from "../views.js";
+import { GOOGLE_MAPS_STATIC_API_KEY } from "../config.js";
+import { renderMarkdown } from "../remarkable.js";
 
 export const search: Middleware = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
@@ -87,9 +87,9 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
   })
 }
 
-function renderCategory(category: Category2, points: Point[]) {
+async function renderCategory(category: Category2, points: Point[]) {
   const mapUrl = points.length > 0 ? getMapURL(points) : void 0
-  const description = category.description ? renderMarkdown(category.description) : void 0
+  const description = category.description ? await renderMarkdown(category.description) : void 0
 
   return renderView("search/category.ejs", {
     description,

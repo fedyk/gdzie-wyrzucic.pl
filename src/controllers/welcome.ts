@@ -1,6 +1,6 @@
 import * as querystring from "querystring";
-import { Middleware } from "../types";
-import { renderView } from "../views";
+import { Middleware } from "../types.js";
+import { renderView } from "../views.js";
 
 export const welcome: Middleware = async function (ctx) {
   ctx.state.title = "Jak prawidłowo segregować śmieci?"
