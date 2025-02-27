@@ -6,12 +6,14 @@ import { getGoogleAccessTokenInfo } from "../helpers/get-google-access-token-inf
 export const login: Middleware = async function (ctx) {
   let token: any = null
   let info: any = null
+  const code = String(ctx.request.query.code || "")
+  const access_token = String(ctx.request.query.access_token || "")
 
-  if (ctx.request.query.code) {
-    token = await getGoogleAccessToken(ctx.request.query.code).catch(err => console.warn(err))
+  if (code) {
+    token = await getGoogleAccessToken(code).catch(err => console.warn(err))
   }
-  else if (ctx.request.query.access_token) {
-    info = await getGoogleAccessTokenInfo(ctx.request.query.access_token)
+  else if (access_token) {
+    info = await getGoogleAccessTokenInfo(access_token)
   }
   else {
     return ctx.redirect(getGoogleAuthUrl())

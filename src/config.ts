@@ -1,10 +1,10 @@
 import * as path from "path"
-import { config as dotenv } from "dotenv";
+import { config } from "dotenv";
 import { parseTrustedEmails } from "./parsers.js";
 
 const __dirname = import.meta.dirname
 
-dotenv({ path: __dirname + "/../.env" })
+config({ path: __dirname + "/../.env" })
 
 export const PORT = Number(process.env.PORT ?? 3000)
 export const APP_KEYS = String(process.env.APP_KEYS).split(";")
