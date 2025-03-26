@@ -1,4 +1,4 @@
-import { each, html } from "../../html.js"
+import { each, HTML, html } from "../html.js"
 
 export function renderCategory({
   mapUrl,
@@ -6,8 +6,8 @@ export function renderCategory({
   category,
   points,
 }: {
-  mapUrl: string
-  description: string
+  mapUrl?: string
+  description?: string
   category: {
     name: string
   }
@@ -23,7 +23,7 @@ export function renderCategory({
 
     <div class="card-body">
       <h5 class="card-title mb-2">${category.name}</h5>
-      ${description && html`<div>${description}</div>`}
+      ${description && html`<div>${new HTML(description)}</div>`}
     </div>
 
     <div class="list-group list-group-flush">

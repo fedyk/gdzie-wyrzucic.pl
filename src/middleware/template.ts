@@ -28,5 +28,5 @@ export const template: Middleware<IState, Context> = async function(ctx, next) {
     scripts: ctx.state.scripts,
     styles: ctx.state.styles,
     body: ctx.body,
-  })
+  }).toString()
 }

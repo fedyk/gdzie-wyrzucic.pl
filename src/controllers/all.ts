@@ -2,12 +2,12 @@
 import * as querystring from "querystring";
 import * as storage from "../storage.js"
 import { Middleware } from "../types.js";
-import { renderView } from "../views.js";
+import { renderResults } from "../views/results.js";
 
 export const all: Middleware = async function (ctx) {
   const wastes = storage.getWastes()
 
-  ctx.body = await renderView("all.ejs", {
+  ctx.body = await renderResults({
     results: getResults(wastes)
   })
 }
