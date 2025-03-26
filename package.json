@@ -18,22 +18,18 @@
   "license": "ISC",
   "dependencies": {
     "@types/dotenv": "^8.2.3",
-    "@types/ejs": "^3.1.5",
     "@types/koa": "^2.15.0",
     "@types/koa-bodyparser": "^4.3.12",
     "@types/koa-router": "^7.4.8",
     "@types/koa-static": "^4.0.4",
     "@types/node": "^22.13.5",
-    "@types/node-fetch": "^2.6.12",
     "dotenv": "^16.4.7",
-    "ejs": "^3.1.10",
     "fuse.js": "^7.1.0",
     "koa": "^2.16.0",
     "koa-bodyparser": "^4.4.1",
     "koa-router": "^13.0.1",
     "koa-static": "^5.0.0",
     "marked": "^15.0.7",
-    "node-fetch": "^3.3.2",
     "node-run-all": "^1.1.0",
     "typescript": "^5.7.3"
   }
