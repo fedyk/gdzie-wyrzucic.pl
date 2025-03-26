@@ -1,6 +1,6 @@
 import { Middleware } from "koa";
 import { IState, Context } from "../types.js";
-import { renderView } from "../views.js";
+import { renderTemplate } from "../views/template.js";
 
 /**
  * @example
@@ -22,7 +22,7 @@ export const template: Middleware<IState, Context> = async function(ctx, next) {
 
   ctx.response.type = "html"
 
-  ctx.body = await renderView("template.ejs", {
+  ctx.body = await renderTemplate({
     title: ctx.state.title,
     description: ctx.state.description,
     scripts: ctx.state.scripts,

@@ -1,3 +1,7 @@
+import { html } from "../../html.js";
+
+export function renderResult() {
+  return html`
 <div class="main-container">
   <%_ if (results.length === 0) { -%>
   <h5 class="text-center text-muted font-weight-light">Nothing found</h5>
@@ -12,3 +16,5 @@
   <%_ }) -%>
   <%_ } -%>
 </div>
+`
+}
