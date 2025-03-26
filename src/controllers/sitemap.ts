@@ -1,7 +1,7 @@
 import * as querystring from "querystring"
 import { Middleware } from "../types.js"
-import { renderView } from "../views.js"
 import { getWastesIds, getCategoriesIds } from "../storage.js"
+import { renderSitemap } from "../views/sitemap.js"
 
 export const sitemap: Middleware = async (ctx) => {
   const urls: string[] = [
@@ -21,9 +21,7 @@ export const sitemap: Middleware = async (ctx) => {
   })
 
   ctx.response.type = "application/xml"
-  ctx.body = await renderView("sitemap.ejs", {
-    urls: urls
-  })
+  ctx.body = await renderSitemap(urls)
 
   function getSearchUrl(params: querystring.ParsedUrlQueryInput) {
     return getUrl("/search?" + querystring.stringify(params))

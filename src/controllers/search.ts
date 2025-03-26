@@ -2,9 +2,10 @@ import { format } from "util";
 import * as querystring from "querystring";
 import * as storage from "../storage.js"
 import { Middleware, Category2, Point } from "../types.js";
-import { renderView } from "../views.js";
 import { GOOGLE_MAPS_STATIC_API_KEY } from "../config.js";
 import { renderMarkdown } from "../remarkable.js";
+import { renderResults } from "../views/results.js";
+import { renderCategory } from "../views/category.js";
 
 export const search: Middleware = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
@@ -17,7 +18,7 @@ export const search: Middleware = async function (ctx) {
     }
 
     ctx.state.headerQuery = waste.name
-    ctx.body = await renderView("search/results.ejs", {
+    ctx.body = await renderResults({
       results: buildSearchResults([{
         item: waste,
         refIndex: 0,
@@ -36,7 +37,7 @@ export const search: Middleware = async function (ctx) {
 
     ctx.state.title = format("Gdzie wyrzucić · %s", queryParams.query)
     ctx.state.headerQuery = category.name;
-    ctx.body = await renderCategory(category, points)
+    ctx.body = await Category(category, points)
     return
   }
 
@@ -48,7 +49,7 @@ export const search: Middleware = async function (ctx) {
 
   ctx.state.title = format("Gdzie wyrzucić \"%s\"?", queryParams.query)
   ctx.state.headerQuery = queryParams.query;
-  ctx.body = await renderView("search/results.ejs", {
+  ctx.body = await renderResults({
     results: buildSearchResults(hits)
   })
 }
@@ -87,11 +88,11 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
   })
 }
 
-async function renderCategory(category: Category2, points: Point[]) {
+async function Category(category: Category2, points: Point[]) {
   const mapUrl = points.length > 0 ? getMapURL(points) : void 0
   const description = category.description ? await renderMarkdown(category.description) : void 0
 
-  return renderView("search/category.ejs", {
+  return renderCategory({
     description,
     category,
     points,

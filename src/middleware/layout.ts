@@ -1,6 +1,6 @@
 import { Middleware } from "koa";
 import { IState, Context } from "../types.js";
-import { renderView } from "../views.js";
+import { renderLayout } from "../views/layout.js";
 
 export const layout: Middleware<IState, Context> = async function (ctx, next) {
   ctx.state.styles?.push(
@@ -18,8 +18,8 @@ export const layout: Middleware<IState, Context> = async function (ctx, next) {
 
   await next()
 
-  ctx.body = await renderView("layout.ejs", {
-    body: ctx.body,
-    query: ctx.state.headerQuery
-  })
+  ctx.body = await renderLayout(
+    ctx.body,
+    ctx.state.headerQuery
+  )
 }

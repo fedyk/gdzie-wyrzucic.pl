@@ -1,5 +1,4 @@
 import {stringify }from "querystring"
-import fetch from "node-fetch"
 
 export function getGoogleAccessTokenInfo(accessToken: string) {
   const payload = {
