@@ -1,16 +1,14 @@
+import * as fs from "fs"
 import * as path from "path"
-import { config } from "dotenv";
 import { parseTrustedEmails } from "./parsers.js";
 
 const __dirname = import.meta.dirname
 
-config({ path: __dirname + "/../.env" })
-
 export const PORT = Number(process.env.PORT ?? 3000)
 export const APP_KEYS = String(process.env.APP_KEYS).split(";")
-export const WASTES_PATH = path.resolve(__dirname, "../data/wastes.json")
-export const CATEGORIES_PATH = path.resolve(__dirname, "../data/categories.json")
-export const POINTS_PATH = path.resolve(__dirname, "../data/points.json")
+export const WASTES_PATH = path.resolve(__dirname, "../../data/wastes.json")
+export const CATEGORIES_PATH = path.resolve(__dirname, "../../data/categories.json")
+export const POINTS_PATH = path.resolve(__dirname, "../../data/points.json")
 export const GOOGLE_MAPS_STATIC_API_KEY = process.env.GOOGLE_MAPS_STATIC_API_KEY ?? void 0
 export const GOOGLE_CLIENT_ID = String(process.env.GOOGLE_CLIENT_ID)
 export const GOOGLE_CLIENT_SECRET = String(process.env.GOOGLE_CLIENT_SECRET)
@@ -23,4 +21,16 @@ if (!process.env.APP_KEYS) {
 
 if (!GOOGLE_MAPS_STATIC_API_KEY) {
   console.warn("No API Key for Google Static Map. Set GOOGLE_MAPS_STATIC_API_KEY environment variable. To obtain key see https://developers.google.com/maps/documentation/maps-static/get-api-key")
+}
+
+if (!fs.existsSync(WASTES_PATH)) {
+  throw new Error("Cannot find a file " + path.basename(WASTES_PATH));
+}
+
+if (!fs.existsSync(CATEGORIES_PATH)) {
+  throw new Error("Cannot find a file " + path.basename(CATEGORIES_PATH));
+}
+
+if (!fs.existsSync(POINTS_PATH)) {
+  throw new Error("Cannot find a file " + path.basename(CATEGORIES_PATH));
 }

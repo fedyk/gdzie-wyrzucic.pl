@@ -14,7 +14,7 @@ export const search: Middleware = async function (ctx) {
     const waste = storage.getWastesById(queryParams.wasteId)
 
     if (!waste) {
-      return ctx.throw(new Error("Page doesn't exist"), 404)
+      return ctx.throw(404, new Error("Page doesn't exist"))
     }
 
     ctx.state.headerQuery = waste.name
@@ -32,7 +32,7 @@ export const search: Middleware = async function (ctx) {
     const points = storage.findPointsByCategoryId(queryParams.categoryId)
 
     if (!category) {
-      return ctx.throw(new Error("Category does not exist"), 404)
+      return ctx.throw(404, new Error("Category does not exist"))
     }
 
     ctx.state.title = format("Gdzie wyrzucić · %s", queryParams.query)
