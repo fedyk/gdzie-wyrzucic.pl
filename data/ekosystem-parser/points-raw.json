@@ -1,0 +1,2501 @@
+[
+  [
+    "przeterminowane-leki",
+    [
+      {
+        "position": {
+          "lat": 51.1004397539136,
+          "lng": 17.00855791568756
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Niezapominajka</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Lubuskiej 84</p>\n</div></div>"
+        },
+        "title": "Apteka Niezapominajka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.119581365995096,
+          "lng": 17.039471715688705
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka ZIKO</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Jedności Narodowej 51</p>\n</div></div>"
+        },
+        "title": "Apteka ZIKO",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.1090302,
+          "lng": 17.0394064
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dbam o Zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, pl. Dominikański 4</p>\n</div></div>"
+        },
+        "title": "Dbam o Zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.0938081,
+          "lng": 16.9820747
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pulsantis</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Grabiszyńska 238</p>\n</div></div>"
+        },
+        "title": "Pulsantis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.0689709,
+          "lng": 16.9990179
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Krzycka</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Przyjaźni 91</p>\n</div></div>"
+        },
+        "title": "Apteka Krzycka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.08694644495517,
+          "lng": 17.04757332801819
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka DR Zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Hubska 112</p>\n</div></div>"
+        },
+        "title": "Apteka DR Zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.1396305,
+          "lng": 17.0222316
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Bezpieczna 28a lok 5u</p>\n</div></div>"
+        },
+        "title": "Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.1066826,
+          "lng": 17.0211083
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Pod Jemiołą</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Piłsudskiego 3</p>\n</div></div>"
+        },
+        "title": "Apteka Pod Jemiołą",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.14322000036336,
+          "lng": 17.131724953651428
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Rumianek</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Inflancka 39</p>\n</div></div>"
+        },
+        "title": "Apteka Rumianek",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.1355755,
+          "lng": 17.0575394
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Karłowicka</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Berenta 20</p>\n</div></div>"
+        },
+        "title": "Apteka Karłowicka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.1177686,
+          "lng": 17.0002724
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Słubicka 18</p>\n</div></div>"
+        },
+        "title": "Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.15796650000001,
+          "lng": 17.0329844
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Hospicjum Braci Bonifratrów</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Poświęcka 8a</p>\n</div></div>"
+        },
+        "title": "Hospicjum Braci Bonifratrów",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.12512049999999,
+          "lng": 16.9518942
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Kuźniki</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, ul. Gołnowska 3</p>\n</div></div>"
+        },
+        "title": "Apteka Kuźniki",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.10556651581559,
+          "lng": 16.946223378181458
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka DBAM O ZDROWIE</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Graniczna 2a</p>\n</div></div>"
+        },
+        "title": "Apteka DBAM O ZDROWIE",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.11330484505469,
+          "lng": 16.9539662450552
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka przy Polo Market</h3><div class=\"mceContentBody mceFrontEnd \"><p>Wrocław, Budziszyńska 107</p>\n</div></div>"
+        },
+        "title": "Apteka przy Polo Market",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13969338955478",
+          "lng": "17.024140707804346"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Amicus IV</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Bezpieczna 28/U5; 51-114 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "Amicus IV",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09709438466314",
+          "lng": "17.008046647918718"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Przy Proximum</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Żelazna 34; 53-428 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "Apteka Przy Proximum",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08905748057892",
+          "lng": "16.999132721819826"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dr Max</h3><div class=\"mceContentBody mceFrontEnd \"><p>al. gen. J. Hallera 52; 50-984 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dr Max",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08372917585844",
+          "lng": "17.04520831029229"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>MAK</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Widna 6/5; 50-543 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "MAK",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.112237512753595",
+          "lng": "17.039715894212986"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Tumska</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Piaskowa 11; 50-158 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "Apteka Tumska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12026785975939",
+          "lng": "17.036750922429054"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka pod Skrzydłem Anioła</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">pl. św. Macieja 9; 50-244 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "Apteka pod Skrzydłem Anioła",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12174812728047",
+          "lng": "17.031010687351227"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pomorska 61; 50-217 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.15161115522072",
+          "lng": "17.13119721187175"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Expresspharm II</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Bierutowska 63</span></p>\n</div></div>"
+        },
+        "title": "Expresspharm II",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13585400243665",
+          "lng": "17.038217782974243"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Gemini</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">al. Kasprowicza 9a; 51-136 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "Gemini",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.079519638699686",
+          "lng": "17.039630845471734"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pomarańczowa</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Jabłeczna 27/29</span></p>\n</div></div>"
+        },
+        "title": "Pomarańczowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14659681551559",
+          "lng": "17.114828703654744"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Nasza apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. B. Krzywoustego 323; 51-310 Wrocław</p>\n</div></div>"
+        },
+        "title": "Nasza apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09880549313151",
+          "lng": "17.006000882215318"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Ołowiana 11; 53-434 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.0993886,
+          "lng": 17.0491447
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>MAK</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kościuszki 148; 50-439 Wrocław</p>\n</div></div>"
+        },
+        "title": "MAK",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.098031124793266",
+          "lng": "17.032134532928467"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Swobodna 1, 50-088 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.05678812705258",
+          "lng": "17.026134886292166"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Ołtaszyńska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Uczniowska 37, 52-222 Wrocław</p>\n</div></div>"
+        },
+        "title": "Ołtaszyńska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09719751716904",
+          "lng": "17.031490251340905"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Promyk Słońca</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Swobodna 8a, 50-088 Wrocław</p>\n</div></div>"
+        },
+        "title": "Promyk Słońca",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10717314349189",
+          "lng": "17.04599618911743"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Słoneczna</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dobrzyńska 21/23, 50-403 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Słoneczna",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11985065734314",
+          "lng": "17.084366981402635"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Olimpijska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Stanisława Moniuszki 10, 51-610 Wrocław</p>\n</div></div>"
+        },
+        "title": "Olimpijska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13462306610293",
+          "lng": "17.057347297668457"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Karłowicka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Wacława Berenta 26/20; 51-152 Wrocław</p>\n</div></div>"
+        },
+        "title": "Karłowicka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09489803482296",
+          "lng": "17.01559066772461"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka przy pl. Hirszfelda</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Hirszfelda 14A, 53-413 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka przy pl. Hirszfelda",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.109574108961546",
+          "lng": "17.10008181174649"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Miętowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Partyzantów 35/1B</p>\n</div></div>"
+        },
+        "title": "Miętowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.102470557563166",
+          "lng": "17.03715772621679"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Wrocławska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kołłątaja 27, 50-004 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Wrocławska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.110412044774044",
+          "lng": "17.014516178863843"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Braniborska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Braniborska 14; 53-680 Wrocław</p>\n</div></div>"
+        },
+        "title": "Braniborska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10397189699784",
+          "lng": "17.11120977251918"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Biskupin</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Maksymiliana Jackowskiego 57, 51-665 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Biskupin",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11461125981777",
+          "lng": "17.012023579651128"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Gemini</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Młodych Techników 7, 53-647 Wrocław</p>\n</div></div>"
+        },
+        "title": "Gemini",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.140006054894826",
+          "lng": "17.070227464297517"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka przy Netto</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sołtysowicka 15a; 51-168 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka przy Netto",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13965090519527",
+          "lng": "17.022130192509337"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Słoneczna Biedronka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bezpieczna 28a/lok U3;51-114 Wrocław</p>\n</div></div>"
+        },
+        "title": "Słoneczna Biedronka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14226225130101",
+          "lng": "17.090456732715456"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krzywoustego 126; 51-421 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14314362349175",
+          "lng": "17.13163947087225"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Rumianek</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Inflancka 39; 51-314 Wrocław</p>\n</div></div>"
+        },
+        "title": "Rumianek",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13707145733994",
+          "lng": "16.980395692187624"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dziadoszańska 29-31, 54-152 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.101115706293136",
+          "lng": "16.952280927276025"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Trawowa 75</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11194600090856",
+          "lng": "16.961455804877485"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Strzegomska 194</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14077073209416",
+          "lng": "16.96453638432446"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dokerska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dokerska 7a; 54-142 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dokerska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09511830099447",
+          "lng": "16.980745409549172"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Grabiszyńska 238-240; 53-235 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.139584255989014",
+          "lng": "16.963112725064978"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dokerska 22; 54-142 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.107885",
+          "lng": "17.038538"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Prima</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Budziszyńska 107; 54-436 Wrocław</p>\n</div></div>"
+        },
+        "title": "Prima",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08893793551721",
+          "lng": "17.0191317517445"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Czekoladowa 2</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Drukarska 36, 53-312 Wrocław</p>\n</div></div>"
+        },
+        "title": "Czekoladowa 2",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.084115389606595",
+          "lng": "17.01029492208132"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Powstańców śląskich 159; 53-138 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08199072256188",
+          "lng": "17.045845132651696"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krynicka 7-9; 50-555 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.06753514176396",
+          "lng": "16.991878756844493"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Mniszek II</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krzycka 90C; 53-020 Wrocław</p>\n</div></div>"
+        },
+        "title": "Mniszek II",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.053402501015704",
+          "lng": "16.972837010217372"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>al. Karkonoska 85; 53-015 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.097556833624026",
+          "lng": "17.01893708526536"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Słoneczna</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Grabskiego 3; 53-535 Wrocław</p>\n</div></div>"
+        },
+        "title": "Słoneczna",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07604274114812",
+          "lng": "17.08459938369041"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Księżęca</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Chorzowska 2; 52-023 Wrocław</p>\n</div></div>"
+        },
+        "title": "Księżęca",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.087119222569726",
+          "lng": "17.013667503812208"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Powstańców Śląskich 146/1; 53-315 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12324981673524",
+          "lng": "17.039591073989868"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Słoneczna Biedronka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Słowiańska 6/1; 50-235 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Słoneczna Biedronka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10169663918364",
+          "lng": "17.102333752324586"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Pod Jaworem</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Karola Olszewskiego 75; 51-642 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Pod Jaworem",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.107885",
+          "lng": "17.038538"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Dominikański 3; 50-159 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11715303498011",
+          "lng": "17.003794712226785"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Słubicka 18; 53-615 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12859851226363",
+          "lng": "17.03293754757692"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ dbam o zdrowie (dawniej Silesia 3)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kraszewskiego 21/3; 50-229 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ dbam o zdrowie (dawniej Silesia 3)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07694218517584",
+          "lng": "16.998109818517847"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Lawendowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Skarbowców 27A; 53-025 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Lawendowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.086002637452744",
+          "lng": "17.04973890484621"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dr. Zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Hubska 112/118; 50-505 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dr. Zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07300546507175",
+          "lng": "16.991127273452776"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Róża Wiatrów</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Róży Wiatrów 9b; 53-026 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Róża Wiatrów",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.1105086612362",
+          "lng": "17.033318421257036"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ (Apteka Pod Podwójnym Złotym Orłem )</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rynek 42/43; 50-112 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ (Apteka Pod Podwójnym Złotym Orłem )",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11855385146749",
+          "lng": "17.032100698364275"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pomorska 25</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pomorska 25; 50-216 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pomorska 25",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12657359350904",
+          "lng": "16.976059020196033"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Malva</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. E. Horbaczewskiego 4-6; 54-130 Wrocław</p>\n</div></div>"
+        },
+        "title": "Malva",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08779481944641",
+          "lng": "17.017869889438693"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Wratislavia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sztabowa 76; 53-310 Wrocław</p>\n</div></div>"
+        },
+        "title": "Wratislavia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.05680728656054",
+          "lng": "17.02477991580963"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Krokus</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Marcelego Nenckiego 136A; 52-223 Wrocław</p>\n</div></div>"
+        },
+        "title": "Krokus",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.126717546134216",
+          "lng": "17.05245930584368"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Na Damrota</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Ks. Konstantego Damrota 7; 50-306 Wrocław</p>\n</div></div>"
+        },
+        "title": "Na Damrota",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11002359975963",
+          "lng": "17.02709406590682"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dr.Max</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Psie Budy 3/4; 50-080 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dr.Max",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.102673097881734",
+          "lng": "17.096679210662842"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka u Dawida</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Karola Olszewskiego 21</p>\n</div></div>"
+        },
+        "title": "Apteka u Dawida",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12271231130965",
+          "lng": "17.0363646166345"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Św. Wincentego</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. św. Wincentego 39-41; 50-251 Wrocław</p>\n</div></div>"
+        },
+        "title": "Św. Wincentego",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12228611651067",
+          "lng": "17.026598073922095"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>MAK</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Strzelecki 24; 50-224 Wrocław</p>\n</div></div>"
+        },
+        "title": "MAK",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11958000361595",
+          "lng": "17.039466126007866"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Jedności Narodowej 51-53; 50-262 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10172049532977",
+          "lng": "17.029682527234538"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Świdnicka 48; 50-068 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.099570585221436",
+          "lng": "17.03847997649094"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie (dawniej Silesia)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dworcowa 33-35; 50-456 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie (dawniej Silesia)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10505790715689",
+          "lng": "17.02210307121277"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dom leków</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Józefa Piłsudskiego 12; 50-049 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dom leków",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.107885",
+          "lng": "17.038538"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Ziko</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Oławska 12; 50-123 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Ziko",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13047590390753",
+          "lng": "16.965677607844903"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Tęczowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Jerzego Bajana 1; 54-129 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Tęczowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.126951035378944",
+          "lng": "16.96564334753024"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka da Vinci</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bulwar Dedala 28A; 54-130 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka da Vinci",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12518622561738",
+          "lng": "16.971296328449366"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Helvetia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bulwar Ikara 20; 54-130 Wrocław</p>\n</div></div>"
+        },
+        "title": "Helvetia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.109255764593314",
+          "lng": "17.03113548687646"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pod Ratuszem</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rynek 18; 50-101 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pod Ratuszem",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12662611489792",
+          "lng": "16.969679529912316"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dr. Max (dawniej Ikar)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bulwar Ikara 29a/1; 54-130 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dr. Max (dawniej Ikar)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11403191466296",
+          "lng": "17.00279589418727"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pod Akcjami</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bolesławiecka 2; 53-614 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pod Akcjami",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12943451183333",
+          "lng": "16.97013258934021"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lotnicza (dawniej Ogólnodostępna)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Lotnicza 24; 54-155 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lotnicza (dawniej Ogólnodostępna)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12712502742364",
+          "lng": "16.94593369960785"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Sarbinowska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sarbinowska 15-17; 54-320 Wrocław</p>\n</div></div>"
+        },
+        "title": "Sarbinowska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11589915395144",
+          "lng": "17.008005380630493"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Hetmańska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Stefana Czarnieckiego 13; 53-650 Wrocław</p>\n</div></div>"
+        },
+        "title": "Hetmańska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11418987801569",
+          "lng": "16.958696656119336"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Lege Artis Nowodworska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Gubińska 15; 54-434 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Lege Artis Nowodworska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.121527592949626",
+          "lng": "17.01662425600849"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Długa 37/47; 53-633 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11740440092074",
+          "lng": "16.95403665304184"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Pod Wężem</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rogowska 42-46; 54-440 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Pod Wężem",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11825802590122",
+          "lng": "16.95426195859909"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Nova</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rogowska 52; 54-440 Wrocław</p>\n</div></div>"
+        },
+        "title": "Nova",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13024246744817",
+          "lng": "17.04350173473358"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Acer</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Zakładowa 11e; 50-231 Wrocław</p>\n</div></div>"
+        },
+        "title": "Acer",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11131828253787",
+          "lng": "17.042740468474232"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>McCoy`S</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Nowy Targ 9; 50-141 Wrocław</p>\n</div></div>"
+        },
+        "title": "McCoy`S",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11682042660948",
+          "lng": "17.052314410041642"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Katedralna</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sienkiewicza 54-56; 5-349 Wrocław</p>\n</div></div>"
+        },
+        "title": "Katedralna",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.06212599769157",
+          "lng": "17.03269336193957"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Grota-Roweckiego 76; 52-218 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.060028931862846",
+          "lng": "17.005285620689392"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Arnika</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Zwycięska 25-35; 53-033 Wrocław</p>\n</div></div>"
+        },
+        "title": "Arnika",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07664062447837",
+          "lng": "17.019897934072002"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Przy Weigla</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Weigla 10; 53-114 Wrocław</p>\n</div></div>"
+        },
+        "title": "Przy Weigla",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.074831120013144",
+          "lng": "17.004515826702118"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Wawrzyniaka 2; 53-022 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.063501516658775",
+          "lng": "16.983318328857422"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Calendula</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Wałbrzyska 3c; 52-314 Wrocław</p>\n</div></div>"
+        },
+        "title": "Calendula",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08068963441659",
+          "lng": "17.015869487360547"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pod Jaworami</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sudecka 147b; 53-128 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pod Jaworami",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.06724293028058",
+          "lng": "16.995939252660992"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Przyjaźni</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Przyjaźni 109; 53-030 Wrocław</p>\n</div></div>"
+        },
+        "title": "Przyjaźni",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.06601560582297",
+          "lng": "16.994700116652552"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Antidotum</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Przyjaźni 34e/1u; 53-030 Wrocław</p>\n</div></div>"
+        },
+        "title": "Antidotum",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.091339641981534",
+          "lng": "17.017152091342172"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dom Leków</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Powstańców Śląskich 1/102; 53-332 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dom Leków",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09223217992375",
+          "lng": "17.028983365108466"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dolnośląska Grupa Apteczna DGA 10</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pabianicka 25; 53-339 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dolnośląska Grupa Apteczna DGA 10",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09297858062494",
+          "lng": "17.02540129664154"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Aronia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Komandorska 147; 53-344 Wrocław</p>\n</div></div>"
+        },
+        "title": "Aronia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.0945635580002",
+          "lng": "17.010888182120894"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Jantarowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Gajowicka 96; 53-529 Wrocław</p>\n</div></div>"
+        },
+        "title": "Jantarowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.05927587356203",
+          "lng": "16.97394330694404"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Czekoladowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Czekoladowa 58; 52-326 Wrocław</p>\n</div></div>"
+        },
+        "title": "Czekoladowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.0730919145217",
+          "lng": "17.03651189804077"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Wysokogórska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Wandy Rutkiewicz 9; 50-571 Wrocław</p>\n</div></div>"
+        },
+        "title": "Wysokogórska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.0519765931099",
+          "lng": "17.059195805520044"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Vivaldiego</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Vivaldiego 2b; 52-129 Wrocław</p>\n</div></div>"
+        },
+        "title": "Vivaldiego",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10064683476914",
+          "lng": "17.045151462362686"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pułaska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pułaskiego 49a; 50-441 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pułaska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.066959038833396",
+          "lng": "17.07968772621923"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Na Rondzie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pionierów 7; 52-112 Wrocław</p>\n</div></div>"
+        },
+        "title": "Na Rondzie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07828464266167",
+          "lng": "17.047569306745032"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Remedium Mak</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krynicka 51; 50-555 Wrocław</p>\n</div></div>"
+        },
+        "title": "Remedium Mak",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10625372488924",
+          "lng": "17.043518759514285"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Za Fosą</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krasińskiego 34; 50-450 Wrocław</p>\n</div></div>"
+        },
+        "title": "Za Fosą",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.096220156232526",
+          "lng": "17.055187431557574"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krakowska 1; 50-424 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09974679141003",
+          "lng": "17.050233782425884"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Cztery Pory Roku</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Komuny Paryskiej 79; 50-452 Wrocław</p>\n</div></div>"
+        },
+        "title": "Cztery Pory Roku",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09516442434209",
+          "lng": "17.036830632848957"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Joannitów 22; 50-525 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09960869460444",
+          "lng": "17.04112522635873"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Medicover</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dąbrowskiego 44; 50-457 Wrocław</p>\n</div></div>"
+        },
+        "title": "Medicover",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.092368909010574",
+          "lng": "17.0356385072004"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Wratislavia II</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Ciepła 9-11; 50-524 Wrocław</p>\n</div></div>"
+        },
+        "title": "Wratislavia II",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.06014059525264",
+          "lng": "17.08318272624478"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Brochowska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Chińska 2a; 52-118 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Brochowska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07716208677829",
+          "lng": "17.03400198285556"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Przy Borowskiej</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Borowska 188a; 50-557 Wrocław</p>\n</div></div>"
+        },
+        "title": "Przy Borowskiej",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.08415631734065",
+          "lng": "17.045828652719358"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dr. Max (dawniej Dolnośląska Grupa Apteczna DGA 23)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bardzka 1a; 50-516 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dr. Max (dawniej Dolnośląska Grupa Apteczna DGA 23)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.115212911465754",
+          "lng": "17.060525119941104"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Piastowska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Piastowska 36; 50-361 Wrocław</p>\n</div></div>"
+        },
+        "title": "Piastowska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.110688508941216",
+          "lng": "17.055968286855677"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Silesia</h3><div class=\"mceContentBody mceFrontEnd \"><p>DOZ Apteka dbam o zdrowie (dawniej Silesia)</p>\n</div></div>"
+        },
+        "title": "Silesia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11276373765372",
+          "lng": "17.05939255347637"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dbam O Zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Grunwaldzki 22; 50-363 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dbam O Zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.127403767855455",
+          "lng": "17.049321695699938"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Ustronie 1/3; 50-302 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.122650493613605",
+          "lng": "17.054576575756073"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Rumianek</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Elizy Orzeszkowej 59-61; 50-311 Wrocław</p>\n</div></div>"
+        },
+        "title": "Rumianek",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14661967596007",
+          "lng": "17.113145154226117"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Niezłe Ziółko</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krzywoustego 314/416; 51-310 Wrocław</p>\n</div></div>"
+        },
+        "title": "Niezłe Ziółko",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.106735170776744",
+          "lng": "17.143591481761085"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Strachocińska (dawniej Na Wojnowie)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Strachocińska 84; 51-511 Wrocław</p>\n</div></div>"
+        },
+        "title": "Strachocińska (dawniej Na Wojnowie)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10981957556986",
+          "lng": "17.118920148268693"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Olimpia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Marca Polo 35a; 51-504 Wrocław</p>\n</div></div>"
+        },
+        "title": "Olimpia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09757701737488",
+          "lng": "17.01292082133268"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Arka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Skwierzyńska 28b; 53-522 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Arka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.092965856848124",
+          "lng": "16.99181690812111"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Biogenes</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Bzowy 1; 53-224 Wrocław</p>\n</div></div>"
+        },
+        "title": "Biogenes",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.0948265352945",
+          "lng": "16.97805177726299"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pulsantis</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. A. Ostrowskiego 3; 53-238 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pulsantis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14636793403633",
+          "lng": "17.12778962824716"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Poleska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kiełczowska 51d/lok. 1; 51-315 Wrocław</p>\n</div></div>"
+        },
+        "title": "Poleska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.095686380674906",
+          "lng": "17.00855791568756"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Hibiskus</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Jemiołowa 50-54; 53-426 Wrocław</p>\n</div></div>"
+        },
+        "title": "Hibiskus",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.15409448062754",
+          "lng": "17.044244334778636"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kamieńskiego 213/U1; 51-126 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09193319506211",
+          "lng": "16.98583960533142"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Agat</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. al. Gen. Józefa Hallera 151</p>\n</div></div>"
+        },
+        "title": "Agat",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.148342705645476",
+          "lng": "17.042310423546564"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lobelia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kamieńskiego 132-144; 51-124 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lobelia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.151621292541414",
+          "lng": "17.131363953388107"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Express Pharm II</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bierutowska 63; 51-317 Wrocław</p>\n</div></div>"
+        },
+        "title": "Express Pharm II",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07808689874884",
+          "lng": "16.96379989385605"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Alpejska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Ludwika Solskiego 6; 52-416 Wrocław</p>\n</div></div>"
+        },
+        "title": "Alpejska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14570872509975",
+          "lng": "16.867808997631073"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Pod św. Antonim</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Średzka 33; 54-001 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Pod św. Antonim",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14686385836159",
+          "lng": "16.866404861211777"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Ogrodowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pawła Eluarda 7; 54-019 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Ogrodowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.138640221647535",
+          "lng": "17.0322325554833"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Kwiatowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bałtycka 1; 51-120 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Kwiatowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.102265512234816",
+          "lng": "16.946639120578766"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Muchoborska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Leopolda Tyrmanda 5; 54-611 Wrocław</p>\n</div></div>"
+        },
+        "title": "Muchoborska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.129956884711774",
+          "lng": "17.036822343835002"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Wratislavia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Trzebnicka 88; 50-231 Wrocław</p>\n</div></div>"
+        },
+        "title": "Wratislavia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09735409559755",
+          "lng": "16.95076373246608"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Krzemieniecka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krzemieniecka 125-127; 50-123 Wrocław</p>\n</div></div>"
+        },
+        "title": "Krzemieniecka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.17724836512254",
+          "lng": "16.999912717971213"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis (dawniej Przy Przychodni)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Szałwiowa 23/lokal 4a; 51-180 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis (dawniej Przy Przychodni)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10513537771123",
+          "lng": "16.946845650672913"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Graniczna 2a; C.H. Futura Park; 50-984 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.128255986162266",
+          "lng": "17.03415734579983"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Rubus</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Siemieńskiego 18; 50-228 Wrocław</p>\n</div></div>"
+        },
+        "title": "Rubus",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.15150742709883,
+          "lng": 17.02732439947496
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Vitrum</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Paprotna 7; 51-117 Wrocław</p>\n</div></div>"
+        },
+        "title": "Vitrum",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11118441660002",
+          "lng": "16.961554884910583"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Werbena</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Szwedzka 1a; 54-401 Wrocław</p>\n</div></div>"
+        },
+        "title": "Werbena",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11108001340059",
+          "lng": "16.95961833000183"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Gemini</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Strzegomska 208a</p>\n</div></div>"
+        },
+        "title": "Gemini",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13760728754792",
+          "lng": "17.05580738943357"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pod Jemiołą</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Piłsudskiego 3; 51-152 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pod Jemiołą",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.112265481024906",
+          "lng": "16.9610533118248"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Niezapominajka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Strzegomska 200; 54-432 Wrocław</p>\n</div></div>"
+        },
+        "title": "Niezapominajka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.07522973992858,
+          "lng": 17.085594885913867
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Tarnogórska 1; 52-021 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13260117963305",
+          "lng": "17.066022467286643"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Amicus</h3><div class=\"mceContentBody mceFrontEnd \"><p>al. Kromera 23a; 51-163 Wrocław</p>\n</div></div>"
+        },
+        "title": "Amicus",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12206126386328",
+          "lng": "16.921498775482178"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Rumiankowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rumiankowa 53; 54-512 Wrocław</p>\n</div></div>"
+        },
+        "title": "Rumiankowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14316615223287",
+          "lng": "16.889502704143524"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Złotnicka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Złotnicka 4g; 54-029 Wrocław</p>\n</div></div>"
+        },
+        "title": "Złotnicka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.149688666874134",
+          "lng": "16.94269526293582"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Milenium</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Fromborska 47; 54-111 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Milenium",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14523589455211",
+          "lng": "16.948226988315582"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Na Dobre i Na Złe</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pilczycka 196 E; 54-144 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Na Dobre i Na Złe",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13993851519575",
+          "lng": "16.962482929229736"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Sielska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sielska 3-9; 54-144 Wrocław</p>\n</div></div>"
+        },
+        "title": "Sielska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13543997726566",
+          "lng": "16.973195672035217"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kolista 10; 51-152 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.117250459638385",
+          "lng": "16.951730421480637"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Magnolia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Zemska 14a; 54-438 Wrocław</p>\n</div></div>"
+        },
+        "title": "Magnolia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12475061438709",
+          "lng": "17.034672550582588"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dbam O Zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Powstańców Wielkopolskich 1; 50-232 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dbam O Zdrowie",
+        "kolor": 2
+      }
+    ]
+  ],
+  [
+    "opakowania-na-zuzyte-igly-i-strzykawki",
+    [
+      {
+        "position": {
+          "lat": 51.14092909405081,
+          "lng": 17.084451381141832
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td></tr></table><h3>SuperPharm</h3><div class=\"mceContentBody mceFrontEnd \"><p>Bolesława Krzywoustego 110; 51-167 Wrocław</p>\n</div></div>"
+        },
+        "title": "SuperPharm",
+        "kolor": 0
+      },
+      {
+        "position": {
+          "lat": "51.08905748057892",
+          "lng": "16.999132721819826"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Dr Max</h3><div class=\"mceContentBody mceFrontEnd \"><p>al. gen. J. Hallera 52; 50-984 Wrocław</p>\n</div></div>"
+        },
+        "title": "Dr Max",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.15161115522072",
+          "lng": "17.13119721187175"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Expresspharm II</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Bierutowska 63</span></p>\n</div></div>"
+        },
+        "title": "Expresspharm II",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13585400243665",
+          "lng": "17.038217782974243"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Gemini</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">al. Kasprowicza 9a; 51-136 Wrocław</span></p>\n</div></div>"
+        },
+        "title": "Gemini",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.079519638699686",
+          "lng": "17.039630845471734"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pomarańczowa</h3><div class=\"mceContentBody mceFrontEnd \"><p class=\"p1\"><span class=\"s1\">ul. Jabłeczna 27/29</span></p>\n</div></div>"
+        },
+        "title": "Pomarańczowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.05678812705258",
+          "lng": "17.026134886292166"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Ołtaszyńska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Uczniowska 37, 52-222 Wrocław</p>\n</div></div>"
+        },
+        "title": "Ołtaszyńska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11985065734314",
+          "lng": "17.084366981402635"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Olimpijska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Stanisława Moniuszki 10, 51-610 Wrocław</p>\n</div></div>"
+        },
+        "title": "Olimpijska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.110412044774044",
+          "lng": "17.014516178863843"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Braniborska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Braniborska 14; 53-680 Wrocław</p>\n</div></div>"
+        },
+        "title": "Braniborska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.101115706293136",
+          "lng": "16.952280927276025"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka Dbam o zdrowie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Trawowa 75</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka Dbam o zdrowie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.139584255989014",
+          "lng": "16.963112725064978"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>ZIKO Apteka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dokerska 22; 54-142 Wrocław</p>\n</div></div>"
+        },
+        "title": "ZIKO Apteka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.097556833624026",
+          "lng": "17.01893708526536"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Słoneczna</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Grabskiego 3; 53-535 Wrocław</p>\n</div></div>"
+        },
+        "title": "Słoneczna",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07604274114812",
+          "lng": "17.08459938369041"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Księżęca</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Chorzowska 2; 52-023 Wrocław</p>\n</div></div>"
+        },
+        "title": "Księżęca",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12657359350904",
+          "lng": "16.976059020196033"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Malva</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. E. Horbaczewskiego 4-6; 54-130 Wrocław</p>\n</div></div>"
+        },
+        "title": "Malva",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.102673097881734",
+          "lng": "17.096679210662842"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka u Dawida</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Karola Olszewskiego 21</p>\n</div></div>"
+        },
+        "title": "Apteka u Dawida",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12228611651067",
+          "lng": "17.026598073922095"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>MAK</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Strzelecki 24; 50-224 Wrocław</p>\n</div></div>"
+        },
+        "title": "MAK",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.099570585221436",
+          "lng": "17.03847997649094"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ Apteka dbam o zdrowie (dawniej Silesia)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Dworcowa 33-35; 50-456 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ Apteka dbam o zdrowie (dawniej Silesia)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12518622561738",
+          "lng": "16.971296328449366"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Helvetia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bulwar Ikara 20; 54-130 Wrocław</p>\n</div></div>"
+        },
+        "title": "Helvetia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11589915395144",
+          "lng": "17.008005380630493"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Hetmańska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Stefana Czarnieckiego 13; 53-650 Wrocław</p>\n</div></div>"
+        },
+        "title": "Hetmańska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11740440092074",
+          "lng": "16.95403665304184"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Pod Wężem</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rogowska 42-46; 54-440 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Pod Wężem",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13024246744817",
+          "lng": "17.04350173473358"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Acer</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Zakładowa 11e; 50-231 Wrocław</p>\n</div></div>"
+        },
+        "title": "Acer",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11131828253787",
+          "lng": "17.042740468474232"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>McCoy`S</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Nowy Targ 9; 50-141 Wrocław</p>\n</div></div>"
+        },
+        "title": "McCoy`S",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11682042660948",
+          "lng": "17.052314410041642"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Katedralna</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Sienkiewicza 54-56; 5-349 Wrocław</p>\n</div></div>"
+        },
+        "title": "Katedralna",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.060028931862846",
+          "lng": "17.005285620689392"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Arnika</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Zwycięska 25-35; 53-033 Wrocław</p>\n</div></div>"
+        },
+        "title": "Arnika",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07664062447837",
+          "lng": "17.019897934072002"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Przy Weigla</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Weigla 10; 53-114 Wrocław</p>\n</div></div>"
+        },
+        "title": "Przy Weigla",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.063501516658775",
+          "lng": "16.983318328857422"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Calendula</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Wałbrzyska 3c; 52-314 Wrocław</p>\n</div></div>"
+        },
+        "title": "Calendula",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.0730919145217",
+          "lng": "17.03651189804077"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Wysokogórska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Wandy Rutkiewicz 9; 50-571 Wrocław</p>\n</div></div>"
+        },
+        "title": "Wysokogórska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10064683476914",
+          "lng": "17.045151462362686"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pułaska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pułaskiego 49a; 50-441 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pułaska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.066959038833396",
+          "lng": "17.07968772621923"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Na Rondzie</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pionierów 7; 52-112 Wrocław</p>\n</div></div>"
+        },
+        "title": "Na Rondzie",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07828464266167",
+          "lng": "17.047569306745032"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Remedium Mak</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krynicka 51; 50-555 Wrocław</p>\n</div></div>"
+        },
+        "title": "Remedium Mak",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09974679141003",
+          "lng": "17.050233782425884"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Cztery Pory Roku</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Komuny Paryskiej 79; 50-452 Wrocław</p>\n</div></div>"
+        },
+        "title": "Cztery Pory Roku",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.06014059525264",
+          "lng": "17.08318272624478"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Brochowska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Chińska 2a; 52-118 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Brochowska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07716208677829",
+          "lng": "17.03400198285556"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Przy Borowskiej</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Borowska 188a; 50-557 Wrocław</p>\n</div></div>"
+        },
+        "title": "Przy Borowskiej",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.115212911465754",
+          "lng": "17.060525119941104"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Piastowska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Piastowska 36; 50-361 Wrocław</p>\n</div></div>"
+        },
+        "title": "Piastowska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.122650493613605",
+          "lng": "17.054576575756073"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Rumianek</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Elizy Orzeszkowej 59-61; 50-311 Wrocław</p>\n</div></div>"
+        },
+        "title": "Rumianek",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14661967596007",
+          "lng": "17.113145154226117"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Niezłe Ziółko</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krzywoustego 314/416; 51-310 Wrocław</p>\n</div></div>"
+        },
+        "title": "Niezłe Ziółko",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.106735170776744",
+          "lng": "17.143591481761085"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Strachocińska (dawniej Na Wojnowie)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Strachocińska 84; 51-511 Wrocław</p>\n</div></div>"
+        },
+        "title": "Strachocińska (dawniej Na Wojnowie)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.10981957556986",
+          "lng": "17.118920148268693"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Olimpia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Marca Polo 35a; 51-504 Wrocław</p>\n</div></div>"
+        },
+        "title": "Olimpia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.092965856848124",
+          "lng": "16.99181690812111"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Biogenes</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Bzowy 1; 53-224 Wrocław</p>\n</div></div>"
+        },
+        "title": "Biogenes",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14636793403633",
+          "lng": "17.12778962824716"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Poleska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kiełczowska 51d/lok. 1; 51-315 Wrocław</p>\n</div></div>"
+        },
+        "title": "Poleska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.095686380674906",
+          "lng": "17.00855791568756"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Hibiskus</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Jemiołowa 50-54; 53-426 Wrocław</p>\n</div></div>"
+        },
+        "title": "Hibiskus",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.15409448062754",
+          "lng": "17.044244334778636"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kamieńskiego 213/U1; 51-126 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.148342705645476",
+          "lng": "17.042310423546564"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lobelia</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kamieńskiego 132-144; 51-124 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lobelia",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.07808689874884",
+          "lng": "16.96379989385605"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Alpejska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Ludwika Solskiego 6; 52-416 Wrocław</p>\n</div></div>"
+        },
+        "title": "Alpejska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14570872509975",
+          "lng": "16.867808997631073"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Pod św. Antonim</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Średzka 33; 54-001 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Pod św. Antonim",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.138640221647535",
+          "lng": "17.0322325554833"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Kwiatowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Bałtycka 1; 51-120 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Kwiatowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.102265512234816",
+          "lng": "16.946639120578766"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Muchoborska</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Leopolda Tyrmanda 5; 54-611 Wrocław</p>\n</div></div>"
+        },
+        "title": "Muchoborska",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.09735409559755",
+          "lng": "16.95076373246608"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Krzemieniecka</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Krzemieniecka 125-127; 50-123 Wrocław</p>\n</div></div>"
+        },
+        "title": "Krzemieniecka",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.17724836512254",
+          "lng": "16.999912717971213"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Lege Artis (dawniej Przy Przychodni)</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Szałwiowa 23/lokal 4a; 51-180 Wrocław</p>\n</div></div>"
+        },
+        "title": "Lege Artis (dawniej Przy Przychodni)",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.11118441660002",
+          "lng": "16.961554884910583"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Werbena</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Szwedzka 1a; 54-401 Wrocław</p>\n</div></div>"
+        },
+        "title": "Werbena",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.13760728754792",
+          "lng": "17.05580738943357"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Pod Jemiołą</h3><div class=\"mceContentBody mceFrontEnd \"><p>pl. Piłsudskiego 3; 51-152 Wrocław</p>\n</div></div>"
+        },
+        "title": "Pod Jemiołą",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": 51.07522973992858,
+          "lng": 17.085594885913867
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>DOZ</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Tarnogórska 1; 52-021 Wrocław</p>\n</div></div>"
+        },
+        "title": "DOZ",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.12206126386328",
+          "lng": "16.921498775482178"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Rumiankowa</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Rumiankowa 53; 54-512 Wrocław</p>\n</div></div>"
+        },
+        "title": "Rumiankowa",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.149688666874134",
+          "lng": "16.94269526293582"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Milenium</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Fromborska 47; 54-111 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Milenium",
+        "kolor": 2
+      },
+      {
+        "position": {
+          "lat": "51.14523589455211",
+          "lng": "16.948226988315582"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_opakowania-na-zuzyte-igly-i-strzykawki.svg\" /></td><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_przeterminowane-leki.svg\" /></td></tr></table><h3>Apteka Na Dobre i Na Złe</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Pilczycka 196 E; 54-144 Wrocław</p>\n</div></div>"
+        },
+        "title": "Apteka Na Dobre i Na Złe",
+        "kolor": 2
+      }
+    ]
+  ],
+  [
+    "pszok",
+    [
+      {
+        "position": {
+          "lat": "51.10594712658125",
+          "lng": "16.972804069519043"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_pszok.svg\" /></td></tr></table><h3>Punkt Selektywnej Zbiórki Odpadów Komunalnych</h3><div class=\"mceContentBody mceFrontEnd \"><p>UL. SZWAJCARSKA 15</p>\n<p>Czynny od poniedziałku do piątku (od 8:00 do 19:00) oraz w soboty (od 8:00 do 16:00)</p>\n<p>&nbsp;</p>\n</div></div>"
+        },
+        "title": "Punkt Selektywnej Zbiórki Odpadów Komunalnych",
+        "kolor": 5
+      },
+      {
+        "position": {
+          "lat": "51.199659896438035",
+          "lng": "16.90581219532779"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_pszok.svg\" /></td></tr></table><h3>Punkt Selektywnej Zbiórki Opadów Komunalnych</h3><div class=\"mceContentBody mceFrontEnd \"><p>UL. JANOWSKA 51</p>\n<p>Czynny od poniedziałku do piątku (od 7:00 do 15:00) oraz w wybrane soboty w godzinach od 7:00 do 15:00.</p>\n</div></div>"
+        },
+        "title": "Punkt Selektywnej Zbiórki Opadów Komunalnych",
+        "kolor": 5
+      },
+      {
+        "position": {
+          "lat": "51.121182455814925",
+          "lng": "17.01884150505066"
+        },
+        "useInfoWindow": {
+          "content": "<div><table border=\"0\"><tr><td><img width=\"40px\" height=\"40px\" src=\"https://mapa.ekosystem.wroc.pl/wp-content/themes/ekosystem-mapa/assets/svg/icon_pszok.svg\" /></td></tr></table><h3>Punkt Selektywnej Zbiórki Opadów Komunalnych</h3><div class=\"mceContentBody mceFrontEnd \"><p>ul. Kazimierza Michalczyka 9</p>\n<p>od poniedziałku do piątku w godzinach od 8.00 do 17.00<br />\nw soboty w godzinach 8.00 &#8211; 16.00</p>\n</div></div>"
+        },
+        "title": "Punkt Selektywnej Zbiórki Opadów Komunalnych",
+        "kolor": 5
+      }
+    ]
+  ],
+  [
+    "bok-ekosystem",
+    []
+  ],
+  [
+    "papier",
+    []
+  ],
+  [
+    "baterie",
+    []
+  ],
+  [
+    "szklo",
+    []
+  ],
+  [
+    "plastik",
+    []
+  ]
+]

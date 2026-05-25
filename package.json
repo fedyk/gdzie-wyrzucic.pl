@@ -8,7 +8,9 @@
     "watch": "tsc --watch",
     "dev": "node --inspect --watch-path=dist --env-file=.env dist/server/index.js",
     "start": "node dist/server/index.js",
-    "all": "node-run-all \"npm run dev\" \"npm run watch\""
+    "all": "node-run-all \"npm run dev\" \"npm run watch\"",
+    "test": "TZ=UTC node --test \"dist/scripts/*.test.js\"",
+    "spec": "TZ=UTC node --test \"dist/scripts/*.spec.js\""
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "koa-router": "^14.0.0",
     "koa-static": "^5.0.0",
     "marked": "^18.0.4",
+    "node-html-parser": "^7.1.0",
     "node-run-all": "^1.1.0",
     "typescript": "^6.0.3"
   }

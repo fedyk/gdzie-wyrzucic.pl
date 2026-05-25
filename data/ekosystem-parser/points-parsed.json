@@ -1,0 +1,1745 @@
+[
+  {
+    "id": "EC6BC5D3",
+    "name": "Apteka Niezapominajka",
+    "lat": 51.1004397539136,
+    "lng": 17.00855791568756,
+    "address": "Wrocław, Lubuskiej 84",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "D7CDA49D",
+    "name": "Apteka ZIKO",
+    "lat": 51.119581365995096,
+    "lng": 17.039471715688705,
+    "address": "Wrocław, Jedności Narodowej 51",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "B50FA091",
+    "name": "Dbam o Zdrowie",
+    "lat": 51.1090302,
+    "lng": 17.0394064,
+    "address": "Wrocław, pl. Dominikański 4",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8680DA09",
+    "name": "Pulsantis",
+    "lat": 51.0938081,
+    "lng": 16.9820747,
+    "address": "Wrocław, Grabiszyńska 238",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "77F89086",
+    "name": "Apteka Krzycka",
+    "lat": 51.0689709,
+    "lng": 16.9990179,
+    "address": "Wrocław, Przyjaźni 91",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "EC59C456",
+    "name": "Apteka DR Zdrowie",
+    "lat": 51.08694644495517,
+    "lng": 17.04757332801819,
+    "address": "Wrocław, Hubska 112",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "4336CF53",
+    "name": "Apteka",
+    "lat": 51.1396305,
+    "lng": 17.0222316,
+    "address": "Wrocław, Bezpieczna 28a lok 5u",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "5760946A",
+    "name": "Apteka Pod Jemiołą",
+    "lat": 51.1066826,
+    "lng": 17.0211083,
+    "address": "Wrocław, Piłsudskiego 3",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "9155BCBB",
+    "name": "Apteka Rumianek",
+    "lat": 51.14322000036336,
+    "lng": 17.131724953651428,
+    "address": "Wrocław, Inflancka 39",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "5AF72DE3",
+    "name": "Apteka Karłowicka",
+    "lat": 51.1355755,
+    "lng": 17.0575394,
+    "address": "Wrocław, Berenta 20",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "402FA070",
+    "name": "Apteka Dbam o zdrowie",
+    "lat": 51.1177686,
+    "lng": 17.0002724,
+    "address": "Wrocław, Słubicka 18",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "FC75CB64",
+    "name": "Hospicjum Braci Bonifratrów",
+    "lat": 51.15796650000001,
+    "lng": 17.0329844,
+    "address": "Wrocław, Poświęcka 8a",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "C8E6F5DD",
+    "name": "Apteka Kuźniki",
+    "lat": 51.12512049999999,
+    "lng": 16.9518942,
+    "address": "Wrocław, ul. Gołnowska 3",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "CFF559C2",
+    "name": "Apteka DBAM O ZDROWIE",
+    "lat": 51.10556651581559,
+    "lng": 16.946223378181458,
+    "address": "Wrocław, Graniczna 2a",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "916AFF77",
+    "name": "Apteka przy Polo Market",
+    "lat": 51.11330484505469,
+    "lng": 16.9539662450552,
+    "address": "Wrocław, Budziszyńska 107",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "0D39E6FD",
+    "name": "Amicus IV",
+    "lat": 51.13969338955478,
+    "lng": 17.024140707804346,
+    "address": "ul. Bezpieczna 28/U5; 51-114 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "EF0EF53D",
+    "name": "Apteka Przy Proximum",
+    "lat": 51.09709438466314,
+    "lng": 17.008046647918718,
+    "address": "ul. Żelazna 34; 53-428 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "1751FAC5",
+    "name": "Dr Max",
+    "lat": 51.08905748057892,
+    "lng": 16.999132721819826,
+    "address": "al. gen. J. Hallera 52; 50-984 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "2B2D4673",
+    "name": "MAK",
+    "lat": 51.08372917585844,
+    "lng": 17.04520831029229,
+    "address": "ul. Widna 6/5; 50-543 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "12B90038",
+    "name": "Apteka Tumska",
+    "lat": 51.112237512753595,
+    "lng": 17.039715894212986,
+    "address": "ul. Piaskowa 11; 50-158 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "26A8FC3B",
+    "name": "Apteka pod Skrzydłem Anioła",
+    "lat": 51.12026785975939,
+    "lng": 17.036750922429054,
+    "address": "pl. św. Macieja 9; 50-244 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E6DA30DD",
+    "name": "ZIKO Apteka",
+    "lat": 51.12174812728047,
+    "lng": 17.031010687351227,
+    "address": "ul. Pomorska 61; 50-217 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "506B8EFD",
+    "name": "Expresspharm II",
+    "lat": 51.15161115522072,
+    "lng": 17.13119721187175,
+    "address": "ul. Bierutowska 63",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "BB2747FC",
+    "name": "Gemini",
+    "lat": 51.13585400243665,
+    "lng": 17.038217782974243,
+    "address": "al. Kasprowicza 9a; 51-136 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "2688C4EC",
+    "name": "Pomarańczowa",
+    "lat": 51.079519638699686,
+    "lng": 17.039630845471734,
+    "address": "ul. Jabłeczna 27/29",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "DC245BB4",
+    "name": "Nasza apteka",
+    "lat": 51.14659681551559,
+    "lng": 17.114828703654744,
+    "address": "ul. B. Krzywoustego 323; 51-310 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "39125581",
+    "name": "DOZ Apteka Dbam o zdrowie",
+    "lat": 51.09880549313151,
+    "lng": 17.006000882215318,
+    "address": "ul. Ołowiana 11; 53-434 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "62773A4A",
+    "name": "MAK",
+    "lat": 51.0993886,
+    "lng": 17.0491447,
+    "address": "ul. Kościuszki 148; 50-439 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "F18190B8",
+    "name": "DOZ dbam o zdrowie",
+    "lat": 51.098031124793266,
+    "lng": 17.032134532928467,
+    "address": "ul. Swobodna 1, 50-088 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8EBA1FFD",
+    "name": "Ołtaszyńska",
+    "lat": 51.05678812705258,
+    "lng": 17.026134886292166,
+    "address": "ul. Uczniowska 37, 52-222 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "022E818A",
+    "name": "Promyk Słońca",
+    "lat": 51.09719751716904,
+    "lng": 17.031490251340905,
+    "address": "ul. Swobodna 8a, 50-088 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "242B5703",
+    "name": "Apteka Słoneczna",
+    "lat": 51.10717314349189,
+    "lng": 17.04599618911743,
+    "address": "ul. Dobrzyńska 21/23, 50-403 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "3BE2C484",
+    "name": "Olimpijska",
+    "lat": 51.11985065734314,
+    "lng": 17.084366981402635,
+    "address": "ul. Stanisława Moniuszki 10, 51-610 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "49CCC21D",
+    "name": "Karłowicka",
+    "lat": 51.13462306610293,
+    "lng": 17.057347297668457,
+    "address": "ul. Wacława Berenta 26/20; 51-152 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "EFEE16A9",
+    "name": "Apteka przy pl. Hirszfelda",
+    "lat": 51.09489803482296,
+    "lng": 17.01559066772461,
+    "address": "pl. Hirszfelda 14A, 53-413 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8E47605C",
+    "name": "Miętowa",
+    "lat": 51.109574108961546,
+    "lng": 17.10008181174649,
+    "address": "ul. Partyzantów 35/1B",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E96DB5A4",
+    "name": "Apteka Wrocławska",
+    "lat": 51.102470557563166,
+    "lng": 17.03715772621679,
+    "address": "ul. Kołłątaja 27, 50-004 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "F3763D0A",
+    "name": "Braniborska",
+    "lat": 51.110412044774044,
+    "lng": 17.014516178863843,
+    "address": "ul. Braniborska 14; 53-680 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "0E10B0AC",
+    "name": "Apteka Biskupin",
+    "lat": 51.10397189699784,
+    "lng": 17.11120977251918,
+    "address": "ul. Maksymiliana Jackowskiego 57, 51-665 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "7A0B76EE",
+    "name": "Gemini",
+    "lat": 51.11461125981777,
+    "lng": 17.012023579651128,
+    "address": "ul. Młodych Techników 7, 53-647 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "1CCDECD1",
+    "name": "Apteka przy Netto",
+    "lat": 51.140006054894826,
+    "lng": 17.070227464297517,
+    "address": "ul. Sołtysowicka 15a; 51-168 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "676FFA25",
+    "name": "Słoneczna Biedronka",
+    "lat": 51.13965090519527,
+    "lng": 17.022130192509337,
+    "address": "ul. Bezpieczna 28a/lok U3;51-114 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8ED320CD",
+    "name": "DOZ dbam o zdrowie",
+    "lat": 51.14226225130101,
+    "lng": 17.090456732715456,
+    "address": "ul. Krzywoustego 126; 51-421 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "12D12693",
+    "name": "Rumianek",
+    "lat": 51.14314362349175,
+    "lng": 17.13163947087225,
+    "address": "ul. Inflancka 39; 51-314 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "62AC2ED6",
+    "name": "Lege Artis",
+    "lat": 51.13707145733994,
+    "lng": 16.980395692187624,
+    "address": "ul. Dziadoszańska 29-31, 54-152 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "31C28A82",
+    "name": "DOZ Apteka Dbam o zdrowie",
+    "lat": 51.101115706293136,
+    "lng": 16.952280927276025,
+    "address": "ul. Trawowa 75",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "8D7CF92A",
+    "name": "DOZ Apteka Dbam o zdrowie",
+    "lat": 51.11194600090856,
+    "lng": 16.961455804877485,
+    "address": "ul. Strzegomska 194",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "6D21D4A9",
+    "name": "Dokerska",
+    "lat": 51.14077073209416,
+    "lng": 16.96453638432446,
+    "address": "ul. Dokerska 7a; 54-142 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "A9E7C1A3",
+    "name": "DOZ Apteka Dbam o zdrowie",
+    "lat": 51.09511830099447,
+    "lng": 16.980745409549172,
+    "address": "ul. Grabiszyńska 238-240; 53-235 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "D1004136",
+    "name": "ZIKO Apteka",
+    "lat": 51.139584255989014,
+    "lng": 16.963112725064978,
+    "address": "ul. Dokerska 22; 54-142 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "04D2D976",
+    "name": "Prima",
+    "lat": 51.107885,
+    "lng": 17.038538,
+    "address": "ul. Budziszyńska 107; 54-436 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "2B92D439",
+    "name": "Czekoladowa 2",
+    "lat": 51.08893793551721,
+    "lng": 17.0191317517445,
+    "address": "ul. Drukarska 36, 53-312 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "6C39C215",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.084115389606595,
+    "lng": 17.01029492208132,
+    "address": "ul. Powstańców śląskich 159; 53-138 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "42010690",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.08199072256188,
+    "lng": 17.045845132651696,
+    "address": "ul. Krynicka 7-9; 50-555 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "96319BC8",
+    "name": "Mniszek II",
+    "lat": 51.06753514176396,
+    "lng": 16.991878756844493,
+    "address": "ul. Krzycka 90C; 53-020 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "79D74CCF",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.053402501015704,
+    "lng": 16.972837010217372,
+    "address": "al. Karkonoska 85; 53-015 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "01C8EE5A",
+    "name": "Słoneczna",
+    "lat": 51.097556833624026,
+    "lng": 17.01893708526536,
+    "address": "ul. Grabskiego 3; 53-535 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "25197320",
+    "name": "Księżęca",
+    "lat": 51.07604274114812,
+    "lng": 17.08459938369041,
+    "address": "ul. Chorzowska 2; 52-023 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "5DFEAE1A",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.087119222569726,
+    "lng": 17.013667503812208,
+    "address": "ul. Powstańców Śląskich 146/1; 53-315 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "49C5DD2B",
+    "name": "Apteka Słoneczna Biedronka",
+    "lat": 51.12324981673524,
+    "lng": 17.039591073989868,
+    "address": "ul. Słowiańska 6/1; 50-235 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "55573540",
+    "name": "Apteka Pod Jaworem",
+    "lat": 51.10169663918364,
+    "lng": 17.102333752324586,
+    "address": "ul. Karola Olszewskiego 75; 51-642 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "C7483319",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.11715303498011,
+    "lng": 17.003794712226785,
+    "address": "ul. Słubicka 18; 53-615 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "5A0B8A2A",
+    "name": "DOZ dbam o zdrowie (dawniej Silesia 3)",
+    "lat": 51.12859851226363,
+    "lng": 17.03293754757692,
+    "address": "ul. Kraszewskiego 21/3; 50-229 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E5735CC9",
+    "name": "Apteka Lawendowa",
+    "lat": 51.07694218517584,
+    "lng": 16.998109818517847,
+    "address": "ul. Skarbowców 27A; 53-025 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "4A615137",
+    "name": "Dr. Zdrowie",
+    "lat": 51.086002637452744,
+    "lng": 17.04973890484621,
+    "address": "ul. Hubska 112/118; 50-505 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "CBFAD05B",
+    "name": "Apteka Róża Wiatrów",
+    "lat": 51.07300546507175,
+    "lng": 16.991127273452776,
+    "address": "ul. Róży Wiatrów 9b; 53-026 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "873FBD9E",
+    "name": "DOZ (Apteka Pod Podwójnym Złotym Orłem )",
+    "lat": 51.1105086612362,
+    "lng": 17.033318421257036,
+    "address": "ul. Rynek 42/43; 50-112 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "B3FB0E5D",
+    "name": "Pomorska 25",
+    "lat": 51.11855385146749,
+    "lng": 17.032100698364275,
+    "address": "ul. Pomorska 25; 50-216 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E5F839DB",
+    "name": "Malva",
+    "lat": 51.12657359350904,
+    "lng": 16.976059020196033,
+    "address": "ul. E. Horbaczewskiego 4-6; 54-130 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "6FFA062E",
+    "name": "Wratislavia",
+    "lat": 51.08779481944641,
+    "lng": 17.017869889438693,
+    "address": "ul. Sztabowa 76; 53-310 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "04A11C10",
+    "name": "Krokus",
+    "lat": 51.05680728656054,
+    "lng": 17.02477991580963,
+    "address": "ul. Marcelego Nenckiego 136A; 52-223 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "4F9EA5F3",
+    "name": "Na Damrota",
+    "lat": 51.126717546134216,
+    "lng": 17.05245930584368,
+    "address": "ul. Ks. Konstantego Damrota 7; 50-306 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8E7C936A",
+    "name": "Dr.Max",
+    "lat": 51.11002359975963,
+    "lng": 17.02709406590682,
+    "address": "ul. Psie Budy 3/4; 50-080 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "91998B29",
+    "name": "Apteka u Dawida",
+    "lat": 51.102673097881734,
+    "lng": 17.096679210662842,
+    "address": "ul. Karola Olszewskiego 21",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "14DF372D",
+    "name": "Św. Wincentego",
+    "lat": 51.12271231130965,
+    "lng": 17.0363646166345,
+    "address": "ul. św. Wincentego 39-41; 50-251 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "FC540443",
+    "name": "MAK",
+    "lat": 51.12228611651067,
+    "lng": 17.026598073922095,
+    "address": "pl. Strzelecki 24; 50-224 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "53DCA9D1",
+    "name": "ZIKO Apteka",
+    "lat": 51.11958000361595,
+    "lng": 17.039466126007866,
+    "address": "ul. Jedności Narodowej 51-53; 50-262 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "76D5D84A",
+    "name": "ZIKO Apteka",
+    "lat": 51.10172049532977,
+    "lng": 17.029682527234538,
+    "address": "ul. Świdnicka 48; 50-068 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "9DF793C8",
+    "name": "DOZ Apteka dbam o zdrowie (dawniej Silesia)",
+    "lat": 51.099570585221436,
+    "lng": 17.03847997649094,
+    "address": "ul. Dworcowa 33-35; 50-456 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "B8F65B9D",
+    "name": "Dom leków",
+    "lat": 51.10505790715689,
+    "lng": 17.02210307121277,
+    "address": "ul. Józefa Piłsudskiego 12; 50-049 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "C3102F99",
+    "name": "Apteka Tęczowa",
+    "lat": 51.13047590390753,
+    "lng": 16.965677607844903,
+    "address": "ul. Jerzego Bajana 1; 54-129 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "753E1F41",
+    "name": "Apteka da Vinci",
+    "lat": 51.126951035378944,
+    "lng": 16.96564334753024,
+    "address": "ul. Bulwar Dedala 28A; 54-130 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "3CE9C7D2",
+    "name": "Helvetia",
+    "lat": 51.12518622561738,
+    "lng": 16.971296328449366,
+    "address": "ul. Bulwar Ikara 20; 54-130 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "DB1E54E0",
+    "name": "Pod Ratuszem",
+    "lat": 51.109255764593314,
+    "lng": 17.03113548687646,
+    "address": "ul. Rynek 18; 50-101 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "38E39615",
+    "name": "Dr. Max (dawniej Ikar)",
+    "lat": 51.12662611489792,
+    "lng": 16.969679529912316,
+    "address": "ul. Bulwar Ikara 29a/1; 54-130 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E35CADED",
+    "name": "Pod Akcjami",
+    "lat": 51.11403191466296,
+    "lng": 17.00279589418727,
+    "address": "ul. Bolesławiecka 2; 53-614 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "906551EE",
+    "name": "Lotnicza (dawniej Ogólnodostępna)",
+    "lat": 51.12943451183333,
+    "lng": 16.97013258934021,
+    "address": "ul. Lotnicza 24; 54-155 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "CD01B973",
+    "name": "Sarbinowska",
+    "lat": 51.12712502742364,
+    "lng": 16.94593369960785,
+    "address": "ul. Sarbinowska 15-17; 54-320 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "39DAD55B",
+    "name": "Hetmańska",
+    "lat": 51.11589915395144,
+    "lng": 17.008005380630493,
+    "address": "ul. Stefana Czarnieckiego 13; 53-650 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "E0B07ED0",
+    "name": "Apteka Lege Artis Nowodworska",
+    "lat": 51.11418987801569,
+    "lng": 16.958696656119336,
+    "address": "ul. Gubińska 15; 54-434 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "3D411D48",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.121527592949626,
+    "lng": 17.01662425600849,
+    "address": "ul. Długa 37/47; 53-633 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "25D6DA5E",
+    "name": "Apteka Pod Wężem",
+    "lat": 51.11740440092074,
+    "lng": 16.95403665304184,
+    "address": "ul. Rogowska 42-46; 54-440 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "7B77F3E5",
+    "name": "Nova",
+    "lat": 51.11825802590122,
+    "lng": 16.95426195859909,
+    "address": "ul. Rogowska 52; 54-440 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "67ECBC7B",
+    "name": "Acer",
+    "lat": 51.13024246744817,
+    "lng": 17.04350173473358,
+    "address": "ul. Zakładowa 11e; 50-231 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "4B1CC208",
+    "name": "McCoy`S",
+    "lat": 51.11131828253787,
+    "lng": 17.042740468474232,
+    "address": "pl. Nowy Targ 9; 50-141 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "EE4AF382",
+    "name": "Katedralna",
+    "lat": 51.11682042660948,
+    "lng": 17.052314410041642,
+    "address": "ul. Sienkiewicza 54-56; 5-349 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "62D53E23",
+    "name": "Lege Artis",
+    "lat": 51.06212599769157,
+    "lng": 17.03269336193957,
+    "address": "ul. Grota-Roweckiego 76; 52-218 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "43FCEBB4",
+    "name": "Arnika",
+    "lat": 51.060028931862846,
+    "lng": 17.005285620689392,
+    "address": "ul. Zwycięska 25-35; 53-033 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "F3A151B0",
+    "name": "Przy Weigla",
+    "lat": 51.07664062447837,
+    "lng": 17.019897934072002,
+    "address": "ul. Weigla 10; 53-114 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "D56BE100",
+    "name": "DOZ Apteka dbam o zdrowie",
+    "lat": 51.074831120013144,
+    "lng": 17.004515826702118,
+    "address": "ul. Wawrzyniaka 2; 53-022 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "5D2E7D38",
+    "name": "Calendula",
+    "lat": 51.063501516658775,
+    "lng": 16.983318328857422,
+    "address": "ul. Wałbrzyska 3c; 52-314 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "A5D0442F",
+    "name": "Pod Jaworami",
+    "lat": 51.08068963441659,
+    "lng": 17.015869487360547,
+    "address": "ul. Sudecka 147b; 53-128 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8A32F10A",
+    "name": "Przyjaźni",
+    "lat": 51.06724293028058,
+    "lng": 16.995939252660992,
+    "address": "ul. Przyjaźni 109; 53-030 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "56E5E6C4",
+    "name": "Antidotum",
+    "lat": 51.06601560582297,
+    "lng": 16.994700116652552,
+    "address": "ul. Przyjaźni 34e/1u; 53-030 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "232D2FF2",
+    "name": "Dom Leków",
+    "lat": 51.091339641981534,
+    "lng": 17.017152091342172,
+    "address": "pl. Powstańców Śląskich 1/102; 53-332 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "AEDF496C",
+    "name": "Dolnośląska Grupa Apteczna DGA 10",
+    "lat": 51.09223217992375,
+    "lng": 17.028983365108466,
+    "address": "ul. Pabianicka 25; 53-339 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "BD30B2A0",
+    "name": "Aronia",
+    "lat": 51.09297858062494,
+    "lng": 17.02540129664154,
+    "address": "ul. Komandorska 147; 53-344 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "098F8408",
+    "name": "Jantarowa",
+    "lat": 51.0945635580002,
+    "lng": 17.010888182120894,
+    "address": "ul. Gajowicka 96; 53-529 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "1352FB62",
+    "name": "Czekoladowa",
+    "lat": 51.05927587356203,
+    "lng": 16.97394330694404,
+    "address": "ul. Czekoladowa 58; 52-326 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "18A0F5B8",
+    "name": "Wysokogórska",
+    "lat": 51.0730919145217,
+    "lng": 17.03651189804077,
+    "address": "ul. Wandy Rutkiewicz 9; 50-571 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "97C72409",
+    "name": "Vivaldiego",
+    "lat": 51.0519765931099,
+    "lng": 17.059195805520044,
+    "address": "ul. Vivaldiego 2b; 52-129 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "A575EFA0",
+    "name": "Pułaska",
+    "lat": 51.10064683476914,
+    "lng": 17.045151462362686,
+    "address": "ul. Pułaskiego 49a; 50-441 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "50D5125E",
+    "name": "Na Rondzie",
+    "lat": 51.066959038833396,
+    "lng": 17.07968772621923,
+    "address": "ul. Pionierów 7; 52-112 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "2611FD43",
+    "name": "Remedium Mak",
+    "lat": 51.07828464266167,
+    "lng": 17.047569306745032,
+    "address": "ul. Krynicka 51; 50-555 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "9D86A856",
+    "name": "Za Fosą",
+    "lat": 51.10625372488924,
+    "lng": 17.043518759514285,
+    "address": "ul. Krasińskiego 34; 50-450 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "A05316B8",
+    "name": "ZIKO Apteka",
+    "lat": 51.096220156232526,
+    "lng": 17.055187431557574,
+    "address": "ul. Krakowska 1; 50-424 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "D3284993",
+    "name": "Cztery Pory Roku",
+    "lat": 51.09974679141003,
+    "lng": 17.050233782425884,
+    "address": "ul. Komuny Paryskiej 79; 50-452 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "9A69E0C3",
+    "name": "Lege Artis",
+    "lat": 51.09516442434209,
+    "lng": 17.036830632848957,
+    "address": "ul. Joannitów 22; 50-525 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "2DC0D725",
+    "name": "Medicover",
+    "lat": 51.09960869460444,
+    "lng": 17.04112522635873,
+    "address": "ul. Dąbrowskiego 44; 50-457 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "1BAA681F",
+    "name": "Wratislavia II",
+    "lat": 51.092368909010574,
+    "lng": 17.0356385072004,
+    "address": "ul. Ciepła 9-11; 50-524 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "2102E9B7",
+    "name": "Apteka Brochowska",
+    "lat": 51.06014059525264,
+    "lng": 17.08318272624478,
+    "address": "ul. Chińska 2a; 52-118 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "EA2E2AFC",
+    "name": "Przy Borowskiej",
+    "lat": 51.07716208677829,
+    "lng": 17.03400198285556,
+    "address": "ul. Borowska 188a; 50-557 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "5A5DD2E1",
+    "name": "Dr. Max (dawniej Dolnośląska Grupa Apteczna DGA 23)",
+    "lat": 51.08415631734065,
+    "lng": 17.045828652719358,
+    "address": "ul. Bardzka 1a; 50-516 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E9CFFAF4",
+    "name": "Piastowska",
+    "lat": 51.115212911465754,
+    "lng": 17.060525119941104,
+    "address": "ul. Piastowska 36; 50-361 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "9566E1FA",
+    "name": "Silesia",
+    "lat": 51.110688508941216,
+    "lng": 17.055968286855677,
+    "address": "DOZ Apteka dbam o zdrowie (dawniej Silesia)",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "EA32DF76",
+    "name": "Dbam O Zdrowie",
+    "lat": 51.11276373765372,
+    "lng": 17.05939255347637,
+    "address": "pl. Grunwaldzki 22; 50-363 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "68F50FD4",
+    "name": "ZIKO Apteka",
+    "lat": 51.127403767855455,
+    "lng": 17.049321695699938,
+    "address": "ul. Ustronie 1/3; 50-302 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E622C43C",
+    "name": "Rumianek",
+    "lat": 51.122650493613605,
+    "lng": 17.054576575756073,
+    "address": "ul. Elizy Orzeszkowej 59-61; 50-311 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "D8F4A43D",
+    "name": "Niezłe Ziółko",
+    "lat": 51.14661967596007,
+    "lng": 17.113145154226117,
+    "address": "ul. Krzywoustego 314/416; 51-310 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "43EB6F4F",
+    "name": "Strachocińska (dawniej Na Wojnowie)",
+    "lat": 51.106735170776744,
+    "lng": 17.143591481761085,
+    "address": "ul. Strachocińska 84; 51-511 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "70F0B026",
+    "name": "Olimpia",
+    "lat": 51.10981957556986,
+    "lng": 17.118920148268693,
+    "address": "ul. Marca Polo 35a; 51-504 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "1781FBB0",
+    "name": "Apteka Arka",
+    "lat": 51.09757701737488,
+    "lng": 17.01292082133268,
+    "address": "ul. Skwierzyńska 28b; 53-522 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "320ADBEC",
+    "name": "Biogenes",
+    "lat": 51.092965856848124,
+    "lng": 16.99181690812111,
+    "address": "pl. Bzowy 1; 53-224 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "46436B2C",
+    "name": "Pulsantis",
+    "lat": 51.0948265352945,
+    "lng": 16.97805177726299,
+    "address": "ul. A. Ostrowskiego 3; 53-238 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "677CEEEE",
+    "name": "Poleska",
+    "lat": 51.14636793403633,
+    "lng": 17.12778962824716,
+    "address": "ul. Kiełczowska 51d/lok. 1; 51-315 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "82BD895F",
+    "name": "Hibiskus",
+    "lat": 51.095686380674906,
+    "lng": 17.00855791568756,
+    "address": "ul. Jemiołowa 50-54; 53-426 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "4F282C9E",
+    "name": "Lege Artis",
+    "lat": 51.15409448062754,
+    "lng": 17.044244334778636,
+    "address": "ul. Kamieńskiego 213/U1; 51-126 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "D600EBA1",
+    "name": "Agat",
+    "lat": 51.09193319506211,
+    "lng": 16.98583960533142,
+    "address": "ul. al. Gen. Józefa Hallera 151",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "636D0AD0",
+    "name": "Lobelia",
+    "lat": 51.148342705645476,
+    "lng": 17.042310423546564,
+    "address": "ul. Kamieńskiego 132-144; 51-124 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "92A081F1",
+    "name": "Express Pharm II",
+    "lat": 51.151621292541414,
+    "lng": 17.131363953388107,
+    "address": "ul. Bierutowska 63; 51-317 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E7F8E483",
+    "name": "Alpejska",
+    "lat": 51.07808689874884,
+    "lng": 16.96379989385605,
+    "address": "ul. Ludwika Solskiego 6; 52-416 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "84C9666F",
+    "name": "Apteka Pod św. Antonim",
+    "lat": 51.14570872509975,
+    "lng": 16.867808997631073,
+    "address": "ul. Średzka 33; 54-001 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "E492FAD7",
+    "name": "Apteka Ogrodowa",
+    "lat": 51.14686385836159,
+    "lng": 16.866404861211777,
+    "address": "ul. Pawła Eluarda 7; 54-019 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "0053ECB6",
+    "name": "Apteka Kwiatowa",
+    "lat": 51.138640221647535,
+    "lng": 17.0322325554833,
+    "address": "ul. Bałtycka 1; 51-120 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "FD2CB581",
+    "name": "Muchoborska",
+    "lat": 51.102265512234816,
+    "lng": 16.946639120578766,
+    "address": "ul. Leopolda Tyrmanda 5; 54-611 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "F760C219",
+    "name": "Wratislavia",
+    "lat": 51.129956884711774,
+    "lng": 17.036822343835002,
+    "address": "ul. Trzebnicka 88; 50-231 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "B71B3383",
+    "name": "Krzemieniecka",
+    "lat": 51.09735409559755,
+    "lng": 16.95076373246608,
+    "address": "ul. Krzemieniecka 125-127; 50-123 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "7A417D98",
+    "name": "Lege Artis (dawniej Przy Przychodni)",
+    "lat": 51.17724836512254,
+    "lng": 16.999912717971213,
+    "address": "ul. Szałwiowa 23/lokal 4a; 51-180 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "8AA93D61",
+    "name": "DOZ Apteka Dbam o zdrowie",
+    "lat": 51.10513537771123,
+    "lng": 16.946845650672913,
+    "address": "ul. Graniczna 2a; C.H. Futura Park; 50-984 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "99610F3D",
+    "name": "Rubus",
+    "lat": 51.128255986162266,
+    "lng": 17.03415734579983,
+    "address": "ul. Siemieńskiego 18; 50-228 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "71B8B4AD",
+    "name": "Vitrum",
+    "lat": 51.15150742709883,
+    "lng": 17.02732439947496,
+    "address": "ul. Paprotna 7; 51-117 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "4CCAAAD6",
+    "name": "Werbena",
+    "lat": 51.11118441660002,
+    "lng": 16.961554884910583,
+    "address": "ul. Szwedzka 1a; 54-401 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "D03EBF8E",
+    "name": "Gemini",
+    "lat": 51.11108001340059,
+    "lng": 16.95961833000183,
+    "address": "ul. Strzegomska 208a",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "CA1C76F4",
+    "name": "Pod Jemiołą",
+    "lat": 51.13760728754792,
+    "lng": 17.05580738943357,
+    "address": "pl. Piłsudskiego 3; 51-152 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "625CA463",
+    "name": "Niezapominajka",
+    "lat": 51.112265481024906,
+    "lng": 16.9610533118248,
+    "address": "ul. Strzegomska 200; 54-432 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "2D4DE54E",
+    "name": "DOZ",
+    "lat": 51.07522973992858,
+    "lng": 17.085594885913867,
+    "address": "ul. Tarnogórska 1; 52-021 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "E41DF288",
+    "name": "Amicus",
+    "lat": 51.13260117963305,
+    "lng": 17.066022467286643,
+    "address": "al. Kromera 23a; 51-163 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "FFDB66A1",
+    "name": "Rumiankowa",
+    "lat": 51.12206126386328,
+    "lng": 16.921498775482178,
+    "address": "ul. Rumiankowa 53; 54-512 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "EE7401C3",
+    "name": "Złotnicka",
+    "lat": 51.14316615223287,
+    "lng": 16.889502704143524,
+    "address": "ul. Złotnicka 4g; 54-029 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "A438E6EB",
+    "name": "Apteka Milenium",
+    "lat": 51.149688666874134,
+    "lng": 16.94269526293582,
+    "address": "ul. Fromborska 47; 54-111 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "6E43E59B",
+    "name": "Apteka Na Dobre i Na Złe",
+    "lat": 51.14523589455211,
+    "lng": 16.948226988315582,
+    "address": "ul. Pilczycka 196 E; 54-144 Wrocław",
+    "categoryIds": [
+      "62B779E5",
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "2A98EE58",
+    "name": "Sielska",
+    "lat": 51.13993851519575,
+    "lng": 16.962482929229736,
+    "address": "ul. Sielska 3-9; 54-144 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "676BBEA7",
+    "name": "DOZ Apteka Dbam o zdrowie",
+    "lat": 51.13543997726566,
+    "lng": 16.973195672035217,
+    "address": "ul. Kolista 10; 51-152 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "8F9678D2",
+    "name": "Magnolia",
+    "lat": 51.117250459638385,
+    "lng": 16.951730421480637,
+    "address": "ul. Zemska 14a; 54-438 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "4BF3A58D",
+    "name": "Dbam O Zdrowie",
+    "lat": 51.12475061438709,
+    "lng": 17.034672550582588,
+    "address": "pl. Powstańców Wielkopolskich 1; 50-232 Wrocław",
+    "categoryIds": [
+      "62B779E5"
+    ]
+  },
+  {
+    "id": "E85CA56B",
+    "name": "SuperPharm",
+    "lat": 51.14092909405081,
+    "lng": 17.084451381141832,
+    "address": "Bolesława Krzywoustego 110; 51-167 Wrocław",
+    "categoryIds": [
+      "8830C24C"
+    ]
+  },
+  {
+    "id": "33371D1C",
+    "name": "Punkt Selektywnej Zbiórki Odpadów Komunalnych",
+    "lat": 51.10594712658125,
+    "lng": 16.972804069519043,
+    "address": "UL. SZWAJCARSKA 15",
+    "categoryIds": [
+      "DD95DF21"
+    ]
+  },
+  {
+    "id": "0B4D447D",
+    "name": "Punkt Selektywnej Zbiórki Opadów Komunalnych",
+    "lat": 51.199659896438035,
+    "lng": 16.90581219532779,
+    "address": "UL. JANOWSKA 51",
+    "categoryIds": [
+      "DD95DF21"
+    ]
+  },
+  {
+    "id": "0618FD84",
+    "name": "Punkt Selektywnej Zbiórki Opadów Komunalnych",
+    "lat": 51.121182455814925,
+    "lng": 17.01884150505066,
+    "address": "ul. Kazimierza Michalczyka 9",
+    "categoryIds": [
+      "DD95DF21"
+    ]
+  }
+]

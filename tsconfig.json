@@ -4,6 +4,8 @@
     "module": "NodeNext",
     "outDir": "./dist/",
     "rootDir": "./src/",
+    "forceConsistentCasingInFileNames": true,
+    "rewriteRelativeImportExtensions": true,
     "strict": true,
     "allowJs": true,
     "skipLibCheck": true
