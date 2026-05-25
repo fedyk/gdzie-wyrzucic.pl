@@ -1,44 +1,35 @@
-import { format } from "util";
 import * as querystring from "querystring";
 import * as storage from "../storage.js"
-import { Middleware, Category2, Point } from "../types.js";
+import { Middleware, Category2, Point, Waste2 } from "../types.js";
 import { GOOGLE_MAPS_STATIC_API_KEY } from "../config.js";
 import { renderMarkdown } from "../remarkable.js";
 import { renderResults } from "../views/results.js";
 import { renderCategory } from "../views/category.js";
+import { categoryPath, idFromSlug, setPageMeta, truncateDescription, wastePath } from "../seo.js";
 
 export const search: Middleware = async function (ctx) {
   const queryParams = parseQueryParams(ctx.request.query)
 
   if (queryParams.wasteId) {
-    const waste = storage.getWastesById(queryParams.wasteId)
+    const waste = getWasteById(queryParams.wasteId)
 
     if (!waste) {
       return ctx.throw(404, new Error("Page doesn't exist"))
     }
 
-    ctx.state.headerQuery = waste.name
-    ctx.body = await renderResults({
-      results: buildSearchResults([{
-        item: waste,
-        refIndex: 0,
-      }])
-    })
-    return
+    ctx.status = 301
+    return ctx.redirect(wastePath(waste))
   }
 
   if (queryParams.categoryId) {
-    const category = storage.getCategoryById(queryParams.categoryId)
-    const points = storage.findPointsByCategoryId(queryParams.categoryId)
+    const category = getCategoryById(queryParams.categoryId)
 
     if (!category) {
       return ctx.throw(404, new Error("Category does not exist"))
     }
 
-    ctx.state.title = format("Gdzie wyrzucić · %s", queryParams.query)
-    ctx.state.headerQuery = category.name;
-    ctx.body = await Category(category, points)
-    return
+    ctx.status = 301
+    return ctx.redirect(categoryPath(category))
   }
 
   if (queryParams.query.length === 0) {
@@ -47,11 +38,68 @@ export const search: Middleware = async function (ctx) {
 
   const hits = storage.search(queryParams.query)
 
-  ctx.state.title = format("Gdzie wyrzucić \"%s\"?", queryParams.query)
+  setPageMeta(ctx, {
+    title: `Gdzie wyrzucić "${queryParams.query}"?`,
+    description: `Wyniki wyszukiwania dla: ${queryParams.query}. Sprawdź, do jakiego pojemnika lub punktu oddać ten odpad.`,
+    canonicalPath: "/search?" + querystring.stringify({ q: queryParams.query }),
+    robots: "noindex,follow",
+  })
   ctx.state.headerQuery = queryParams.query;
   ctx.body = await renderResults({
+    heading: `Wyniki dla: ${queryParams.query}`,
     results: buildSearchResults(hits)
   })
+}
+
+export const wastePage: Middleware = async function (ctx) {
+  const waste = getWasteBySlug(String((ctx as any).params?.slug || ""))
+
+  if (!waste) {
+    return ctx.throw(404, new Error("Page doesn't exist"))
+  }
+
+  const canonicalPath = wastePath(waste)
+
+  if (ctx.path !== canonicalPath) {
+    ctx.status = 301
+    return ctx.redirect(canonicalPath)
+  }
+
+  const categoryNames = waste.categoryIds
+    .map(categoryId => storage.getCategoryById(categoryId)?.name)
+    .filter((name): name is string => Boolean(name))
+
+  setPageMeta(ctx, {
+    title: `Gdzie wyrzucić: ${waste.name}?`,
+    description: truncateDescription(`Sprawdź, gdzie wyrzucić ${waste.name}. ${categoryNames.length > 0 ? `Właściwe miejsce: ${categoryNames.join(", ")}.` : "Zobacz właściwy pojemnik lub punkt odbioru."}`),
+    canonicalPath,
+  })
+  ctx.state.headerQuery = waste.name
+  ctx.body = await renderResults({
+    heading: `Gdzie wyrzucić: ${waste.name}?`,
+    results: buildSearchResults([{
+      item: waste,
+      refIndex: 0,
+    }])
+  })
+}
+
+export const categoryPage: Middleware = async function (ctx) {
+  const category = getCategoryBySlug(String((ctx as any).params?.slug || ""))
+
+  if (!category) {
+    return ctx.throw(404, new Error("Category does not exist"))
+  }
+
+  const canonicalPath = categoryPath(category)
+
+  if (ctx.path !== canonicalPath) {
+    ctx.status = 301
+    return ctx.redirect(canonicalPath)
+  }
+
+  ctx.state.headerQuery = category.name;
+  ctx.body = await Category(ctx, category)
 }
 
 function parseQueryParams(queryParams: any = {}) {
@@ -73,11 +121,11 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
     return {
       id: id,
       name: name,
-      url: "/search?" + querystring.stringify({ wid: id }),
+      url: wastePath(hit.item),
       categories: categoryIds.map(categoryId => {
         const category = storage.getCategoryById(categoryId)
         const name = category?.name ?? "Unknown category"
-        const url = "/search?" + querystring.stringify({ q: name, cid: categoryId, })
+        const url = category ? categoryPath(category) : "#"
 
         return {
           url,
@@ -88,9 +136,19 @@ function buildSearchResults(hits: ReturnType<typeof storage.search>) {
   })
 }
 
-async function Category(category: Category2, points: Point[]) {
+async function Category(ctx: Parameters<Middleware>[0], category: Category2) {
+  const points = storage.findPointsByCategoryId(category.id)
   const mapUrl = points.length > 0 ? getMapURL(points) : void 0
   const description = category.description ? await renderMarkdown(category.description) : void 0
+  const metaDescription = category.description
+    ? truncateDescription(`${category.name}. ${category.description}`)
+    : truncateDescription(`Zobacz, gdzie oddać odpady z kategorii ${category.name}. Sprawdź punkty odbioru i zasady segregacji.`)
+
+  setPageMeta(ctx, {
+    title: `${category.name} · Gdzie wyrzucić`,
+    description: metaDescription,
+    canonicalPath: categoryPath(category),
+  })
 
   return renderCategory({
     description,
@@ -98,6 +156,22 @@ async function Category(category: Category2, points: Point[]) {
     points,
     mapUrl
   })
+}
+
+function getWasteBySlug(slug: string) {
+  return getWasteById(idFromSlug(slug))
+}
+
+function getCategoryBySlug(slug: string) {
+  return getCategoryById(idFromSlug(slug))
+}
+
+function getWasteById(id: string): Waste2 | undefined {
+  return storage.getWastesById(id) ?? storage.getWastes().find(waste => waste.id.toLowerCase() === id.toLowerCase())
+}
+
+function getCategoryById(id: string): Category2 | undefined {
+  return storage.getCategoryById(id) ?? storage.getCategories().find(category => category.id.toLowerCase() === id.toLowerCase())
 }
 
 function getMapURL(points: Point[]) {

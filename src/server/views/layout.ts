@@ -5,7 +5,7 @@ export function renderLayout(body: unknown, query: string) {
 <div class="main-container">
   <header>
     <a href="/" class="d-block ml-auto mr-auto pt-3 pb-3 text-center">
-      <img class="d" src="./img/logo.svg" height="19" />
+      <img class="d" src="/img/logo.svg" height="19" alt="Gdzie wyrzucić" />
     </a>
   </header>
   <form action="/search" method="GET">

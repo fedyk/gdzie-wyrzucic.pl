@@ -13,18 +13,26 @@ import { renderTemplate } from "../views/template.js";
  * ```
  */
 export const template: Middleware<IState, Context> = async function(ctx, next) {
-  ctx.state.title = ""   
+  ctx.state.title = "Gdzie wyrzucić?"
   ctx.state.description = ""
+  ctx.state.canonicalUrl = ""
+  ctx.state.robots = ""
   ctx.state.scripts = []
   ctx.state.styles = []
 
   await next()
+
+  if (ctx.status >= 300 && ctx.status < 400) {
+    return
+  }
 
   ctx.response.type = "html"
 
   ctx.body = await renderTemplate({
     title: ctx.state.title,
     description: ctx.state.description,
+    canonicalUrl: ctx.state.canonicalUrl,
+    robots: ctx.state.robots,
     scripts: ctx.state.scripts,
     styles: ctx.state.styles,
     body: ctx.body,

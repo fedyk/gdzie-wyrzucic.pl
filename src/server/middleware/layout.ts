@@ -18,6 +18,10 @@ export const layout: Middleware<IState, Context> = async function (ctx, next) {
 
   await next()
 
+  if (ctx.status >= 300 && ctx.status < 400) {
+    return
+  }
+
   ctx.body = await renderLayout(
     ctx.body,
     ctx.state.headerQuery

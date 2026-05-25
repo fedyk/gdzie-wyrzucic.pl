@@ -1,8 +1,12 @@
 import { each, html } from "../html.js";
 
 export function renderResults({
+  heading,
+  emptyMessage,
   results
 }: {
+  heading: string
+  emptyMessage?: string
   results: {
     name: string
     url: string
@@ -14,7 +18,9 @@ export function renderResults({
 }) {
   return html`
     <div class="main-container">
-      ${results.length === 0 && html`<h5 class="text-center text-muted font-weight-light">Nothing found</h5>`}
+      <h1 class="h4 mb-3">${heading}</h1>
+
+      ${results.length === 0 && html`<p class="text-center text-muted font-weight-light">${emptyMessage || "Nic nie znaleziono"}</p>`}
 
       ${each(results, result => html`
         <a class="d-block h6" href="${result.url}">${result.name}</a>

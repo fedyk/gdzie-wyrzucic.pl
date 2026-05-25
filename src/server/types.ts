@@ -4,6 +4,8 @@ export interface IState {
   title?: string;
   headerQuery?: string;
   description?: string;
+  canonicalUrl?: string;
+  robots?: string;
   scripts?: string[];
   styles?: string[];
 }

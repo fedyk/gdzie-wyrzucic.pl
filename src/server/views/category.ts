@@ -19,10 +19,10 @@ export function renderCategory({
   return html`
 <div class="main-container mb-3">
   <div class="card">
-    ${mapUrl && html`<img src="${mapUrl}" class="d-block w-100 h-auto" />`}
+    ${mapUrl && html`<img src="${mapUrl}" class="d-block w-100 h-auto" width="1200" height="600" loading="lazy" alt="Mapa punktów: ${category.name}" />`}
 
     <div class="card-body">
-      <h5 class="card-title mb-2">${category.name}</h5>
+      <h1 class="h4 card-title mb-2">${category.name}</h1>
       ${description && html`<div>${new HTML(description)}</div>`}
     </div>
 

@@ -1,9 +1,14 @@
 import * as querystring from "querystring";
 import { Middleware } from "../types.js";
 import { renderWelcome } from "../views/welcome.js";
+import { setPageMeta } from "../seo.js";
 
 export const welcome: Middleware = async function (ctx) {
-  ctx.state.title = "Jak prawidłowo segregować śmieci?"
+  setPageMeta(ctx, {
+    title: "Jak prawidłowo segregować śmieci?",
+    description: "Sprawdź, gdzie wyrzucić odpady i jak prawidłowo segregować śmieci. Wyszukaj przedmiot i zobacz właściwy pojemnik lub punkt odbioru.",
+    canonicalPath: "/",
+  })
 
   ctx.body = renderWelcome([
     createQueryParams("ubrania"),
