@@ -1,10 +1,6 @@
-import { APP_HOST } from "./config.js";
+import { APP_HOST } from "./config.ts";
 
 export const SITE_NAME = "Gdzie wyrzucić";
-
-export function absoluteUrl(path: string) {
-  return `https://${APP_HOST}/${path}`
-}
 
 export function wastePath(waste: { id: string; name: string }) {
   return "/odpady/" + slugWithId(waste.name, waste.id);
@@ -41,7 +37,7 @@ export function setPageMeta(ctx: {
   ctx.state.robots = options.robots;
 
   if (options.canonicalPath) {
-    ctx.state.canonicalUrl = absoluteUrl(options.canonicalPath);
+    ctx.state.canonicalUrl = `http://${APP_HOST}${options.canonicalPath}`
   }
 }
 
