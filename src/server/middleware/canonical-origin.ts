@@ -8,6 +8,11 @@ const hostAliases = new Set([
 
 export const canonicalOrigin: Middleware = async (ctx, next) => {
   const host = ctx.host
+  let originalUrl = ctx.originalUrl
+
+  if (!originalUrl.startsWith("/")) {
+    originalUrl = `/${originalUrl}`
+  }
 
   if (!hostAliases.has(host)) {
     return next()
@@ -18,5 +23,5 @@ export const canonicalOrigin: Middleware = async (ctx, next) => {
   }
 
   ctx.status = 301
-  ctx.redirect(`https://${APP_HOST}/${ctx.originalUrl}`)
+  ctx.redirect(`https://${APP_HOST}${ctx.originalUrl}`)
 }
