@@ -6,10 +6,13 @@ import { router } from "./router.js";
 import { PORT, APP_KEYS } from "./config.js";
 import { IState, IContext } from "./types.js";
 import { loadData } from "./storage.js";
+import { canonicalOrigin } from "./middleware/canonical-origin.js";
 
 const app = new Koa<IState, IContext>();
 
+app.proxy = true
 app.keys = APP_KEYS
+app.use(canonicalOrigin)
 app.use(bodyParser())
 app.use(serve(join("public")))
 app.use(router.routes())

@@ -4,8 +4,13 @@ import { parseTrustedEmails } from "./parsers.js";
 
 const __dirname = import.meta.dirname
 
+if (!process.env.APP_HOST) {
+  throw new Error("`APP_HOST` is required")
+}
+
 export const PORT = Number(process.env.PORT ?? 3000)
 export const APP_KEYS = String(process.env.APP_KEYS).split(";")
+export const APP_HOST = String(process.env.APP_HOST) // gdzie-wyrzucic.pl
 export const WASTES_PATH = path.resolve(__dirname, "../../data/wastes.json")
 export const CATEGORIES_PATH = path.resolve(__dirname, "../../data/categories.json")
 export const POINTS_PATH = path.resolve(__dirname, "../../data/points.json")

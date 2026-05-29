@@ -1,7 +1,9 @@
+import { APP_HOST } from "./config.js";
+
 export const SITE_NAME = "Gdzie wyrzucić";
 
-export function absoluteUrl(ctx: { request: { protocol: string; host: string } }, path: string) {
-  return ctx.request.protocol + "://" + ctx.request.host + path;
+export function absoluteUrl(path: string) {
+  return `https://${APP_HOST}/${path}`
 }
 
 export function wastePath(waste: { id: string; name: string }) {
@@ -22,7 +24,6 @@ export function idFromSlug(slug: string) {
 }
 
 export function setPageMeta(ctx: {
-  request: { protocol: string; host: string };
   state: {
     title?: string;
     description?: string;
@@ -40,7 +41,7 @@ export function setPageMeta(ctx: {
   ctx.state.robots = options.robots;
 
   if (options.canonicalPath) {
-    ctx.state.canonicalUrl = absoluteUrl(ctx, options.canonicalPath);
+    ctx.state.canonicalUrl = absoluteUrl(options.canonicalPath);
   }
 }
 

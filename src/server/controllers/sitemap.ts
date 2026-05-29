@@ -1,7 +1,7 @@
 import { Middleware } from "../types.js"
 import { getCategories, getWastes } from "../storage.js"
 import { renderSitemap } from "../views/sitemap.js"
-import { categoryPath, wastePath } from "../seo.js"
+import { absoluteUrl, categoryPath, wastePath } from "../seo.js"
 
 export const sitemap: Middleware = async (ctx) => {
   const urls: string[] = [
@@ -21,6 +21,6 @@ export const sitemap: Middleware = async (ctx) => {
   ctx.body = await renderSitemap(urls)
 
   function getUrl(path: string) {
-    return ctx.request.protocol + "://" + ctx.request.host + path
+    return absoluteUrl(path)
   }
 }
